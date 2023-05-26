@@ -28,11 +28,10 @@ class Guess extends React.Component {
     this.handleClose = this.handleClose.bind(this);
     this.handleShow = this.handleShow.bind(this);
     this.state = {
-      fail: false,
-      success: false,
       id: 1,
       input: "",
-      show: false
+      show: false,
+      modalMessage: ''
     };
   }
   handleClose = () => this.setState(() => ({
@@ -80,13 +79,15 @@ class Guess extends React.Component {
     if (this.props.player.name.toLowerCase() === playerGuess.name.toLowerCase()) {
       this.handleShow();
       this.setState(() => ({
-        success: true
+        modalMessage: 'CONGRATULATIONS!',
+        id: 1
       }))
     }
-    if (this.props.guesses.length === 8 && !this.state.success) {
+    if (this.props.guesses.length === 8 && !this.props.success) {
       this.handleShow();
       this.setState(() => ({
-        fail: true
+        modalMessage: 'GAME OVER!',
+        id: 1
       }))
     }
   };
@@ -117,17 +118,13 @@ class Guess extends React.Component {
       <div className="guess-container">
         <Modal animation={true} centered={true} show={this.state.show} onHide={this.handleClose}>
       <Modal.Header closeButton>
-            {this.state.success && <Modal.Title>CONGRATULATIONS!</Modal.Title>}
-            {this.state.fail && <Modal.Title>GAME OVER!</Modal.Title>}
+            <Modal.Title>{ this.state.modalMessage }</Modal.Title>
       </Modal.Header>
           <Modal.Body>{ this.props.player.name }</Modal.Body>
       <Modal.Footer>
         <Button variant="secondary" onClick={this.handleClose}>
           Close
         </Button>
-        {/* <Button variant="primary" onClick={this.handleClose}>
-          Save Changes
-        </Button> */}
       </Modal.Footer>
     </Modal>
         <div>
@@ -142,7 +139,7 @@ class Guess extends React.Component {
               name="guess-input"
               id="guess-input"
               placeholder={`Guess ${this.state.id} of 8`}
-              disabled={this.state.success || this.state.fail ? true : false}
+              disabled={this.props.success || this.props.fail ? true : false}
             />
           </form>
         </div>

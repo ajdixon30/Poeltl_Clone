@@ -135,7 +135,7 @@ const Guess = (props) => {
           <AiOutlineArrowDown />
         </td>
       )}
-      {(props.playerToGuess.position.includes(props.player.position) && props.playerToGuess.position !== props.player.position) && (
+      {(props.player.position !== props.playerToGuess.position) ? (props.player.position.includes(props.playerToGuess.position) || props.playerToGuess.position.includes(props.player.position) ? (
         <td
         className="listing-category"
         style={{
@@ -146,13 +146,11 @@ const Guess = (props) => {
         >
           {props.player.position}
         </td>
-      )}
-      {(props.playerToGuess.position !== props.player.position) && (
+      ) : (
         <td className="listing-category">
           {props.player.position}
-        </td>
-      )}
-      {(props.playerToGuess.position === props.player.position) && (
+        </td> 
+      )) : (
         <td
         className="listing-category"
           style={{
@@ -163,17 +161,6 @@ const Guess = (props) => {
           {props.player.position}
         </td>
       )}
-      {/* <td
-        className="listing-category"
-        style={{
-          background:
-            props.player.position === props.playerToGuess.position && "#37be75",
-          color:
-            props.player.position === props.playerToGuess.position && "white",
-        }}
-      >
-        {props.player.position}
-      </td> */}
       {props.player.number === props.playerToGuess.number && (
         <td
           style={{

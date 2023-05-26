@@ -24,6 +24,8 @@ class App extends React.Component {
         inches: 0,
       },
       guesses: [],
+      success: false,
+      fail: false,
     };
   }
   getPlayer = async () => {
@@ -38,9 +40,27 @@ class App extends React.Component {
   };
 
   handleGuesses = (guess) => {
-    this.setState((prevState) => ({
-      guesses: prevState.guesses.concat(guess),
-    }));
+    if (this.state.guesses.length < 8) {
+      this.setState((prevState) => ({
+        guesses: prevState.guesses.concat(guess),
+      }));
+      if (guess.name === this.state.player.name) {
+        this.setState(() => ({
+          success: true
+        }))
+      } 
+    } else {
+      if (guess.name === this.state.player.name) {
+        this.setState(() => ({
+          success: true
+        }))
+      }
+      if (guess.name !== this.state.player.name){
+        this.setState(() => ({
+          fail: true
+        }))
+      }
+    }
   };
 
   handleState = (player) => {
@@ -57,6 +77,8 @@ class App extends React.Component {
         inches: player.height_only_inches,
       },
       guesses: [],
+      success: false,
+      fail: false,
     }));
   };
   render() {
@@ -69,6 +91,8 @@ class App extends React.Component {
           players={players}
           guesses={this.state.guesses}
           handleGuesses={this.handleGuesses}
+          success={this.state.success}
+          fail={this.state.fail}
         />
         <GuessesTable
           guesses={this.state.guesses}
