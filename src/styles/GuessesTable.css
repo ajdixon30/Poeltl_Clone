@@ -1,0 +1,11 @@
+.guesses-container {
+  padding-top: 50px;
+}
+.guesses-table {
+  text-align: center;
+}
+.guesses-header {
+  border-bottom: 2px solid #005864;
+  font-size: 12px;
+  vertical-align: text-bottom;
+}

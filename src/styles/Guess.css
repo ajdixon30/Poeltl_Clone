@@ -1,0 +1,22 @@
+.guess-listing {
+  background: #f5f2ec;
+  box-shadow: inset 0px 6px 6px #a1a1a1;
+  color: #313131;
+  height: 50px;
+  vertical-align: middle;
+}
+.listing-category {
+  border-right: 1px solid white;
+}
+.correct-guess {
+  background: #37be75;
+  box-shadow: inset 0px 6px 6px #a1a1a1;
+  color: white;
+}
+.close-guess {
+  background: yellow;
+  color: #313131;
+}
+
+/* dark beige: #edeae5 
+   beige: #f5f2ec */

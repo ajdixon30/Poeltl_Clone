@@ -1,0 +1,22 @@
+.header {
+	background-color: #005864;
+	color: #fff;
+	/* position: absolute; */
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.nav-link {
+	padding: 20px;
+	font-size: 14px;
+	font-family: Inter sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.player {
+	text-align: center;
+	margin-top: 25vh;
+	font-size: 28px;
+}

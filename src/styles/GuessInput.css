@@ -1,0 +1,37 @@
+.guess-container {
+  display: grid;
+  justify-content: center;
+}
+.player-guess {
+  text-align: center;
+}
+.guess-input {
+  width: 30vw;
+}
+.player-table {
+  border: 1px solid;
+  width: 60vw;
+}
+.player-listing:hover {
+  background: darkgray;
+  box-shadow: inset -4px 4px 8px white, inset 4px -4px 8px white;
+  color: white;
+  cursor: pointer;
+}
+.results-listings {
+  background: white;
+  border-left: 1px solid;
+  border-bottom: 1px solid;
+  border-right: 1px solid;
+  list-style-type: none;
+  padding-left: 0px;
+}
+.results-listing {
+  font-weight: 600;
+  padding: 10px 0px 10px 10px;
+}
+.results-listing:hover {
+  background: darkgray;
+  color: white;
+  cursor: pointer;
+}
