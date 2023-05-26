@@ -2,7 +2,6 @@ import React from "react";
 import "../styles/GuessInput.css";
 import players from "../players-current.json";
 import { Button, Modal } from "react-bootstrap";
-// import { Table } from "react-bootstrap";
 
 const items = players.players.map((player) => {
   return {

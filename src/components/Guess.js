@@ -3,19 +3,6 @@ import "../styles/Guess.css";
 import { AiOutlineArrowDown, AiOutlineArrowUp } from "react-icons/ai";
 
 const Guess = (props) => {
-  // if (props.player.division === "Atlantic") {
-  //   props.player.division = "ATL";
-  // } else if (props.player.division === "Southwest") {
-  //   props.player.division = "SW";
-  // } else if (props.player.division === "Southeast") {
-  //   props.player.division = "SE";
-  // } else if (props.player.division === "Central") {
-  //   props.player.division = "CNT";
-  // } else if (props.player.division === "Northwest") {
-  //   props.player.division = "NW";
-  // } else if (props.player.division === "Pacific") {
-  //   props.player.division = "PAC";
-  // }
   return (
     <tr className="guess-listing">
       <td
@@ -87,9 +74,9 @@ const Guess = (props) => {
             color: "#313131",
           }}
         >
-          <AiOutlineArrowUp />
-          <br />
           {props.player.height}
+          <br />
+          <AiOutlineArrowUp />
         </td>
       )}
       {props.player.inches + 2 === props.playerToGuess.inches && (
@@ -101,9 +88,9 @@ const Guess = (props) => {
             color: "#313131",
           }}
         >
-          <AiOutlineArrowUp />
-          <br />
           {props.player.height}
+          <br />
+          <AiOutlineArrowUp />
         </td>
       )}
       {props.player.inches - 1 === props.playerToGuess.inches && (
@@ -135,30 +122,48 @@ const Guess = (props) => {
         </td>
       )}
       {props.playerToGuess.inches > props.player.inches + 2 && (
-        <td>
-          <AiOutlineArrowUp />
-          <br />
+        <td className="listing-category">
           {props.player.height}
+          <br />
+          <AiOutlineArrowUp />
         </td>
       )}
       {props.playerToGuess.inches < props.player.inches - 2 && (
-        <td>
+        <td className="listing-category">
           {props.player.height}
           <br />
           <AiOutlineArrowDown />
         </td>
       )}
-      {/* <td
+      {(props.playerToGuess.position.includes(props.player.position) && props.playerToGuess.position !== props.player.position) && (
+        <td
         className="listing-category"
         style={{
-          background:
-            props.player.height === props.playerToGuess.height && "#37be75",
-          color: props.player.height === props.playerToGuess.height && "white",
+          background: "#f4e878",
+          boxShadow: "inset 0px 6px 6px #a1a1a1",
+          color: "#313131",
         }}
-      >
-        {props.player.height}
-      </td> */}
-      <td
+        >
+          {props.player.position}
+        </td>
+      )}
+      {(props.playerToGuess.position !== props.player.position) && (
+        <td className="listing-category">
+          {props.player.position}
+        </td>
+      )}
+      {(props.playerToGuess.position === props.player.position) && (
+        <td
+        className="listing-category"
+          style={{
+            background: "#37be75",
+            color: "white",
+          }}
+        >
+          {props.player.position}
+        </td>
+      )}
+      {/* <td
         className="listing-category"
         style={{
           background:
@@ -168,7 +173,7 @@ const Guess = (props) => {
         }}
       >
         {props.player.position}
-      </td>
+      </td> */}
       {props.player.number === props.playerToGuess.number && (
         <td
           style={{
@@ -187,9 +192,9 @@ const Guess = (props) => {
             color: "#313131",
           }}
         >
-          <AiOutlineArrowUp />
-          <br />
           {props.player.number}
+          <br />
+          <AiOutlineArrowUp />
         </td>
       )}
       {props.player.number + 2 === props.playerToGuess.number && (
@@ -200,9 +205,9 @@ const Guess = (props) => {
             color: "#313131",
           }}
         >
-          <AiOutlineArrowUp />
-          <br />
           {props.player.number}
+          <br />
+          <AiOutlineArrowUp />
         </td>
       )}
       {props.player.number - 1 === props.playerToGuess.number && (
@@ -233,9 +238,9 @@ const Guess = (props) => {
       )}
       {props.playerToGuess.number > props.player.number + 2 && (
         <td>
-          <AiOutlineArrowUp />
-          <br />
           {props.player.number}
+          <br />
+          <AiOutlineArrowUp />
         </td>
       )}
       {props.playerToGuess.number < props.player.number - 2 && (
@@ -245,16 +250,6 @@ const Guess = (props) => {
           <AiOutlineArrowDown />
         </td>
       )}
-      {/* <td
-        className="listing-category"
-        style={{
-          background:
-            props.player.number === props.playerToGuess.number && "#37be75",
-          color: props.player.number === props.playerToGuess.number && "white",
-        }}
-      >
-        {props.player.number}
-      </td> */}
     </tr>
   );
 };
