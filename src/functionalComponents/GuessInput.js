@@ -10,8 +10,11 @@ import players from '../players-current.json';
 import { Button, Container, Form, Modal } from "react-bootstrap";
 import { useSelector } from "react-redux";
 import "../styles/GuessInput.css";
+import { useDispatch } from "react-redux";
+import { incorrectGuess, correctGuess } from "../actions/appActions";
 
-const GuessInput = (props) => {
+const GuessInput = () => {
+    const dispatch = useDispatch();
     let appState = useSelector(state => state.app);
     const mysteryPlayer = appState.player;
     const guesses = appState.guesses;
@@ -86,19 +89,10 @@ const GuessInput = (props) => {
             image: playerGuess.image,
             inches: playerGuess.inches
         }
-        props.handleGuesses(mysteryPlayer, guess, guesses);
-        if (props.player.name.toLowerCase() !== playerGuess.name.toLowerCase()) {
-            setId((id) => id + 1)
-        }
-        if (props.player.name.toLowerCase() === playerGuess.name.toLowerCase()) {
-            setVisible(true);
-            setModalMessage('CONGRATULATIONS!')
-            setId(1)
-        }
-        if (props.guesses.length === 8 && !props.success) {
-            setVisible(true);
-            setModalMessage('GAME OVER!');
-            setId(1);
+        if (guesses.length < 7) {
+            mysteryPlayer.name === playerGuess.name ?
+                dispatch(correctGuess(guess)) :
+                dispatch(incorrectGuess(guess)); 
         }
     }
     return (
@@ -107,7 +101,7 @@ const GuessInput = (props) => {
                 <Modal.Header closeButton>
                     <Modal.Title>{ modalMessage }</Modal.Title>
                 </Modal.Header>
-                <Modal.Body>{ props.player.name }</Modal.Body>
+                <Modal.Body></Modal.Body>
                 <Modal.Footer>
                     <Button variant="secondary" onClick={handleClose}>Close</Button>
                 </Modal.Footer>

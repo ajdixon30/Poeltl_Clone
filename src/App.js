@@ -88,8 +88,8 @@ class App extends React.Component {
       <Provider store={store}>
         <Header />
         <StartGame />
-        {/* <GuessInput />
-        <GuessesTable /> */}
+        <GuessInput />
+        {/* <GuessesTable /> */}
       </Provider>
     );
   }
