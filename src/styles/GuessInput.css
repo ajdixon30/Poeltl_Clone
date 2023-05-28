@@ -8,6 +8,9 @@
 .guess-input {
   width: 30vw;
 }
+.guess-input::placeholder{
+  font-weight: bolder;
+}
 .player-table {
   border: 1px solid;
   width: 60vw;
@@ -30,6 +33,7 @@
 .results-listing {
   font-weight: 600;
   padding: 10px 0px 10px 10px;
+  z-index: 1;
 }
 .results-listing:hover {
   background: darkgray;

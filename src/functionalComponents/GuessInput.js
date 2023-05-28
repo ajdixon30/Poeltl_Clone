@@ -19,6 +19,8 @@ const GuessInput = () => {
     const mysteryPlayer = appState.player ? appState.player : {name:""};
     const guesses = appState.guesses ? appState.guesses : [];
     const modalMessage = appState.modalMessage ? appState.modalMessage : '';
+    const disabled = appState.inputDisabled ? appState.inputDisabled : false;
+    const placeholder = appState.placeholder ? appState.placeholder : '';
     const [visible, setVisible] = useState(false);
     const [input, setInput] = useState('');
     const [id, setId] = useState(1);
@@ -47,7 +49,7 @@ const GuessInput = () => {
         setInput(e.target.value.toLowerCase());
         resultsFiltered = items.filter((item) => {
             const names = item.name.toLowerCase().split(" ");
-            return names[0].startsWith(e.target.value.toLowerCase()) || names[1].startsWith(e.target.value.toLowerCase())
+            return names[0].startsWith(e.target.value.toLowerCase()) || names[1].startsWith(e.target.value.toLowerCase()) || item.name.toLowerCase().startsWith(e.target.value.toLowerCase())
         });
         if (resultsFiltered.length <= 5) {
             setResults(resultsFiltered);
@@ -91,7 +93,7 @@ const GuessInput = () => {
             setId(1);
         }
         if (guesses.length < 7 && mysteryPlayer.name !== playerGuess.name) {
-            dispatch(incorrectGuess(mysteryPlayer, newGuessArr));
+            dispatch(incorrectGuess(mysteryPlayer, newGuessArr, id));
         }
         if (guesses.length === 7 && mysteryPlayer.name !== playerGuess.name) {
             dispatch(gameOver(mysteryPlayer, newGuessArr));
@@ -113,7 +115,7 @@ const GuessInput = () => {
             <Row>
                 <Col xs={{ span: 10, offset: 1 }} lg={{ span: 6, offset: 3 }}>
                     <Form className="player-guess" onSubmit={sendGuess}>
-                        <Form.Control type="text" className="guess-input" id="guess-input" value={input} onChange={handleSearch} />
+                        <Form.Control type="text" className="guess-input" id="guess-input" value={input} onChange={handleSearch} placeholder={placeholder} disabled={disabled} />
                     </Form>
                     {input.length > 0 && (
                         <ul className="results-listings" onClick={handleResultSelection}>

@@ -9,11 +9,13 @@ export const correctGuess = createAction('CORRECT_GUESS', (player, newGuessArr) 
             success: true,
             fail: false,
             modalMessage: 'CONGRATULATIONS!',
+            inputDisabled: true,
+            placeholder: 'CONGRATULATIONS!',
         }
     }
 });
 
-export const incorrectGuess = createAction('INCORRECT_GUESS', (player, newGuessArr) => {
+export const incorrectGuess = createAction('INCORRECT_GUESS', (player, newGuessArr, id) => {
     return {
         payload: {
             player,
@@ -21,6 +23,8 @@ export const incorrectGuess = createAction('INCORRECT_GUESS', (player, newGuessA
             success: false,
             fail: false,
             modalMessage: '',
+            inputDisabled: false,
+            placeholder: `Guess ${id} of 8`,
         }
     }
 }); 
@@ -33,6 +37,8 @@ export const gameOver = createAction('GAME_OVER', (player, newGuessArr) => {
             success: false,
             fail: false,
             modalMessage: 'GAME OVER!',
+            inputDisabled: true,
+            placeholder: 'GAME OVER!',
         }
     }
 })
@@ -55,6 +61,8 @@ export const newPlayer = createAction('NEW_PLAYER', (player) => {
             success: false,
             fail: false,
             modalMessage: '',
+            inputDisabled: false,
+            placeholder: 'Guess 1 of 8',
         }
     }
 });
