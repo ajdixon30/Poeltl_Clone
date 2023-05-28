@@ -5,10 +5,13 @@
   padding-top: 20px;
   padding-bottom: 20px;
 }
-.btn-start {
+.btn-poeltl {
   background: #005864;
   border: 1px solid #005864;
   border-radius: 5px;
   color: white;
   font-weight: 600;
+}
+.btn-poeltl:hover{
+  opacity: 85%;
 }

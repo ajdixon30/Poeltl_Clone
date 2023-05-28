@@ -8,8 +8,13 @@
 import { useState } from "react";
 import players from '../players-current.json';
 import { Button, Container, Form, Modal } from "react-bootstrap";
+import { useSelector } from "react-redux";
+import "../styles/GuessInput.css";
 
 const GuessInput = (props) => {
+    let appState = useSelector(state => state.app);
+    const mysteryPlayer = appState.player;
+    const guesses = appState.guesses;
     const [visible, setVisible] = useState(false);
     const [input, setInput] = useState('');
     const [modalMessage, setModalMessage] = useState('');
@@ -81,7 +86,7 @@ const GuessInput = (props) => {
             image: playerGuess.image,
             inches: playerGuess.inches
         }
-        props.handleGuesses(guess);
+        props.handleGuesses(mysteryPlayer, guess, guesses);
         if (props.player.name.toLowerCase() !== playerGuess.name.toLowerCase()) {
             setId((id) => id + 1)
         }

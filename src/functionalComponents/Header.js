@@ -6,13 +6,14 @@
  * Move JSON data to MongoDB
  */
 
-import { Container, Navbar } from "react-bootstrap"
+import { Container, Navbar } from "react-bootstrap";
+import "../styles/Header.css";
 
 const Header = () => {
     return (
-        <Navbar>
+        <Navbar className="header">
             <Container>
-                <Navbar.Brand>POELTL CLONE</Navbar.Brand>
+                <Navbar.Brand style={{ color: "white" }}>POELTL CLONE</Navbar.Brand>
             </Container>
         </Navbar>
     )

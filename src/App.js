@@ -1,11 +1,13 @@
 import React from "react";
-import Header from "./components/Header";
-import StartGame from "./components/StartGame";
-import GuessInput from "./components/GuessInput";
-import GuessesTable from "./components/GuessesTable";
+import Header from "./functionalComponents/Header";
+import StartGame from "./functionalComponents/StartGame";
+import GuessInput from "./functionalComponents/GuessInput";
+import GuessesTable from "./functionalComponents/GuessesTable";
 import players from "./players-current.json";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
+import store from "./store/store";
+import { Provider } from "react-redux";
 
 class App extends React.Component {
   constructor(props) {
@@ -83,22 +85,12 @@ class App extends React.Component {
   };
   render() {
     return (
-      <div>
+      <Provider store={store}>
         <Header />
-        <StartGame player={this.state.player} newGame={this.getPlayer} />
-        <GuessInput
-          player={this.state.player}
-          players={players}
-          guesses={this.state.guesses}
-          handleGuesses={this.handleGuesses}
-          success={this.state.success}
-          fail={this.state.fail}
-        />
-        <GuessesTable
-          guesses={this.state.guesses}
-          playerToGuess={this.state.player}
-        />
-      </div>
+        <StartGame />
+        {/* <GuessInput />
+        <GuessesTable /> */}
+      </Provider>
     );
   }
 }
