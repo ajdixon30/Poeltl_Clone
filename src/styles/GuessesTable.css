@@ -2,7 +2,10 @@
   padding-top: 50px;
 }
 .guesses-table {
+  max-height: 50vh;
+  overflow-y: scroll;
   text-align: center;
+  z-index: -1;
 }
 .guesses-header {
   border-bottom: 2px solid #005864;

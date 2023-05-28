@@ -1,20 +1,41 @@
 import { createAction } from "@reduxjs/toolkit";
 import axios from "axios";
 
-export const correctGuess = createAction('CORRECT_GUESS', (guess) => {
+export const correctGuess = createAction('CORRECT_GUESS', (player, newGuessArr) => {
     return {
-        guess,
-        success: true,
-        fail: false
+        payload: {
+            player,
+            guesses: newGuessArr,
+            success: true,
+            fail: false,
+            modalMessage: 'CONGRATULATIONS!',
+        }
     }
 });
 
-export const incorrectGuess = createAction('INCORRECT_GUESS', (guess) => {
+export const incorrectGuess = createAction('INCORRECT_GUESS', (player, newGuessArr) => {
     return {
-        guess,
-        success: false,
+        payload: {
+            player,
+            guesses: newGuessArr,
+            success: false,
+            fail: false,
+            modalMessage: '',
+        }
     }
 }); 
+
+export const gameOver = createAction('GAME_OVER', (player, newGuessArr) => {
+    return {
+        payload: {
+            player,
+            guesses: newGuessArr,
+            success: false,
+            fail: false,
+            modalMessage: 'GAME OVER!',
+        }
+    }
+})
 
 export const newPlayer = createAction('NEW_PLAYER', (player) => {
     return {
@@ -33,6 +54,7 @@ export const newPlayer = createAction('NEW_PLAYER', (player) => {
             guesses: [],
             success: false,
             fail: false,
+            modalMessage: '',
         }
     }
 });

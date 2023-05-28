@@ -7,23 +7,23 @@
  */
 import { useState } from "react";
 import players from '../players-current.json';
-import { Button, Container, Form, Modal } from "react-bootstrap";
+import { Button, Container, Form, Modal, Col, Row } from "react-bootstrap";
 import { useSelector } from "react-redux";
 import "../styles/GuessInput.css";
 import { useDispatch } from "react-redux";
-import { incorrectGuess, correctGuess } from "../actions/appActions";
+import { incorrectGuess, correctGuess, gameOver } from "../actions/appActions";
 
 const GuessInput = () => {
     const dispatch = useDispatch();
     let appState = useSelector(state => state.app);
-    const mysteryPlayer = appState.player;
-    const guesses = appState.guesses;
+    const mysteryPlayer = appState.player ? appState.player : {name:""};
+    const guesses = appState.guesses ? appState.guesses : [];
+    const modalMessage = appState.modalMessage ? appState.modalMessage : '';
     const [visible, setVisible] = useState(false);
     const [input, setInput] = useState('');
-    const [modalMessage, setModalMessage] = useState('');
     const [id, setId] = useState(1);
     const [results, setResults] = useState([]);
-    const [resultsListing, setResultsListing] = useState(<></>);
+    let resultsFiltered;
 
     const handleClose = () => setVisible(false);
     
@@ -45,21 +45,15 @@ const GuessInput = () => {
 
     const handleSearch = (e) => {
         setInput(e.target.value.toLowerCase());
-        let resultsFiltered = items.filter((item) => item.name.toLowerCase().includes(input));
+        resultsFiltered = items.filter((item) => {
+            const names = item.name.toLowerCase().split(" ");
+            return names[0].startsWith(e.target.value.toLowerCase()) || names[1].startsWith(e.target.value.toLowerCase())
+        });
         if (resultsFiltered.length <= 5) {
             setResults(resultsFiltered);
         } else {
             setResults(resultsFiltered.slice(0, 5));
         }
-        setResultsListing(() => {
-            results.map((result, index) => {
-                return (
-                    <li className="results-listing" key={index}>
-                        {result.name}
-                    </li>
-                )
-            })
-        })
     };
 
     const handleResultSelection = (e) => {
@@ -72,7 +66,7 @@ const GuessInput = () => {
         // Reset Input to Blank
         setInput("");
         // Submits selected player as a guess for the mystery player
-        this.sendGuess(guess[0]);
+        sendGuess(guess[0]);
       };
 
     const sendGuess = (playerGuess) => {
@@ -89,10 +83,20 @@ const GuessInput = () => {
             image: playerGuess.image,
             inches: playerGuess.inches
         }
-        if (guesses.length < 7) {
-            mysteryPlayer.name === playerGuess.name ?
-                dispatch(correctGuess(guess)) :
-                dispatch(incorrectGuess(guess)); 
+        const newGuessArr = guesses.concat(guess);
+        setId((id) => id + 1);
+        if (mysteryPlayer.name === playerGuess.name) {
+            dispatch(correctGuess(mysteryPlayer, newGuessArr));
+            setVisible(true);
+            setId(1);
+        }
+        if (guesses.length < 7 && mysteryPlayer.name !== playerGuess.name) {
+            dispatch(incorrectGuess(mysteryPlayer, newGuessArr));
+        }
+        if (guesses.length === 7 && mysteryPlayer.name !== playerGuess.name) {
+            dispatch(gameOver(mysteryPlayer, newGuessArr));
+            setVisible(true);
+            setId(1);
         }
     }
     return (
@@ -101,19 +105,29 @@ const GuessInput = () => {
                 <Modal.Header closeButton>
                     <Modal.Title>{ modalMessage }</Modal.Title>
                 </Modal.Header>
-                <Modal.Body></Modal.Body>
+                <Modal.Body>{ mysteryPlayer.name }</Modal.Body>
                 <Modal.Footer>
                     <Button variant="secondary" onClick={handleClose}>Close</Button>
                 </Modal.Footer>
             </Modal>
-            <Form className="player-guess" onSubmit={sendGuess} onChange={handleSearch}>
-                <Form.Control type="text" className="guess-input" id="guess-input" value={input}/>
-            </Form>
-            {input.length > 0 && (
-                <ul className="results-listings" onClick={handleResultSelection}>
-                    {resultsListing}
-                </ul>
-            )}
+            <Row>
+                <Col xs={{ span: 10, offset: 1 }} lg={{ span: 6, offset: 3 }}>
+                    <Form className="player-guess" onSubmit={sendGuess}>
+                        <Form.Control type="text" className="guess-input" id="guess-input" value={input} onChange={handleSearch} />
+                    </Form>
+                    {input.length > 0 && (
+                        <ul className="results-listings" onClick={handleResultSelection}>
+                            {results.map((result, index) => {
+                                return (
+                                    <li className="results-listing" key={index}>
+                                        {result.name}
+                                    </li>
+                                )
+                            })}
+                        </ul>
+                    )}
+                </Col>
+            </Row>
         </Container>
     )
 }
