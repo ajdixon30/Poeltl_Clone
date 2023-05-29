@@ -8,7 +8,7 @@
 
 import { Container } from "react-bootstrap";
 import "../styles/StartGame.css";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { useEffect } from "react";
 import { callPlayersAPI } from "../actions/appActions";
 

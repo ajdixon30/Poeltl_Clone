@@ -86,6 +86,8 @@ const GuessInput = () => {
             inches: playerGuess.inches
         }
         const newGuessArr = guesses.concat(guess);
+        const updatedId = id + 1;
+        console.log(updatedId);
         setId((id) => id + 1);
         if (mysteryPlayer.name === playerGuess.name) {
             dispatch(correctGuess(mysteryPlayer, newGuessArr));
@@ -93,7 +95,7 @@ const GuessInput = () => {
             setId(1);
         }
         if (guesses.length < 7 && mysteryPlayer.name !== playerGuess.name) {
-            dispatch(incorrectGuess(mysteryPlayer, newGuessArr, id));
+            dispatch(incorrectGuess(mysteryPlayer, newGuessArr, updatedId));
         }
         if (guesses.length === 7 && mysteryPlayer.name !== playerGuess.name) {
             dispatch(gameOver(mysteryPlayer, newGuessArr));
