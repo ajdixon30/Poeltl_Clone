@@ -353,7 +353,7 @@
       "weight_pounds": 230
     },
     {
-      "id": 10,
+      "id": 9,
       "first_name": "Malachi",
       "height_feet": 6,
       "height_inches": 1,
@@ -378,7 +378,7 @@
       "weight_pounds": 175
     },
     {
-      "id": 11,
+      "id": 10,
       "first_name": "Dalano",
       "height_feet": 6,
       "height_inches": 7,
@@ -403,7 +403,7 @@
       "weight_pounds": 204
     },
     {
-      "id": 12,
+      "id": 11,
       "first_name": "Khem",
       "height_feet": 6,
       "height_inches": 8,
@@ -428,7 +428,7 @@
       "weight_pounds": 233
     },
     {
-      "id": 13,
+      "id": 12,
       "first_name": "Precious",
       "height_feet": 6,
       "height_inches": 8,
@@ -453,7 +453,7 @@
       "weight_pounds": 225
     },
     {
-      "id": 14,
+      "id": 13,
       "first_name": "Jeff",
       "height_feet": 6,
       "height_inches": 3,
@@ -478,7 +478,7 @@
       "weight_pounds": 185
     },
     {
-      "id": 15,
+      "id": 14,
       "first_name": "Otto",
       "height_feet": 6,
       "height_inches": 8,
@@ -503,7 +503,7 @@
       "weight_pounds": 198
     },
     {
-      "id": 16,
+      "id": 15,
       "first_name": "Justin",
       "height_feet": 6,
       "height_inches": 6,
@@ -528,7 +528,7 @@
       "weight_pounds": 200
     },
     {
-      "id": 17,
+      "id": 16,
       "first_name": "Ron",
       "height_feet": 6,
       "height_inches": 5,
@@ -553,7 +553,7 @@
       "weight_pounds": 245
     },
     {
-      "id": 18,
+      "id": 17,
       "first_name": "Derrick",
       "height_feet": 6,
       "height_inches": 4,
@@ -578,7 +578,7 @@
       "weight_pounds": 190
     },
     {
-      "id": 19,
+      "id": 18,
       "first_name": "Sam",
       "height_feet": 6,
       "height_inches": 8,
@@ -603,7 +603,7 @@
       "weight_pounds": 215
     },
     {
-      "id": 20,
+      "id": 19,
       "first_name": "Grant",
       "height_feet": 6,
       "height_inches": 6,
@@ -628,7 +628,7 @@
       "weight_pounds": 236
     },
     {
-      "id": 21,
+      "id": 20,
       "first_name": "Jayson",
       "height_feet": 6,
       "height_inches": 8,
@@ -653,15 +653,43 @@
       "weight_pounds": 208
     },
     {
-      "id": 22,
+      "id": 21,
       "first_name": "Jaylen",
       "height_feet": 6,
-      "height_inches": 7,
-      "height_only_inches": 79,
+      "height_inches": 6,
+      "height_only_inches": 78,
       "last_name": "Brown",
-      "position": "G",
+      "position": "G-F",
       "full_name": "Jaylen Brown",
       "number": 7,
+      "age": 26,
+      "positions": ["Guard", "Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1627759.png",
+      "team": {
+        "id": 2,
+        "abbreviation": "BOS",
+        "city": "Boston",
+        "conference": "East",
+        "division": "Atlantic",
+        "full_name": "Boston Celtics",
+        "image": "https://cdn.nba.com/logos/nba/1610612738/primary/L/logo.svg",
+        "name": "Celtics"
+      },
+      "weight_pounds": 220
+    },
+    {
+      "id": 22,
+      "first_name": "Marcus",
+      "height_feet": 6,
+      "height_inches": 4,
+      "height_only_inches": 76,
+      "last_name": "Smart",
+      "position": "G",
+      "full_name": "Marcus Smart",
+      "number": 36,
+      "age": 29,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/203935.png",
       "team": {
         "id": 2,
         "abbreviation": "BOS",
@@ -676,36 +704,17 @@
     },
     {
       "id": 23,
-      "first_name": "Marcus",
+      "first_name": "Malcolm",
       "height_feet": 6,
       "height_inches": 4,
       "height_only_inches": 76,
-      "last_name": "Smart",
-      "position": "G",
-      "full_name": "Marcus Smart",
-      "number": 36,
-      "team": {
-        "id": 2,
-        "abbreviation": "BOS",
-        "city": "Boston",
-        "conference": "East",
-        "division": "Atlantic",
-        "full_name": "Boston Celtics",
-        "image": "https://cdn.nba.com/logos/nba/1610612738/primary/L/logo.svg",
-        "name": "Celtics"
-      },
-      "weight_pounds": 220
-    },
-    {
-      "id": 24,
-      "first_name": "Malcolm",
-      "height_feet": 6,
-      "height_inches": 5,
-      "height_only_inches": 77,
       "last_name": "Brogdon",
       "position": "G",
       "full_name": "Malcolm Brogdon",
       "number": 13,
+      "age": 30,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1627763.png",
       "team": {
         "id": 2,
         "abbreviation": "BOS",
@@ -719,15 +728,18 @@
       "weight_pounds": 229
     },
     {
-      "id": 25,
+      "id": 24,
       "first_name": "Luke",
       "height_feet": 7,
-      "height_inches": 1,
-      "height_only_inches": 85,
+      "height_inches": 2,
+      "height_only_inches": 86,
       "last_name": "Kornet",
-      "position": "F-C",
+      "position": "C-F",
       "full_name": "Luke Kornet",
       "number": 40,
+      "age": 27,
+      "positions": ["Center", "Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628436.png",
       "team": {
         "id": 2,
         "abbreviation": "BOS",
@@ -741,7 +753,7 @@
       "weight_pounds": 250
     },
     {
-      "id": 26,
+      "id": 25,
       "first_name": "Al",
       "height_feet": 6,
       "height_inches": 10,
@@ -750,6 +762,9 @@
       "position": "C-F",
       "full_name": "Al Horford",
       "number": 42,
+      "age": 36,
+      "positions": ["Center", "Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/201143.png",
       "team": {
         "id": 2,
         "abbreviation": "BOS",
@@ -763,7 +778,7 @@
       "weight_pounds": 245
     },
     {
-      "id": 27,
+      "id": 26,
       "first_name": "Payton",
       "height_feet": 6,
       "height_inches": 1,
@@ -772,6 +787,9 @@
       "position": "G",
       "full_name": "Payton Pritchard",
       "number": 11,
+      "age": 25,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630202.png",
       "team": {
         "id": 2,
         "abbreviation": "BOS",
@@ -785,37 +803,18 @@
       "weight_pounds": 195
     },
     {
-      "id": 28,
-      "first_name": "Noah",
+      "id": 27,
+      "first_name": "Blake",
       "height_feet": 6,
       "height_inches": 9,
       "height_only_inches": 81,
-      "last_name": "Vonleh",
-      "position": "F",
-      "full_name": "Noah Vonleh",
-      "number": 4,
-      "team": {
-        "id": 2,
-        "abbreviation": "BOS",
-        "city": "Boston",
-        "conference": "East",
-        "division": "Atlantic",
-        "full_name": "Boston Celtics",
-        "image": "https://cdn.nba.com/logos/nba/1610612738/primary/L/logo.svg",
-        "name": "Celtics"
-      },
-      "weight_pounds": 250
-    },
-    {
-      "id": 29,
-      "first_name": "Blake",
-      "height_feet": 6,
-      "height_inches": 10,
-      "height_only_inches": 82,
       "last_name": "Griffin",
       "position": "F",
       "full_name": "Blake Griffin",
       "number": 91,
+      "age": 34,
+      "positions": ["Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/201933.png",
       "team": {
         "id": 2,
         "abbreviation": "BOS",
@@ -829,29 +828,7 @@
       "weight_pounds": 250
     },
     {
-      "id": 30,
-      "first_name": "Justin",
-      "height_feet": 6,
-      "height_inches": 8,
-      "height_only_inches": 80,
-      "last_name": "Jackson",
-      "position": "F",
-      "full_name": "Justin Jackson",
-      "number": 43,
-      "team": {
-        "id": 2,
-        "abbreviation": "BOS",
-        "city": "Boston",
-        "conference": "East",
-        "division": "Atlantic",
-        "full_name": "Boston Celtics",
-        "image": "https://cdn.nba.com/logos/nba/1610612738/primary/L/logo.svg",
-        "name": "Celtics"
-      },
-      "weight_pounds": 210
-    },
-    {
-      "id": 31,
+      "id": 28,
       "first_name": "Robert",
       "height_feet": 6,
       "height_inches": 10,
@@ -860,6 +837,9 @@
       "position": "C-F",
       "full_name": "Robert Williams III",
       "number": 44,
+      "age": 25,
+      "positions": ["Center", "Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629057.png",
       "team": {
         "id": 2,
         "abbreviation": "BOS",
@@ -873,15 +853,18 @@
       "weight_pounds": 240
     },
     {
-      "id": 32,
+      "id": 29,
       "first_name": "JD",
       "height_feet": 6,
-      "height_inches": 3,
-      "height_only_inches": 75,
+      "height_inches": 1,
+      "height_only_inches": 73,
       "last_name": "Davison",
       "position": "G",
       "full_name": "JD Davison",
       "number": 20,
+      "age": 20,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1631120.png",
       "team": {
         "id": 2,
         "abbreviation": "BOS",
@@ -895,15 +878,18 @@
       "weight_pounds": 195
     },
     {
-      "id": 33,
+      "id": 30,
       "first_name": "Mfiondu",
       "height_feet": 6,
-      "height_inches": 9,
-      "height_only_inches": 81,
+      "height_inches": 10,
+      "height_only_inches": 82,
       "last_name": "Kabengele",
-      "position": "F",
+      "position": "C",
       "full_name": "Mfiondu Kabengele",
       "number": 28,
+      "age": 25,
+      "positions": ["Center"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629662.png",
       "team": {
         "id": 2,
         "abbreviation": "BOS",
@@ -917,7 +903,7 @@
       "weight_pounds": 250
     },
     {
-      "id": 34,
+      "id": 31,
       "first_name": "Danilo",
       "height_feet": 6,
       "height_inches": 10,
@@ -926,6 +912,9 @@
       "position": "F",
       "full_name": "Danilo Gallinari",
       "number": 8,
+      "age": 34,
+      "positions": ["Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/201568.png",
       "team": {
         "id": 2,
         "abbreviation": "BOS",
@@ -939,15 +928,18 @@
       "weight_pounds": 225
     },
     {
-      "id": 35,
+      "id": 32,
       "first_name": "Julius",
       "height_feet": 6,
-      "height_inches": 9,
-      "height_only_inches": 81,
+      "height_inches": 8,
+      "height_only_inches": 80,
       "last_name": "Randle",
       "position": "F",
       "full_name": "Julius Randle",
       "number": 30,
+      "age": 28,
+      "positions": ["Forward", "Center"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/203944.png",
       "team": {
         "id": 20,
         "abbreviation": "NYK",
@@ -961,7 +953,7 @@
       "weight_pounds": 250
     },
     {
-      "id": 36,
+      "id": 33,
       "first_name": "Immanuel",
       "height_feet": 6,
       "height_inches": 3,
@@ -970,6 +962,84 @@
       "position": "G",
       "full_name": "Immanuel Quickley",
       "number": 5,
+      "age": 23,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630193.png",
+      "team": {
+        "id": 20,
+        "abbreviation": "NYK",
+        "city": "New York",
+        "conference": "East",
+        "division": "Atlantic",
+        "full_name": "New York Knicks",
+        "image": "https://cdn.nba.com/logos/nba/1610612752/primary/L/logo.svg",
+        "name": "Knicks"
+      },
+      "weight_pounds": 190
+    },
+    {
+      "id": 34,
+      "first_name": "Isaiah",
+      "height_feet": 7,
+      "height_inches": 0,
+      "height_only_inches": 82,
+      "last_name": "Hartenstein",
+      "position": "C-F",
+      "full_name": "Isaiah Hartenstein",
+      "number": 55,
+      "age": 25,
+      "positions": ["Center", "Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628392.png",
+      "team": {
+        "id": 20,
+        "abbreviation": "NYK",
+        "city": "New York",
+        "conference": "East",
+        "division": "Atlantic",
+        "full_name": "New York Knicks",
+        "image": "https://cdn.nba.com/logos/nba/1610612752/primary/L/logo.svg",
+        "name": "Knicks"
+      },
+      "weight_pounds": 249
+    },
+    {
+      "id": 35,
+      "first_name": "RJ",
+      "height_feet": 6,
+      "height_inches": 6,
+      "height_only_inches": 78,
+      "last_name": "Barrett",
+      "position": "F-G",
+      "full_name": "RJ Barrett",
+      "number": 9,
+      "age": 22,
+      "positions": ["Forward", "Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629628.png",
+      "team": {
+        "id": 20,
+        "abbreviation": "NYK",
+        "city": "New York",
+        "conference": "East",
+        "division": "Atlantic",
+        "full_name": "New York Knicks",
+        "image": "https://cdn.nba.com/logos/nba/1610612752/primary/L/logo.svg",
+        "name": "Knicks"
+      },
+      "weight_pounds": 214
+    },
+    {
+      "id": 36,
+      "first_name": "Jalen",
+      "height_feet": 6,
+      "height_inches": 2,
+      "height_only_inches": 74,
+      "last_name": "Brunson",
+      "position": "G",
+      "full_name": "Jalen Brunson",
+      "number": 11,
+      "age": 26,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628973.png",
       "team": {
         "id": 20,
         "abbreviation": "NYK",
@@ -984,80 +1054,17 @@
     },
     {
       "id": 37,
-      "first_name": "Isaiah",
-      "height_feet": 7,
-      "height_inches": 0,
-      "height_only_inches": 82,
-      "last_name": "Hartenstein",
-      "position": "F-C",
-      "full_name": "Isaiah Hartenstein",
-      "number": 55,
-      "team": {
-        "id": 20,
-        "abbreviation": "NYK",
-        "city": "New York",
-        "conference": "East",
-        "division": "Atlantic",
-        "full_name": "New York Knicks",
-        "image": "https://cdn.nba.com/logos/nba/1610612752/primary/L/logo.svg",
-        "name": "Knicks"
-      },
-      "weight_pounds": 249
-    },
-    {
-      "id": 38,
-      "first_name": "RJ",
-      "height_feet": 6,
-      "height_inches": 6,
-      "height_only_inches": 78,
-      "last_name": "Barrett",
-      "position": "F-G",
-      "full_name": "RJ Barrett",
-      "number": 9,
-      "team": {
-        "id": 20,
-        "abbreviation": "NYK",
-        "city": "New York",
-        "conference": "East",
-        "division": "Atlantic",
-        "full_name": "New York Knicks",
-        "image": "https://cdn.nba.com/logos/nba/1610612752/primary/L/logo.svg",
-        "name": "Knicks"
-      },
-      "weight_pounds": 214
-    },
-    {
-      "id": 39,
-      "first_name": "Jalen",
-      "height_feet": 6,
-      "height_inches": 3,
-      "height_only_inches": 75,
-      "last_name": "Brunson",
-      "position": "G",
-      "full_name": "Jalen Brunson",
-      "number": 11,
-      "team": {
-        "id": 20,
-        "abbreviation": "NYK",
-        "city": "New York",
-        "conference": "East",
-        "division": "Atlantic",
-        "full_name": "New York Knicks",
-        "image": "https://cdn.nba.com/logos/nba/1610612752/primary/L/logo.svg",
-        "name": "Knicks"
-      },
-      "weight_pounds": 190
-    },
-    {
-      "id": 40,
       "first_name": "Mitchell",
       "height_feet": 7,
       "height_inches": 1,
       "height_only_inches": 85,
       "last_name": "Robinson",
-      "position": "C",
+      "position": "C-F",
       "full_name": "Mitchell Robinson",
       "number": 23,
+      "age": 25,
+      "positions": ["Center", "Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629011.png",
       "team": {
         "id": 20,
         "abbreviation": "NYK",
@@ -1071,15 +1078,18 @@
       "weight_pounds": 240
     },
     {
-      "id": 41,
+      "id": 38,
       "first_name": "Jericho",
       "height_feet": 6,
       "height_inches": 10,
       "height_only_inches": 82,
       "last_name": "Sims",
-      "position": "F",
+      "position": "C",
       "full_name": "Jericho Sims",
       "number": 45,
+      "age": 24,
+      "positions": ["Center"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630579.png",
       "team": {
         "id": 20,
         "abbreviation": "NYK",
@@ -1093,7 +1103,7 @@
       "weight_pounds": 245
     },
     {
-      "id": 42,
+      "id": 39,
       "first_name": "Quentin",
       "height_feet": 6,
       "height_inches": 5,
@@ -1102,6 +1112,9 @@
       "position": "G",
       "full_name": "Quentin Grimes",
       "number": 6,
+      "age": 23,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629656.png",
       "team": {
         "id": 20,
         "abbreviation": "NYK",
@@ -1115,7 +1128,7 @@
       "weight_pounds": 205
     },
     {
-      "id": 43,
+      "id": 40,
       "first_name": "Derrick",
       "height_feet": 6,
       "height_inches": 3,
@@ -1124,6 +1137,9 @@
       "position": "G",
       "full_name": "Derrick Rose",
       "number": 4,
+      "age": 34,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/201565.png",
       "team": {
         "id": 20,
         "abbreviation": "NYK",
@@ -1137,7 +1153,7 @@
       "weight_pounds": 200
     },
     {
-      "id": 44,
+      "id": 41,
       "first_name": "Obi",
       "height_feet": 6,
       "height_inches": 9,
@@ -1146,6 +1162,9 @@
       "position": "F",
       "full_name": "Obi Toppin",
       "number": 1,
+      "age": 25,
+      "positions": ["Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630167.png",
       "team": {
         "id": 20,
         "abbreviation": "NYK",
@@ -1159,7 +1178,7 @@
       "weight_pounds": 220
     },
     {
-      "id": 45,
+      "id": 42,
       "first_name": "Miles",
       "height_feet": 6,
       "height_inches": 2,
@@ -1168,6 +1187,9 @@
       "position": "G",
       "full_name": "Miles McBride",
       "number": 2,
+      "age": 22,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630540.png",
       "team": {
         "id": 20,
         "abbreviation": "NYK",
@@ -1181,7 +1203,7 @@
       "weight_pounds": 200
     },
     {
-      "id": 46,
+      "id": 43,
       "first_name": "Cameron",
       "height_feet": 6,
       "height_inches": 8,
@@ -1190,20 +1212,23 @@
       "position": "F-G",
       "full_name": "Cameron Reddish",
       "number": 0,
+      "age": 23,
+      "positions": ["Forward", "Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629629.png",
       "team": {
         "id": 20,
-        "abbreviation": "NYK",
-        "city": "New York",
-        "conference": "East",
-        "division": "Atlantic",
-        "full_name": "New York Knicks",
-        "image": "https://cdn.nba.com/logos/nba/1610612752/primary/L/logo.svg",
-        "name": "Knicks"
+        "abbreviation": "POR",
+        "city": "Portland",
+        "conference": "West",
+        "division": "Northwest",
+        "full_name": "Portland Trail Blazers",
+        "image": "https://cdn.nba.com/logos/nba/1610612757/primary/L/logo.svg",
+        "name": "Trail Blazers"
       },
       "weight_pounds": 218
     },
     {
-      "id": 47,
+      "id": 44,
       "first_name": "Evan",
       "height_feet": 6,
       "height_inches": 7,
@@ -1212,6 +1237,9 @@
       "position": "G-F",
       "full_name": "Evan Fournier",
       "number": 13,
+      "age": 30,
+      "positions": ["Guard", "Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/203095.png",
       "team": {
         "id": 20,
         "abbreviation": "NYK",
@@ -1225,51 +1253,32 @@
       "weight_pounds": 205
     },
     {
-      "id": 48,
+      "id": 45,
       "first_name": "Svi",
       "height_feet": 6,
       "height_inches": 8,
       "height_only_inches": 80,
       "last_name": "Mykhailiuk",
-      "position": "G",
+      "position": "G-F",
       "full_name": "Svi Mykhailiuk",
       "number": 17,
+      "age": 25,
+      "positions": ["Guard", "Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629004.png",
       "team": {
         "id": 20,
-        "abbreviation": "NYK",
-        "city": "New York",
+        "abbreviation": "CHA",
+        "city": "Charlotte",
         "conference": "East",
-        "division": "Atlantic",
-        "full_name": "New York Knicks",
-        "image": "https://cdn.nba.com/logos/nba/1610612752/primary/L/logo.svg",
-        "name": "Knicks"
+        "division": "Southeast",
+        "full_name": "Charlotte Hornets",
+        "image": "https://cdn.nba.com/logos/nba/1610612766/primary/L/logo.svg",
+        "name": "Hornets"
       },
       "weight_pounds": 205
     },
     {
-      "id": 49,
-      "first_name": "Ryan",
-      "height_feet": 6,
-      "height_inches": 3,
-      "height_only_inches": 75,
-      "last_name": "Arcidiacono",
-      "position": "G",
-      "full_name": "Ryan Arcidiacono",
-      "number": 51,
-      "team": {
-        "id": 20,
-        "abbreviation": "NYK",
-        "city": "New York",
-        "conference": "East",
-        "division": "Atlantic",
-        "full_name": "New York Knicks",
-        "image": "https://cdn.nba.com/logos/nba/1610612752/primary/L/logo.svg",
-        "name": "Knicks"
-      },
-      "weight_pounds": 200
-    },
-    {
-      "id": 50,
+      "id": 46,
       "first_name": "Trevor",
       "height_feet": 6,
       "height_inches": 5,
@@ -1278,6 +1287,9 @@
       "position": "G",
       "full_name": "Trevor Keels",
       "number": 3,
+      "age": 19,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1631211.png",
       "team": {
         "id": 20,
         "abbreviation": "NYK",
@@ -1291,15 +1303,18 @@
       "weight_pounds": 221
     },
     {
-      "id": 51,
+      "id": 47,
       "first_name": "DaQuan",
       "height_feet": 6,
       "height_inches": 5,
       "height_only_inches": 77,
       "last_name": "Jeffries",
-      "position": "F",
+      "position": "G-F",
       "full_name": "DaQuan Jeffries",
       "number": 55,
+      "age": 25,
+      "positions": ["Guard", "Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629610.png",
       "team": {
         "id": 20,
         "abbreviation": "NYK",
@@ -1313,7 +1328,7 @@
       "weight_pounds": 230
     },
     {
-      "id": 52,
+      "id": 48,
       "first_name": "Kevin",
       "height_feet": 6,
       "height_inches": 9,
@@ -1322,6 +1337,9 @@
       "position": "F",
       "full_name": "Kevin Durant",
       "number": 7,
+      "age": 34,
+      "positions": ["Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/201142.png",
       "team": {
         "id": 3,
         "abbreviation": "BKN",
@@ -1335,7 +1353,7 @@
       "weight_pounds": 240
     },
     {
-      "id": 53,
+      "id": 49,
       "first_name": "Royce",
       "height_feet": 6,
       "height_inches": 6,
@@ -1344,6 +1362,9 @@
       "position": "F",
       "full_name": "Royce O'Neale",
       "number": "00",
+      "age": "29",
+      "positions": ["Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1626220.png",
       "team": {
         "id": 3,
         "abbreviation": "BKN",
@@ -1357,15 +1378,18 @@
       "weight_pounds": 226
     },
     {
-      "id": 54,
+      "id": 50,
       "first_name": "Nicolas",
       "height_feet": 6,
       "height_inches": 11,
       "height_only_inches": 83,
       "last_name": "Claxton",
-      "position": "F-C",
+      "position": "C",
       "full_name": "Nicolas Claxton",
       "number": 33,
+      "age": 24,
+      "positions": ["Center"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629651.png", 
       "team": {
         "id": 3,
         "abbreviation": "BKN",
@@ -1379,7 +1403,7 @@
       "weight_pounds": 215
     },
     {
-      "id": 55,
+      "id": 51,
       "first_name": "Edmond",
       "height_feet": 6,
       "height_inches": 6,
@@ -1388,6 +1412,9 @@
       "position": "G",
       "full_name": "Edmond Sumner",
       "number": 4,
+      "age": 27,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628410.png",
       "team": {
         "id": 3,
         "abbreviation": "BKN",
@@ -1401,15 +1428,18 @@
       "weight_pounds": 176
     },
     {
-      "id": 56,
+      "id": 52,
       "first_name": "Joe",
       "height_feet": 6,
       "height_inches": 6,
       "height_only_inches": 78,
       "last_name": "Harris",
-      "position": "F-G",
+      "position": "G-F",
       "full_name": "Joe Harris",
       "number": 12,
+      "age": 31,
+      "positions": ["Guard", "Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/203925.png",
       "team": {
         "id": 3,
         "abbreviation": "BKN",
@@ -1423,7 +1453,7 @@
       "weight_pounds": 218
     },
     {
-      "id": 57,
+      "id": 53,
       "first_name": "Kyrie",
       "height_feet": 6,
       "height_inches": 3,
@@ -1432,20 +1462,23 @@
       "position": "G",
       "full_name": "Kyrie Irving",
       "number": 11,
+      "age": 31,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/202681.png",
       "team": {
         "id": 3,
-        "abbreviation": "BKN",
-        "city": "Brooklyn",
-        "conference": "East",
-        "division": "Atlantic",
-        "full_name": "Brooklyn Nets",
-        "image": "https://cdn.nba.com/logos/nba/1610612751/primary/L/logo.svg",
-        "name": "Nets"
+        "abbreviation": "DAL",
+        "city": "Dallas",
+        "conference": "West",
+        "division": "Southwest",
+        "full_name": "Dallas Mavericks",
+        "image": "https://cdn.nba.com/logos/nba/1610612742/primary/L/logo.svg",
+        "name": "Mavericks"
       },
       "weight_pounds": 193
     },
     {
-      "id": 58,
+      "id": 54,
       "first_name": "Ben",
       "height_feet": 6,
       "height_inches": 10,
@@ -1454,6 +1487,9 @@
       "position": "G-F",
       "full_name": "Ben Simmons",
       "number": 10,
+      "age": 26,
+      "positions": ["Guard", "Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1627732.png",
       "team": {
         "id": 3,
         "abbreviation": "BKN",
@@ -1467,7 +1503,7 @@
       "weight_pounds": 230
     },
     {
-      "id": 59,
+      "id": 55,
       "first_name": "Seth",
       "height_feet": 6,
       "height_inches": 2,
@@ -1476,6 +1512,9 @@
       "position": "G",
       "full_name": "Seth Curry",
       "number": 30,
+      "age": 32,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/203552.png",
       "team": {
         "id": 3,
         "abbreviation": "BKN",
@@ -1489,7 +1528,7 @@
       "weight_pounds": 185
     },
     {
-      "id": 60,
+      "id": 56,
       "first_name": "Patty",
       "height_feet": 6,
       "height_inches": 0,
@@ -1498,6 +1537,9 @@
       "position": "G",
       "full_name": "Patty Mills",
       "number": 8,
+      "age": 34,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/201988.png",
       "team": {
         "id": 3,
         "abbreviation": "BKN",
@@ -1511,15 +1553,18 @@
       "weight_pounds": 180
     },
     {
-      "id": 61,
+      "id": 57,
       "first_name": "Yuta",
       "height_feet": 6,
       "height_inches": 9,
       "height_only_inches": 81,
       "last_name": "Watanabe",
-      "position": "G",
+      "position": "G-F",
       "full_name": "Yuta Watnabe",
       "number": 18,
+      "age": 28,
+      "positions": ["Guard", "Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629139.png",
       "team": {
         "id": 3,
         "abbreviation": "BKN",
@@ -1533,7 +1578,7 @@
       "weight_pounds": 205
     },
     {
-      "id": 62,
+      "id": 58,
       "first_name": "Markieff",
       "height_feet": 6,
       "height_inches": 9,
@@ -1542,20 +1587,23 @@
       "position": "F",
       "full_name": "Markieff Morris",
       "number": 13,
+      "age": 33,
+      "positions": ["Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/202693.png",
       "team": {
         "id": 3,
-        "abbreviation": "BKN",
-        "city": "Brooklyn",
-        "conference": "East",
-        "division": "Atlantic",
-        "full_name": "Brooklyn Nets",
-        "image": "https://cdn.nba.com/logos/nba/1610612751/primary/L/logo.svg",
-        "name": "Nets"
+        "abbreviation": "DAL",
+        "city": "Dallas",
+        "conference": "West",
+        "division": "Southwest",
+        "full_name": "Dallas Mavericks",
+        "image": "https://cdn.nba.com/logos/nba/1610612742/primary/L/logo.svg",
+        "name": "Mavericks"
       },
       "weight_pounds": 245
     },
     {
-      "id": 63,
+      "id": 59,
       "first_name": "Day'Ron",
       "height_feet": 6,
       "height_inches": 11,
@@ -1564,6 +1612,9 @@
       "position": "C",
       "full_name": "Day'Ron Sharpe",
       "number": 20,
+      "age": 21,
+      "positions": ["Center"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630549.png",
       "team": {
         "id": 3,
         "abbreviation": "BKN",
@@ -1577,7 +1628,7 @@
       "weight_pounds": 265
     },
     {
-      "id": 64,
+      "id": 60,
       "first_name": "David",
       "height_feet": 6,
       "height_inches": 5,
@@ -1586,6 +1637,9 @@
       "position": "G",
       "full_name": "David Duke Jr.",
       "number": 6,
+      "age": 23,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630561.png",
       "team": {
         "id": 3,
         "abbreviation": "BKN",
@@ -1599,7 +1653,7 @@
       "weight_pounds": 205
     },
     {
-      "id": 65,
+      "id": 61,
       "first_name": "Kessler",
       "height_feet": 6,
       "height_inches": 8,
@@ -1608,20 +1662,23 @@
       "position": "F",
       "full_name": "Kessler Edwards",
       "number": 14,
+      "age": 22,
+      "positions": ["Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630556.png",
       "team": {
         "id": 3,
-        "abbreviation": "BKN",
-        "city": "Brooklyn",
-        "conference": "East",
-        "division": "Atlantic",
-        "full_name": "Brooklyn Nets",
-        "image": "https://cdn.nba.com/logos/nba/1610612751/primary/L/logo.svg",
-        "name": "Nets"
+        "abbreviation": "SAC",
+        "city": "Sacramento",
+        "conference": "West",
+        "division": "Pacific",
+        "full_name": "Sacramento Kings",
+        "image": "https://cdn.nba.com/logos/nba/1610612758/primary/L/logo.svg",
+        "name": "Kings"
       },
       "weight_pounds": 215
     },
     {
-      "id": 66,
+      "id": 62,
       "first_name": "T.J.",
       "height_feet": 6,
       "height_inches": 8,
@@ -1630,42 +1687,23 @@
       "position": "F",
       "full_name": "T.J. Warren",
       "number": 1,
+      "age": 29,
+      "positions": ["Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/203933.png",
       "team": {
         "id": 3,
-        "abbreviation": "BKN",
-        "city": "Brooklyn",
-        "conference": "East",
-        "division": "Atlantic",
-        "full_name": "Brooklyn Nets",
-        "image": "https://cdn.nba.com/logos/nba/1610612751/primary/L/logo.svg",
-        "name": "Nets"
+        "abbreviation": "PHX",
+        "city": "Phoenix",
+        "conference": "West",
+        "division": "Pacific",
+        "full_name": "Phoenix Suns",
+        "image": "https://cdn.nba.com/logos/nba/1610612756/primary/L/logo.svg",
+        "name": "SUns"
       },
       "weight_pounds": 215
     },
     {
-      "id": 67,
-      "first_name": "Alondes",
-      "height_feet": 6,
-      "height_inches": 5,
-      "height_only_inches": 77,
-      "last_name": "Williams",
-      "position": "G",
-      "full_name": "Alondes Williams",
-      "number": 31,
-      "team": {
-        "id": 3,
-        "abbreviation": "BKN",
-        "city": "Brooklyn",
-        "conference": "East",
-        "division": "Atlantic",
-        "full_name": "Brooklyn Nets",
-        "image": "https://cdn.nba.com/logos/nba/1610612751/primary/L/logo.svg",
-        "name": "Nets"
-      },
-      "weight_pounds": 210
-    },
-    {
-      "id": 68,
+      "id": 63,
       "first_name": "PJ",
       "height_feet": 6,
       "height_inches": 6,
@@ -1674,6 +1712,9 @@
       "position": "F",
       "full_name": "PJ Tucker",
       "number": 17,
+      "age": 38,
+      "positions": ["Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/200782.png",
       "team": {
         "id": 23,
         "abbreviation": "PHI",
@@ -1687,15 +1728,18 @@
       "weight_pounds": 245
     },
     {
-      "id": 69,
+      "id": 64,
       "first_name": "Georges",
       "height_feet": 6,
-      "height_inches": 8,
-      "height_only_inches": 80,
+      "height_inches": 7,
+      "height_only_inches": 79,
       "last_name": "Niang",
       "position": "F",
       "full_name": "Georges Niang",
-      "number": 69,
+      "number": 20,
+      "age": 29,
+      "positions": ["Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1627777.png",
       "team": {
         "id": 23,
         "abbreviation": "PHI",
@@ -1709,7 +1753,7 @@
       "weight_pounds": 230
     },
     {
-      "id": 70,
+      "id": 65,
       "first_name": "Tobias",
       "height_feet": 6,
       "height_inches": 9,
@@ -1718,6 +1762,9 @@
       "position": "F",
       "full_name": "Tobias Harris",
       "number": 20,
+      "age": 30,
+      "positions": ["Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/202699.png",
       "team": {
         "id": 23,
         "abbreviation": "PHI",
@@ -1731,7 +1778,7 @@
       "weight_pounds": 235
     },
     {
-      "id": 71,
+      "id": 66,
       "first_name": "De'Anthony",
       "height_feet": 6,
       "height_inches": 4,
@@ -1740,6 +1787,9 @@
       "position": "G",
       "full_name": "De'Anthony Melton",
       "number": 8,
+      "age": 25,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629001.png",
       "team": {
         "id": 23,
         "abbreviation": "PHI",
@@ -1753,15 +1803,18 @@
       "weight_pounds": 200
     },
     {
-      "id": 72,
+      "id": 67,
       "first_name": "Shake",
       "height_feet": 6,
       "height_inches": 6,
       "height_only_inches": 78,
       "last_name": "Milton",
-      "position": "G",
+      "position": "G-F",
       "full_name": "Shake Milton",
       "number": 18,
+      "age": 26,
+      "positions": ["Guard", "Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629003.png",
       "team": {
         "id": 23,
         "abbreviation": "PHI",
@@ -1775,7 +1828,7 @@
       "weight_pounds": 207
     },
     {
-      "id": 73,
+      "id": 68,
       "first_name": "Montrezl",
       "height_feet": 6,
       "height_inches": 8,
@@ -1784,6 +1837,9 @@
       "position": "F-C",
       "full_name": "Montrezl Harrell",
       "number": 5,
+      "age": 29,
+      "positions": ["Forward", "Center"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1626149.png",
       "team": {
         "id": 23,
         "abbreviation": "PHI",
@@ -1797,7 +1853,7 @@
       "weight_pounds": 240
     },
     {
-      "id": 74,
+      "id": 69,
       "first_name": "Matisse",
       "height_feet": 6,
       "height_inches": 5,
@@ -1806,20 +1862,23 @@
       "position": "G-F",
       "full_name": "Matisse Thybulle",
       "number": 22,
+      "age": 26,
+      "positions": ["Guard", "Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629680.png",
       "team": {
         "id": 23,
-        "abbreviation": "PHI",
-        "city": "Philadelphia",
-        "conference": "East",
-        "division": "Atlantic",
-        "full_name": "Philadelphia 76ers",
-        "image": "https://cdn.nba.com/logos/nba/1610612755/primary/L/logo.svg",
-        "name": "76ers"
+        "abbreviation": "POR",
+        "city": "Portland",
+        "conference": "West",
+        "division": "Northwest",
+        "full_name": "Portland Trail Blazers",
+        "image": "https://cdn.nba.com/logos/nba/1610612757/primary/L/logo.svg",
+        "name": "Trail Blazers"
       },
       "weight_pounds": 201
     },
     {
-      "id": 75,
+      "id": 70,
       "first_name": "Paul",
       "height_feet": 6,
       "height_inches": 9,
@@ -1828,6 +1887,9 @@
       "position": "F",
       "full_name": "Paul Reed",
       "number": 44,
+      "age": 23,
+      "positions": ["Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630194.png",
       "team": {
         "id": 23,
         "abbreviation": "PHI",
@@ -1841,15 +1903,18 @@
       "weight_pounds": 210
     },
     {
-      "id": 76,
+      "id": 71,
       "first_name": "Danuel",
       "height_feet": 6,
       "height_inches": 7,
       "height_only_inches": 79,
       "last_name": "House Jr.",
-      "position": "F",
+      "position": "F-G",
       "full_name": "Danuel House Jr.",
       "number": 25,
+      "age": 29,
+      "positions": ["Forward", "Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1627863.png",
       "team": {
         "id": 23,
         "abbreviation": "PHI",
@@ -1863,7 +1928,7 @@
       "weight_pounds": 220
     },
     {
-      "id": 77,
+      "id": 72,
       "first_name": "Joel",
       "height_feet": 7,
       "height_inches": 0,
@@ -1872,6 +1937,9 @@
       "position": "C",
       "full_name": "Joel Embiid",
       "number": 21,
+      "age": 29,
+      "positions": ["Center"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/203954.png",
       "team": {
         "id": 23,
         "abbreviation": "PHI",
@@ -1885,7 +1953,7 @@
       "weight_pounds": 250
     },
     {
-      "id": 78,
+      "id": 73,
       "first_name": "James",
       "height_feet": 6,
       "height_inches": 5,
@@ -1894,6 +1962,9 @@
       "position": "G",
       "full_name": "James Harden",
       "number": 1,
+      "age": 33,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/201935.png",
       "team": {
         "id": 23,
         "abbreviation": "PHI",
@@ -1907,7 +1978,7 @@
       "weight_pounds": 220
     },
     {
-      "id": 79,
+      "id": 74,
       "first_name": "Furkan",
       "height_feet": 6,
       "height_inches": 7,
@@ -1916,6 +1987,9 @@
       "position": "G-F",
       "full_name": "Furkan Korkmaz",
       "number": 30,
+      "age": 25,
+      "positions": ["Guard", "Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1627788.png",
       "team": {
         "id": 23,
         "abbreviation": "PHI",
@@ -1929,7 +2003,7 @@
       "weight_pounds": 190
     },
     {
-      "id": 80,
+      "id": 75,
       "first_name": "Tyrese",
       "height_feet": 6,
       "height_inches": 2,
@@ -1938,6 +2012,9 @@
       "position": "G",
       "full_name": "Tyrese Maxey",
       "number": 0,
+      "age": 22,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630178.png",
       "team": {
         "id": 23,
         "abbreviation": "PHI",
@@ -1951,7 +2028,7 @@
       "weight_pounds": 200
     },
     {
-      "id": 81,
+      "id": 76,
       "first_name": "Jaden",
       "height_feet": 6,
       "height_inches": 4,
@@ -1960,6 +2037,9 @@
       "position": "G",
       "full_name": "Jaden Springer",
       "number": 11,
+      "age": 20,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630531.png",
       "team": {
         "id": 23,
         "abbreviation": "PHI",
@@ -1973,7 +2053,7 @@
       "weight_pounds": 204
     },
     {
-      "id": 82,
+      "id": 77,
       "first_name": "Julian",
       "height_feet": 6,
       "height_inches": 8,
@@ -1982,20 +2062,23 @@
       "position": "F",
       "full_name": "Julian Champagnie",
       "number": 55,
+      "age": 21,
+      "positions": ["Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630577.png",
       "team": {
         "id": 23,
-        "abbreviation": "PHI",
-        "city": "Philadelphia",
-        "conference": "East",
-        "division": "Atlantic",
-        "full_name": "Philadelphia 76ers",
-        "image": "https://cdn.nba.com/logos/nba/1610612755/primary/L/logo.svg",
-        "name": "76ers"
+        "abbreviation": "SAS",
+        "city": "San Antonio",
+        "conference": "West",
+        "division": "Southwest",
+        "full_name": "San Antonio Spurs",
+        "image": "https://cdn.nba.com/logos/nba/1610612759/primary/L/logo.svg",
+        "name": "Spurs"
       },
       "weight_pounds": 220
     },
     {
-      "id": 83,
+      "id": 78,
       "first_name": "Louis",
       "height_feet": 6,
       "height_inches": 7,
@@ -2004,6 +2087,9 @@
       "position": "F",
       "full_name": "Louis King",
       "number": 23,
+      "age": 24,
+      "positions": ["Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629663.png",
       "team": {
         "id": 23,
         "abbreviation": "PHI",
@@ -2017,7 +2103,7 @@
       "weight_pounds": 205
     },
     {
-      "id": 84,
+      "id": 79,
       "first_name": "Isaac",
       "height_feet": 6,
       "height_inches": 5,
@@ -2026,6 +2112,9 @@
       "position": "F-G",
       "full_name": "Isaac Okoro",
       "number": 35,
+      "age": 22,
+      "positions": ["Forward", "Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630171.png",
       "team": {
         "id": 6,
         "abbreviation": "CLE",
@@ -2039,7 +2128,7 @@
       "weight_pounds": 225
     },
     {
-      "id": 85,
+      "id": 80,
       "first_name": "Evan",
       "height_feet": 7,
       "height_inches": 0,
@@ -2048,6 +2137,9 @@
       "position": "F-C",
       "full_name": "Evan Mobley",
       "number": 4,
+      "age": 21,
+      "positions": ["Forward", "Center"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630596.png",
       "team": {
         "id": 6,
         "abbreviation": "CLE",
@@ -2061,7 +2153,7 @@
       "weight_pounds": 215
     },
     {
-      "id": 86,
+      "id": 81,
       "first_name": "Cedi",
       "height_feet": 6,
       "height_inches": 8,
@@ -2070,6 +2162,9 @@
       "position": "F",
       "full_name": "Cedi Osman",
       "number": 16,
+      "age": 28,
+      "positions": ["Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1626224.png",
       "team": {
         "id": 6,
         "abbreviation": "CLE",
@@ -2083,7 +2178,7 @@
       "weight_pounds": 215
     },
     {
-      "id": 87,
+      "id": 82,
       "first_name": "Donovan",
       "height_feet": 6,
       "height_inches": 3,
@@ -2092,6 +2187,9 @@
       "position": "G",
       "full_name": "Donovan Mitchell",
       "number": 45,
+      "age": 26,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628378.png",
       "team": {
         "id": 6,
         "abbreviation": "CLE",
@@ -2105,15 +2203,18 @@
       "weight_pounds": 215
     },
     {
-      "id": 88,
+      "id": 83,
       "first_name": "Caris",
       "height_feet": 6,
-      "height_inches": 7,
-      "height_only_inches": 79,
+      "height_inches": 6,
+      "height_only_inches": 78,
       "last_name": "LeVert",
       "position": "G",
       "full_name": "Caris LeVert",
       "number": 3,
+      "age": 28,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1627747.png",
       "team": {
         "id": 6,
         "abbreviation": "CLE",
@@ -2127,7 +2228,7 @@
       "weight_pounds": 204
     },
     {
-      "id": 89,
+      "id": 84,
       "first_name": "Darius",
       "height_feet": 6,
       "height_inches": 1,
@@ -2136,6 +2237,9 @@
       "position": "G",
       "full_name": "Darius Garland",
       "number": 10,
+      "age": 23,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629636.png",
       "team": {
         "id": 6,
         "abbreviation": "CLE",
@@ -2149,7 +2253,7 @@
       "weight_pounds": 192
     },
     {
-      "id": 90,
+      "id": 85,
       "first_name": "Jarrett",
       "height_feet": 6,
       "height_inches": 11,
@@ -2158,6 +2262,9 @@
       "position": "C",
       "full_name": "Jarrett Allen",
       "number": 31,
+      "age": 25,
+      "positions": ["Center"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628386.png",
       "team": {
         "id": 6,
         "abbreviation": "CLE",
@@ -2171,7 +2278,7 @@
       "weight_pounds": 237
     },
     {
-      "id": 91,
+      "id": 86,
       "first_name": "Kevin",
       "height_feet": 6,
       "height_inches": 10,
@@ -2180,20 +2287,23 @@
       "position": "F-C",
       "full_name": "Kevin Love",
       "number": 0,
+      "age": 34,
+      "positions": ["Forward", "Center"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/201567.png",
       "team": {
         "id": 6,
-        "abbreviation": "CLE",
-        "city": "Cleveland",
+        "abbreviation": "MIA",
+        "city": "Miami",
         "conference": "East",
-        "division": "Central",
-        "full_name": "Cleveland Cavaliers",
-        "image": "https://cdn.nba.com/logos/nba/1610612739/primary/L/logo.svg",
-        "name": "Cavaliers"
+        "division": "Southeast",
+        "full_name": "Miami Heat",
+        "image": "https://cdn.nba.com/logos/nba/1610612748/primary/L/logo.svg",
+        "name": "Heat"
       },
       "weight_pounds": 251
     },
     {
-      "id": 92,
+      "id": 87,
       "first_name": "Robin",
       "height_feet": 7,
       "height_inches": 0,
@@ -2202,6 +2312,9 @@
       "position": "C",
       "full_name": "Robin Lopez",
       "number": 33,
+      "age": 35,
+      "positions": ["Center"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/201577.png",
       "team": {
         "id": 6,
         "abbreviation": "CLE",
@@ -2215,7 +2328,7 @@
       "weight_pounds": 275
     },
     {
-      "id": 93,
+      "id": 88,
       "first_name": "Raul",
       "height_feet": 6,
       "height_inches": 1,
@@ -2224,6 +2337,9 @@
       "position": "G",
       "full_name": "Raul Neto",
       "number": 19,
+      "age": 31,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/203526.png",
       "team": {
         "id": 6,
         "abbreviation": "CLE",
@@ -2237,7 +2353,7 @@
       "weight_pounds": 179
     },
     {
-      "id": 94,
+      "id": 89,
       "first_name": "Lamar",
       "height_feet": 6,
       "height_inches": 6,
@@ -2246,6 +2362,9 @@
       "position": "F",
       "full_name": "Lamar Stevens",
       "number": 8,
+      "age": 25,
+      "positions": ["Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630205.png",
       "team": {
         "id": 6,
         "abbreviation": "CLE",
@@ -2259,7 +2378,7 @@
       "weight_pounds": 230
     },
     {
-      "id": 95,
+      "id": 90,
       "first_name": "Dean",
       "height_feet": 6,
       "height_inches": 9,
@@ -2268,6 +2387,9 @@
       "position": "F",
       "full_name": "Dean Wade",
       "number": 32,
+      "age": 26,
+      "positions": ["Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629731.png",
       "team": {
         "id": 6,
         "abbreviation": "CLE",
@@ -2281,7 +2403,7 @@
       "weight_pounds": 228
     },
     {
-      "id": 96,
+      "id": 91,
       "first_name": "Mamadi",
       "height_feet": 6,
       "height_inches": 9,
@@ -2290,6 +2412,9 @@
       "position": "F",
       "full_name": "Mamadi Diakite",
       "number": 21,
+      "age": 26,
+      "positions": ["Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629603.png",
       "team": {
         "id": 6,
         "abbreviation": "CLE",
@@ -2303,7 +2428,7 @@
       "weight_pounds": 228
     },
     {
-      "id": 97,
+      "id": 92,
       "first_name": "Isaiah",
       "height_feet": 6,
       "height_inches": 10,
@@ -2312,6 +2437,9 @@
       "position": "F",
       "full_name": "Isaiah Mobley",
       "number": 15,
+      "age": 23,
+      "positions": ["Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630600.png",
       "team": {
         "id": 6,
         "abbreviation": "CLE",
@@ -2325,7 +2453,7 @@
       "weight_pounds": 240
     },
     {
-      "id": 98,
+      "id": 93,
       "first_name": "Dylan",
       "height_feet": 6,
       "height_inches": 6,
@@ -2333,7 +2461,10 @@
       "last_name": "Windler",
       "position": "G-F",
       "full_name": "Dylan Windler",
-      "number": 9,
+      "number": 17,
+      "age": 26,
+      "positions": ["Guard", "Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629685.png",
       "team": {
         "id": 6,
         "abbreviation": "CLE",
@@ -2347,7 +2478,7 @@
       "weight_pounds": 196
     },
     {
-      "id": 99,
+      "id": 94,
       "first_name": "Ricky",
       "height_feet": 6,
       "height_inches": 4,
@@ -2355,7 +2486,10 @@
       "last_name": "Rubio",
       "position": "G",
       "full_name": "Ricky Rubio",
-      "number": 3,
+      "number": 13,
+      "age": 32,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/201937.png",
       "team": {
         "id": 6,
         "abbreviation": "CLE",
@@ -2369,7 +2503,7 @@
       "weight_pounds": 190
     },
     {
-      "id": 100,
+      "id": 95,
       "first_name": "Buddy",
       "height_feet": 6,
       "height_inches": 4,
@@ -2378,6 +2512,9 @@
       "position": "G",
       "full_name": "Buddy Hield",
       "number": 24,
+      "age": 30,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1627741.png",
       "team": {
         "id": 12,
         "abbreviation": "IND",
@@ -2391,7 +2528,7 @@
       "weight_pounds": 214
     },
     {
-      "id": 101,
+      "id": 96,
       "first_name": "Bennedict",
       "height_feet": 6,
       "height_inches": 6,
@@ -2400,6 +2537,9 @@
       "position": "G-F",
       "full_name": "Bennedict Mathurin",
       "number": "00",
+      "age": 20,
+      "positions": ["Guard", "Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1631097.png",
       "team": {
         "id": 12,
         "abbreviation": "IND",
@@ -2413,7 +2553,7 @@
       "weight_pounds": 210
     },
     {
-      "id": 102,
+      "id": 97,
       "first_name": "Jalen",
       "height_feet": 6,
       "height_inches": 10,
@@ -2422,6 +2562,9 @@
       "position": "F-C",
       "full_name": "Jalen Smith",
       "number": 25,
+      "age": 23,
+      "positions": ["Forward", "Center"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630188.png",
       "team": {
         "id": 12,
         "abbreviation": "IND",
@@ -2435,7 +2578,7 @@
       "weight_pounds": 215
     },
     {
-      "id": 103,
+      "id": 98,
       "first_name": "Tyrese",
       "height_feet": 6,
       "height_inches": 5,
@@ -2444,6 +2587,9 @@
       "position": "G",
       "full_name": "Tyrese Haliburton",
       "number": 0,
+      "age": 23,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630169.png",
       "team": {
         "id": 12,
         "abbreviation": "IND",
@@ -2457,7 +2603,7 @@
       "weight_pounds": 185
     },
     {
-      "id": 104,
+      "id": 99,
       "first_name": "T.J.",
       "height_feet": 6,
       "height_inches": 2,
@@ -2466,6 +2612,9 @@
       "position": "G",
       "full_name": "T.J. McConnell",
       "number": 9,
+      "age": 31,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/204456.png",
       "team": {
         "id": 12,
         "abbreviation": "IND",
@@ -2479,7 +2628,7 @@
       "weight_pounds": 190
     },
     {
-      "id": 105,
+      "id": 100,
       "first_name": "Aaron",
       "height_feet": 6,
       "height_inches": 5,
@@ -2488,6 +2637,9 @@
       "position": "G-F",
       "full_name": "Aaron Nesmith",
       "number": 23,
+      "age": 23,
+      "positions": ["Guard", "Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630174.png",
       "team": {
         "id": 12,
         "abbreviation": "IND",
@@ -2501,7 +2653,7 @@
       "weight_pounds": 215
     },
     {
-      "id": 106,
+      "id": 101,
       "first_name": "Andrew",
       "height_feet": 6,
       "height_inches": 5,
@@ -2510,6 +2662,9 @@
       "position": "G-F",
       "full_name": "Andrew Nembhard",
       "number": 2,
+      "age": 23,
+      "positions": ["Guard", "Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629614.png",
       "team": {
         "id": 12,
         "abbreviation": "IND",
@@ -2523,15 +2678,18 @@
       "weight_pounds": 193
     },
     {
-      "id": 107,
+      "id": 102,
       "first_name": "Oshae",
       "height_feet": 6,
       "height_inches": 7,
       "height_only_inches": 79,
       "last_name": "Brissett",
-      "position": "F",
+      "position": "F-G",
       "full_name": "Oshae Brissett",
       "number": 12,
+      "age": 24,
+      "positions": ["Guard", "Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629052.png",
       "team": {
         "id": 12,
         "abbreviation": "IND",
@@ -2545,7 +2703,7 @@
       "weight_pounds": 210
     },
     {
-      "id": 108,
+      "id": 103,
       "first_name": "Myles",
       "height_feet": 6,
       "height_inches": 11,
@@ -2554,6 +2712,9 @@
       "position": "C-F",
       "full_name": "Myles Turner",
       "number": 33,
+      "age": 27,
+      "positions": ["Center", "Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1626167.png",
       "team": {
         "id": 12,
         "abbreviation": "IND",
@@ -2567,7 +2728,7 @@
       "weight_pounds": 250
     },
     {
-      "id": 109,
+      "id": 104,
       "first_name": "Isaiah",
       "height_feet": 6,
       "height_inches": 10,
@@ -2576,6 +2737,9 @@
       "position": "F",
       "full_name": "Isaiah Jackson",
       "number": 22,
+      "age": 21,
+      "positions": ["Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630543.png",
       "team": {
         "id": 12,
         "abbreviation": "IND",
@@ -2589,37 +2753,43 @@
       "weight_pounds": 206
     },
     {
-      "id": 110,
+      "id": 105,
       "first_name": "Terry",
       "height_feet": 6,
-      "height_inches": 5,
-      "height_only_inches": 77,
+      "height_inches": 4,
+      "height_only_inches": 76,
       "last_name": "Taylor",
-      "position": "G",
+      "position": "F",
       "full_name": "Terry Taylor",
-      "number": 21,
+      "number": 32,
+      "age": 23,
+      "positions": ["Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630678.png",
       "team": {
         "id": 12,
-        "abbreviation": "IND",
-        "city": "Indiana",
+        "abbreviation": "CHI",
+        "city": "Chicago",
         "conference": "East",
         "division": "Central",
-        "full_name": "Indiana Pacers",
-        "image": "https://cdn.nba.com/logos/nba/1610612754/primary/L/logo.svg",
-        "name": "Pacers"
+        "full_name": "Chicago Bulls",
+        "image": "https://cdn.nba.com/logos/nba/1610612741/primary/L/logo.svg",
+        "name": "Bulls"
       },
       "weight_pounds": 230
     },
     {
-      "id": 111,
+      "id": 106,
       "first_name": "Goga",
       "height_feet": 6,
       "height_inches": 11,
       "height_only_inches": 83,
       "last_name": "Bitadze",
-      "position": "C",
+      "position": "C-F",
       "full_name": "Goga Bitadze",
       "number": 88,
+      "age": 23,
+      "positions": ["Center", "Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629048.png",
       "team": {
         "id": 12,
         "abbreviation": "IND",
@@ -2633,7 +2803,7 @@
       "weight_pounds": 250
     },
     {
-      "id": 112,
+      "id": 107,
       "first_name": "Chris",
       "height_feet": 6,
       "height_inches": 6,
@@ -2642,6 +2812,9 @@
       "position": "G",
       "full_name": "Chris Duarte",
       "number": 3,
+      "age": 25,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630537.png",
       "team": {
         "id": 12,
         "abbreviation": "IND",
@@ -2655,7 +2828,7 @@
       "weight_pounds": 190
     },
     {
-      "id": 113,
+      "id": 108,
       "first_name": "James",
       "height_feet": 6,
       "height_inches": 8,
@@ -2664,6 +2837,9 @@
       "position": "F",
       "full_name": "James Johnson",
       "number": 16,
+      "age": 36,
+      "positions": ["Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/201949.png",
       "team": {
         "id": 12,
         "abbreviation": "IND",
@@ -2677,7 +2853,7 @@
       "weight_pounds": 240
     },
     {
-      "id": 114,
+      "id": 109,
       "first_name": "Kendall",
       "height_feet": 6,
       "height_inches": 8,
@@ -2686,6 +2862,9 @@
       "position": "G",
       "full_name": "Kendall Brown",
       "number": 10,
+      "age": 20,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1631112.png",
       "team": {
         "id": 12,
         "abbreviation": "IND",
@@ -2699,29 +2878,7 @@
       "weight_pounds": 205
     },
     {
-      "id": 115,
-      "first_name": "Trevelin",
-      "height_feet": 6,
-      "height_inches": 6,
-      "height_only_inches": 78,
-      "last_name": "Queen",
-      "position": "G",
-      "full_name": "Trevelin Queen",
-      "number": 8,
-      "team": {
-        "id": 12,
-        "abbreviation": "IND",
-        "city": "Indiana",
-        "conference": "East",
-        "division": "Central",
-        "full_name": "Indiana Pacers",
-        "image": "https://cdn.nba.com/logos/nba/1610612754/primary/L/logo.svg",
-        "name": "Pacers"
-      },
-      "weight_pounds": 190
-    },
-    {
-      "id": 116,
+      "id": 110,
       "first_name": "Daniel",
       "height_feet": 6,
       "height_inches": 8,
@@ -2730,6 +2887,9 @@
       "position": "F",
       "full_name": "Daniel Theis",
       "number": 27,
+      "age": 31,
+      "positions": ["Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628464.png",
       "team": {
         "id": 12,
         "abbreviation": "IND",
@@ -2743,7 +2903,7 @@
       "weight_pounds": 243
     },
     {
-      "id": 117,
+      "id": 111,
       "first_name": "Bojan",
       "height_feet": 6,
       "height_inches": 8,
@@ -2752,6 +2912,9 @@
       "position": "F",
       "full_name": "Bojan Bogdaovic",
       "number": 44,
+      "age": 34,
+      "positions": ["Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/202711.png",
       "team": {
         "id": 9,
         "abbreviation": "DET",
@@ -2765,7 +2928,7 @@
       "weight_pounds": 216
     },
     {
-      "id": 118,
+      "id": 112,
       "first_name": "Killian",
       "height_feet": 6,
       "height_inches": 5,
@@ -2774,6 +2937,9 @@
       "position": "G",
       "full_name": "Killian Hayes",
       "number": 7,
+      "age": 21,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630165.png",
       "team": {
         "id": 9,
         "abbreviation": "DET",
@@ -2787,7 +2953,7 @@
       "weight_pounds": 195
     },
     {
-      "id": 119,
+      "id": 113,
       "first_name": "Jalen",
       "height_feet": 6,
       "height_inches": 10,
@@ -2796,6 +2962,9 @@
       "position": "C",
       "full_name": "Jalen Duren",
       "number": 0,
+      "age": 19,
+      "positions": ["Center"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1631105.png",
       "team": {
         "id": 9,
         "abbreviation": "DET",
@@ -2809,7 +2978,7 @@
       "weight_pounds": 250
     },
     {
-      "id": 120,
+      "id": 114,
       "first_name": "Jaden",
       "height_feet": 6,
       "height_inches": 4,
@@ -2818,6 +2987,9 @@
       "position": "G",
       "full_name": "Jaden Ivey",
       "number": 23,
+      "age": 21,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1631093.png",
       "team": {
         "id": 9,
         "abbreviation": "DET",
@@ -2831,7 +3003,7 @@
       "weight_pounds": 195
     },
     {
-      "id": 121,
+      "id": 115,
       "first_name": "Saddiq",
       "height_feet": 6,
       "height_inches": 7,
@@ -2840,20 +3012,23 @@
       "position": "F",
       "full_name": "Saddiq Bey",
       "number": 41,
+      "age": 24,
+      "positions": ["Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630180.png",
       "team": {
         "id": 9,
-        "abbreviation": "DET",
-        "city": "Detroit",
+        "abbreviation": "ATL",
+        "city": "Atlanta",
         "conference": "East",
-        "division": "Central",
-        "full_name": "Detroit Pistons",
-        "image": "https://cdn.nba.com/logos/nba/1610612765/primary/L/logo.svg",
-        "name": "Pistons"
+        "division": "Souutheast",
+        "full_name": "Atlanta Hawks",
+        "image": "https://cdn.nba.com/logos/nba/1610612737/primary/L/logo.svg",
+        "name": "Hawks"
       },
       "weight_pounds": 215
     },
     {
-      "id": 122,
+      "id": 116,
       "first_name": "Isaiah",
       "height_feet": 6,
       "height_inches": 8,
@@ -2862,6 +3037,9 @@
       "position": "F-C",
       "full_name": "Isaiah Stewart",
       "number": 28,
+      "age": 22,
+      "positions": ["Forward", "Center"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630191.png",
       "team": {
         "id": 9,
         "abbreviation": "DET",
@@ -2875,7 +3053,7 @@
       "weight_pounds": 250
     },
     {
-      "id": 123,
+      "id": 117,
       "first_name": "Cory",
       "height_feet": 6,
       "height_inches": 3,
@@ -2884,6 +3062,9 @@
       "position": "G",
       "full_name": "Cory Joseph",
       "number": 18,
+      "age": 31,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/202709.png",
       "team": {
         "id": 9,
         "abbreviation": "DET",
@@ -2897,7 +3078,7 @@
       "weight_pounds": 193
     },
     {
-      "id": 124,
+      "id": 118,
       "first_name": "Hamidou",
       "height_feet": 6,
       "height_inches": 5,
@@ -2906,6 +3087,9 @@
       "position": "G",
       "full_name": "Hamidou Diallo",
       "number": 6,
+      "age": 24,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628977.png",
       "team": {
         "id": 9,
         "abbreviation": "DET",
@@ -2919,29 +3103,32 @@
       "weight_pounds": 198
     },
     {
-      "id": 125,
+      "id": 119,
       "first_name": "Kevin",
       "height_feet": 6,
-      "height_inches": 9,
-      "height_only_inches": 81,
+      "height_inches": 7,
+      "height_only_inches": 79,
       "last_name": "Knox",
       "position": "F",
       "full_name": "Kevin Knox",
       "number": 20,
+      "age": 23,
+      "positions": ["Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628995.png",
       "team": {
         "id": 9,
-        "abbreviation": "DET",
-        "city": "Detroit",
-        "conference": "East",
-        "division": "Central",
-        "full_name": "Detroit Pistons",
-        "image": "https://cdn.nba.com/logos/nba/1610612765/primary/L/logo.svg",
-        "name": "Pistons"
+        "abbreviation": "POR",
+        "city": "Portland",
+        "conference": "West",
+        "division": "Northwest",
+        "full_name": "Portland Trail Blazers",
+        "image": "https://cdn.nba.com/logos/nba/1610612757/primary/L/logo.svg",
+        "name": "Trail Blazers"
       },
       "weight_pounds": 215
     },
     {
-      "id": 126,
+      "id": 120,
       "first_name": "Alec",
       "height_feet": 6,
       "height_inches": 6,
@@ -2950,6 +3137,9 @@
       "position": "G",
       "full_name": "Alec Burks",
       "number": 5,
+      "age": 31,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/202692.png",
       "team": {
         "id": 9,
         "abbreviation": "DET",
@@ -2963,7 +3153,7 @@
       "weight_pounds": 214
     },
     {
-      "id": 127,
+      "id": 121,
       "first_name": "Marvin",
       "height_feet": 6,
       "height_inches": 11,
@@ -2972,6 +3162,9 @@
       "position": "F",
       "full_name": "Marvin Bagley III",
       "number": 35,
+      "age": 24,
+      "positions": ["Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628963.png",
       "team": {
         "id": 9,
         "abbreviation": "DET",
@@ -2985,7 +3178,7 @@
       "weight_pounds": 234
     },
     {
-      "id": 128,
+      "id": 122,
       "first_name": "Isaiah",
       "height_feet": 6,
       "height_inches": 7,
@@ -2994,6 +3187,9 @@
       "position": "F",
       "full_name": "Isaiah Livers",
       "number": 12,
+      "age": 24,
+      "positions": ["Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630587.png",
       "team": {
         "id": 9,
         "abbreviation": "DET",
@@ -3007,7 +3203,7 @@
       "weight_pounds": 230
     },
     {
-      "id": 129,
+      "id": 123,
       "first_name": "Rodney",
       "height_feet": 6,
       "height_inches": 4,
@@ -3016,6 +3212,9 @@
       "position": "F-G",
       "full_name": "Rodney McGruder",
       "number": 17,
+      "age": 31,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/203585.png",
       "team": {
         "id": 9,
         "abbreviation": "DET",
@@ -3029,7 +3228,7 @@
       "weight_pounds": 200
     },
     {
-      "id": 130,
+      "id": 124,
       "first_name": "Cade",
       "height_feet": 6,
       "height_inches": 6,
@@ -3038,6 +3237,9 @@
       "position": "G-F",
       "full_name": "Cade Cunningham",
       "number": 2,
+      "age": 21,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630595.png",
       "team": {
         "id": 9,
         "abbreviation": "DET",
@@ -3051,29 +3253,7 @@
       "weight_pounds": 220
     },
     {
-      "id": 131,
-      "first_name": "Nerlens",
-      "height_feet": 6,
-      "height_inches": 11,
-      "height_only_inches": 83,
-      "last_name": "Noel",
-      "position": "F-C",
-      "full_name": "Nerlens Noel",
-      "number": 9,
-      "team": {
-        "id": 9,
-        "abbreviation": "DET",
-        "city": "Detroit",
-        "conference": "East",
-        "division": "Central",
-        "full_name": "Detroit Pistons",
-        "image": "https://cdn.nba.com/logos/nba/1610612765/primary/L/logo.svg",
-        "name": "Pistons"
-      },
-      "weight_pounds": 220
-    },
-    {
-      "id": 132,
+      "id": 125,
       "first_name": "Buddy",
       "height_feet": 6,
       "height_inches": 6,
@@ -3082,6 +3262,9 @@
       "position": "F",
       "full_name": "Buddy Boeheim",
       "number": 27,
+      "age": 23,
+      "positions": ["Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1631205.png",
       "team": {
         "id": 9,
         "abbreviation": "DET",
@@ -3095,7 +3278,7 @@
       "weight_pounds": 205
     },
     {
-      "id": 133,
+      "id": 126,
       "first_name": "Jared",
       "height_feet": 6,
       "height_inches": 6,
@@ -3103,7 +3286,10 @@
       "last_name": "Rhoden",
       "position": "G",
       "full_name": "Jared Rhoden",
-      "number": "",
+      "number": 8,
+      "age": 23,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1631197.png",
       "team": {
         "id": 9,
         "abbreviation": "DET",
@@ -3117,15 +3303,18 @@
       "weight_pounds": 210
     },
     {
-      "id": 134,
+      "id": 127,
       "first_name": "DeMar",
       "height_feet": 6,
       "height_inches": 7,
       "height_only_inches": 79,
       "last_name": "DeRozan",
-      "position": "G",
+      "position": "G-F",
       "full_name": "DeMar DeRozan",
       "number": 11,
+      "age": 33,
+      "positions": ["Guard", "Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/201942.png",
       "team": {
         "id": 5,
         "abbreviation": "CHI",
@@ -3139,7 +3328,7 @@
       "weight_pounds": 220
     },
     {
-      "id": 135,
+      "id": 128,
       "first_name": "Nikola",
       "height_feet": 7,
       "height_inches": 0,
@@ -3148,6 +3337,9 @@
       "position": "C",
       "full_name": "Nikola Vucevic",
       "number": 9,
+      "age": 32,
+      "positions": ["Center"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/202696.png",
       "team": {
         "id": 5,
         "abbreviation": "CHI",
@@ -3161,7 +3353,7 @@
       "weight_pounds": 260
     },
     {
-      "id": 136,
+      "id": 129,
       "first_name": "Patrick",
       "height_feet": 6,
       "height_inches": 7,
@@ -3170,6 +3362,9 @@
       "position": "F",
       "full_name": "Patrick Williams",
       "number": 44,
+      "age": 21,
+      "positions": ["Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630172.png",
       "team": {
         "id": 5,
         "abbreviation": "CHI",
@@ -3183,7 +3378,7 @@
       "weight_pounds": 215
     },
     {
-      "id": 137,
+      "id": 130,
       "first_name": "Ayo",
       "height_feet": 6,
       "height_inches": 5,
@@ -3192,6 +3387,184 @@
       "position": "G",
       "full_name": "Ayo Dosunmu",
       "number": 12,
+      "age": 23,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630245.png",
+      "team": {
+        "id": 5,
+        "abbreviation": "CHI",
+        "city": "Chicago",
+        "conference": "East",
+        "division": "Central",
+        "full_name": "Chicago Bulls",
+        "image": "https://cdn.nba.com/logos/nba/1610612741/primary/L/logo.svg",
+        "name": "Bulls"
+      },
+      "weight_pounds": 200
+    },
+    {
+      "id": 131,
+      "first_name": "Goran",
+      "height_feet": 6,
+      "height_inches": 3,
+      "height_only_inches": 75,
+      "last_name": "Dragic",
+      "position": "G",
+      "full_name": "Goran Dragic",
+      "number": 7,
+      "age": 37,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/201609.png",
+      "team": {
+        "id": 5,
+        "abbreviation": "MIL",
+        "city": "Milwaukee",
+        "conference": "East",
+        "division": "Central",
+        "full_name": "Milwaukee Bucks",
+        "image": "https://cdn.nba.com/logos/nba/1610612749/primary/D/logo.svg",
+        "name": "Bucks"
+      },
+      "weight_pounds": 190
+    },
+    {
+      "id": 132,
+      "first_name": "Zach",
+      "height_feet": 6,
+      "height_inches": 5,
+      "height_only_inches": 77,
+      "last_name": "LaVine",
+      "position": "G",
+      "full_name": "Zac hLaVine",
+      "number": 8,
+      "age": 28,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/203897.png",
+      "team": {
+        "id": 5,
+        "abbreviation": "CHI",
+        "city": "Chicago",
+        "conference": "East",
+        "division": "Central",
+        "full_name": "Chicago Bulls",
+        "image": "https://cdn.nba.com/logos/nba/1610612741/primary/L/logo.svg",
+        "name": "Bulls"
+      },
+      "weight_pounds": 200
+    },
+    {
+      "id": 133,
+      "first_name": "Alex",
+      "height_feet": 6,
+      "height_inches": 5,
+      "height_only_inches": 77,
+      "last_name": "Caruso",
+      "position": "G",
+      "full_name": "Alex Caruso",
+      "number": 6,
+      "age": 29,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1627936.png",
+      "team": {
+        "id": 5,
+        "abbreviation": "CHI",
+        "city": "Chicago",
+        "conference": "East",
+        "division": "Central",
+        "full_name": "Chicago Bulls",
+        "image": "https://cdn.nba.com/logos/nba/1610612741/primary/L/logo.svg",
+        "name": "Bulls"
+      },
+      "weight_pounds": 186
+    },
+    {
+      "id": 134,
+      "first_name": "Andre",
+      "height_feet": 6,
+      "height_inches": 11,
+      "height_only_inches": 83,
+      "last_name": "Drummond",
+      "position": "C",
+      "full_name": "Andre Drummond",
+      "number": 3,
+      "age": 29,
+      "positions": ["Center"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/203083.png",
+      "team": {
+        "id": 5,
+        "abbreviation": "CHI",
+        "city": "Chicago",
+        "conference": "East",
+        "division": "Central",
+        "full_name": "Chicago Bulls",
+        "image": "https://cdn.nba.com/logos/nba/1610612741/primary/L/logo.svg",
+        "name": "Bulls"
+      },
+      "weight_pounds": 279
+    },
+    {
+      "id": 135,
+      "first_name": "Coby",
+      "height_feet": 6,
+      "height_inches": 5,
+      "height_only_inches": 77,
+      "last_name": "White",
+      "position": "G",
+      "full_name": "Coby White",
+      "number": 0,
+      "age": 23,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629632.png",
+      "team": {
+        "id": 5,
+        "abbreviation": "CHI",
+        "city": "Chicago",
+        "conference": "East",
+        "division": "Central",
+        "full_name": "Chicago Bulls",
+        "image": "https://cdn.nba.com/logos/nba/1610612741/primary/L/logo.svg",
+        "name": "Bulls"
+      },
+      "weight_pounds": 195
+    },
+    {
+      "id": 136,
+      "first_name": "Javonte",
+      "height_feet": 6,
+      "height_inches": 4,
+      "height_only_inches": 76,
+      "last_name": "Green",
+      "position": "G",
+      "full_name": "Javonte Green",
+      "number": 24,
+      "age": 29,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629750.png",
+      "team": {
+        "id": 5,
+        "abbreviation": "CHI",
+        "city": "Chicago",
+        "conference": "East",
+        "division": "Central",
+        "full_name": "Chicago Bulls",
+        "image": "https://cdn.nba.com/logos/nba/1610612741/primary/L/logo.svg",
+        "name": "Heat"
+      },
+      "weight_pounds": 205
+    },
+    {
+      "id": 137,
+      "first_name": "Derrick",
+      "height_feet": 6,
+      "height_inches": 7,
+      "height_only_inches": 79,
+      "last_name": "Jones Jr.",
+      "position": "F",
+      "full_name": "Derrick Jones Jr.",
+      "number": 5,
+      "age": 26,
+      "positions": ["Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1627884.png",
       "team": {
         "id": 5,
         "abbreviation": "CHI",
@@ -3206,160 +3579,6 @@
     },
     {
       "id": 138,
-      "first_name": "Goran",
-      "height_feet": 6,
-      "height_inches": 3,
-      "height_only_inches": 75,
-      "last_name": "Dragic",
-      "position": "G",
-      "full_name": "Goran Dragic",
-      "number": 7,
-      "team": {
-        "id": 5,
-        "abbreviation": "CHI",
-        "city": "Chicago",
-        "conference": "East",
-        "division": "Central",
-        "full_name": "Chicago Bulls",
-        "image": "https://cdn.nba.com/logos/nba/1610612741/primary/L/logo.svg",
-        "name": "Bulls"
-      },
-      "weight_pounds": 190
-    },
-    {
-      "id": 139,
-      "first_name": "Zach",
-      "height_feet": 6,
-      "height_inches": 5,
-      "height_only_inches": 77,
-      "last_name": "LaVine",
-      "position": "G",
-      "full_name": "Zacj LaVine",
-      "number": 8,
-      "team": {
-        "id": 5,
-        "abbreviation": "CHI",
-        "city": "Chicago",
-        "conference": "East",
-        "division": "Central",
-        "full_name": "Chicago Bulls",
-        "image": "https://cdn.nba.com/logos/nba/1610612741/primary/L/logo.svg",
-        "name": "Bulls"
-      },
-      "weight_pounds": 200
-    },
-    {
-      "id": 140,
-      "first_name": "Alex",
-      "height_feet": 6,
-      "height_inches": 5,
-      "height_only_inches": 77,
-      "last_name": "Caruso",
-      "position": "G",
-      "full_name": "Alex Caruso",
-      "number": 6,
-      "team": {
-        "id": 5,
-        "abbreviation": "CHI",
-        "city": "Chicago",
-        "conference": "East",
-        "division": "Central",
-        "full_name": "Chicago Bulls",
-        "image": "https://cdn.nba.com/logos/nba/1610612741/primary/L/logo.svg",
-        "name": "Bulls"
-      },
-      "weight_pounds": 186
-    },
-    {
-      "id": 141,
-      "first_name": "Andre",
-      "height_feet": 6,
-      "height_inches": 11,
-      "height_only_inches": 83,
-      "last_name": "Drummond",
-      "position": "C",
-      "full_name": "Andre Drummond",
-      "number": 3,
-      "team": {
-        "id": 5,
-        "abbreviation": "CHI",
-        "city": "Chicago",
-        "conference": "East",
-        "division": "Central",
-        "full_name": "Chicago Bulls",
-        "image": "https://cdn.nba.com/logos/nba/1610612741/primary/L/logo.svg",
-        "name": "Bulls"
-      },
-      "weight_pounds": 279
-    },
-    {
-      "id": 142,
-      "first_name": "Coby",
-      "height_feet": 6,
-      "height_inches": 5,
-      "height_only_inches": 77,
-      "last_name": "White",
-      "position": "G",
-      "full_name": "Coby White",
-      "number": 0,
-      "team": {
-        "id": 5,
-        "abbreviation": "CHI",
-        "city": "Chicago",
-        "conference": "East",
-        "division": "Central",
-        "full_name": "Chicago Bulls",
-        "image": "https://cdn.nba.com/logos/nba/1610612741/primary/L/logo.svg",
-        "name": "Bulls"
-      },
-      "weight_pounds": 195
-    },
-    {
-      "id": 143,
-      "first_name": "Javonte",
-      "height_feet": 6,
-      "height_inches": 4,
-      "height_only_inches": 76,
-      "last_name": "Green",
-      "position": "G",
-      "full_name": "Javonte Green",
-      "number": 24,
-      "team": {
-        "id": 5,
-        "abbreviation": "CHI",
-        "city": "Chicago",
-        "conference": "East",
-        "division": "Central",
-        "full_name": "Chicago Bulls",
-        "image": "https://cdn.nba.com/logos/nba/1610612741/primary/L/logo.svg",
-        "name": "Heat"
-      },
-      "weight_pounds": 205
-    },
-    {
-      "id": 144,
-      "first_name": "Derrick",
-      "height_feet": 6,
-      "height_inches": 7,
-      "height_only_inches": 79,
-      "last_name": "Jones Jr.",
-      "position": "F-G",
-      "full_name": "Derrick Jones Jr.",
-      "number": 5,
-      "team": {
-        "id": 5,
-        "abbreviation": "CHI",
-        "city": "Chicago",
-        "conference": "East",
-        "division": "Central",
-        "full_name": "Chicago Bulls",
-        "image": "https://cdn.nba.com/logos/nba/1610612741/primary/L/logo.svg",
-        "name": "Bulls"
-      },
-      "weight_pounds": 200
-    },
-    {
-      "id": 145,
       "first_name": "Dalen",
       "height_feet": 6,
       "height_inches": 7,
@@ -3368,6 +3587,9 @@
       "position": "F",
       "full_name": "Dalen Terry",
       "number": 25,
+      "age": 20,
+      "positions": ["Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1631207.png", 
       "team": {
         "id": 5,
         "abbreviation": "CHI",
@@ -3381,51 +3603,7 @@
       "weight_pounds": 195
     },
     {
-      "id": 146,
-      "first_name": "Tony",
-      "height_feet": 6,
-      "height_inches": 10,
-      "height_only_inches": 82,
-      "last_name": "Bradley",
-      "position": "C",
-      "full_name": "Tony Bradley",
-      "number": 13,
-      "team": {
-        "id": 5,
-        "abbreviation": "CHI",
-        "city": "Chicago",
-        "conference": "East",
-        "division": "Central",
-        "full_name": "Chicago Bulls",
-        "image": "https://cdn.nba.com/logos/nba/1610612741/primary/L/logo.svg",
-        "name": "Bulls"
-      },
-      "weight_pounds": 248
-    },
-    {
-      "id": 147,
-      "first_name": "Malcolm",
-      "height_feet": 6,
-      "height_inches": 6,
-      "height_only_inches": 78,
-      "last_name": "Hill",
-      "position": "F",
-      "full_name": "Malcolm Hill",
-      "number": 21,
-      "team": {
-        "id": 5,
-        "abbreviation": "CHI",
-        "city": "Chicago",
-        "conference": "East",
-        "division": "Central",
-        "full_name": "Chicago Bulls",
-        "image": "https://cdn.nba.com/logos/nba/1610612741/primary/L/logo.svg",
-        "name": "Bulls"
-      },
-      "weight_pounds": 220
-    },
-    {
-      "id": 148,
+      "id": 139,
       "first_name": "Marko",
       "height_feet": 6,
       "height_inches": 11,
@@ -3434,6 +3612,9 @@
       "position": "C",
       "full_name": "Marko Simonovic",
       "number": 19,
+      "age": 23,
+      "positions": ["Center"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630250.png",
       "team": {
         "id": 5,
         "abbreviation": "CHI",
@@ -3447,7 +3628,7 @@
       "weight_pounds": 216
     },
     {
-      "id": 149,
+      "id": 140,
       "first_name": "Lonzo",
       "height_feet": 6,
       "height_inches": 6,
@@ -3456,6 +3637,9 @@
       "position": "G",
       "full_name": "Lonzo Ball",
       "number": 2,
+      "age": 25,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628366.png",
       "team": {
         "id": 5,
         "abbreviation": "CHI",
@@ -3469,7 +3653,7 @@
       "weight_pounds": 190
     },
     {
-      "id": 150,
+      "id": 141,
       "first_name": "Bobby",
       "height_feet": 6,
       "height_inches": 11,
@@ -3478,6 +3662,9 @@
       "position": "F",
       "full_name": "Bobby Portis",
       "number": 9,
+      "age": 28,
+      "positions": ["Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1626171.png",
       "team": {
         "id": 17,
         "abbreviation": "MIL",
@@ -3491,7 +3678,7 @@
       "weight_pounds": 250
     },
     {
-      "id": 151,
+      "id": 142,
       "first_name": "Jevon",
       "height_feet": 6,
       "height_inches": 2,
@@ -3500,6 +3687,9 @@
       "position": "G",
       "full_name": "Jevon Carter",
       "number": 5,
+      "age": 27,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628975.png",
       "team": {
         "id": 17,
         "abbreviation": "MIL",
@@ -3513,7 +3703,7 @@
       "weight_pounds": 196
     },
     {
-      "id": 152,
+      "id": 143,
       "first_name": "Brook",
       "height_feet": 7,
       "height_inches": 0,
@@ -3522,6 +3712,9 @@
       "position": "C",
       "full_name": "Brook Lopez",
       "number": 11,
+      "age": 35,
+      "positions": ["Center"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/201572.png",
       "team": {
         "id": 17,
         "abbreviation": "MIL",
@@ -3535,7 +3728,7 @@
       "weight_pounds": 270
     },
     {
-      "id": 153,
+      "id": 144,
       "first_name": "Grayson",
       "height_feet": 6,
       "height_inches": 5,
@@ -3544,6 +3737,9 @@
       "position": "G",
       "full_name": "Grayson Allen",
       "number": 12,
+      "age": 27,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628960.png",
       "team": {
         "id": 17,
         "abbreviation": "MIL",
@@ -3557,7 +3753,7 @@
       "weight_pounds": 198
     },
     {
-      "id": 154,
+      "id": 145,
       "first_name": "Giannis",
       "height_feet": 6,
       "height_inches": 11,
@@ -3566,6 +3762,9 @@
       "position": "F",
       "full_name": "Giannis Antetokounmpo",
       "number": 34,
+      "age": 28,
+      "positions": ["Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/203507.png",
       "team": {
         "id": 17,
         "abbreviation": "MIL",
@@ -3579,7 +3778,7 @@
       "weight_pounds": 242
     },
     {
-      "id": 155,
+      "id": 146,
       "first_name": "George",
       "height_feet": 6,
       "height_inches": 3,
@@ -3588,20 +3787,23 @@
       "position": "G",
       "full_name": "George Hill",
       "number": 3,
+      "age": 37,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/201588.png",
       "team": {
         "id": 17,
-        "abbreviation": "MIL",
-        "city": "Milwaukee",
+        "abbreviation": "IND",
+        "city": "Indiana",
         "conference": "East",
         "division": "Central",
-        "full_name": "Milwaukee Bucks",
-        "image": "https://cdn.nba.com/logos/nba/1610612749/primary/L/logo.svg",
-        "name": "Bucks"
+        "full_name": "Indiana Pacers",
+        "image": "https://cdn.nba.com/logos/nba/1610612754/primary/D/logo.svg",
+        "name": "Pacers"
       },
       "weight_pounds": 188
     },
     {
-      "id": 156,
+      "id": 147,
       "first_name": "Jrue",
       "height_feet": 6,
       "height_inches": 4,
@@ -3610,6 +3812,9 @@
       "position": "G",
       "full_name": "Jrue Holiday",
       "number": 21,
+      "age": 32,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/201950.png",
       "team": {
         "id": 17,
         "abbreviation": "MIL",
@@ -3623,7 +3828,7 @@
       "weight_pounds": 205
     },
     {
-      "id": 157,
+      "id": 148,
       "first_name": "Jordan",
       "height_feet": 6,
       "height_inches": 8,
@@ -3632,20 +3837,23 @@
       "position": "F",
       "full_name": "Jordan Nwora",
       "number": 13,
+      "age": 24,
+      "positions": ["Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629670.png",
       "team": {
         "id": 17,
-        "abbreviation": "MIL",
-        "city": "Milwaukee",
+        "abbreviation": "IND",
+        "city": "Indiana",
         "conference": "East",
         "division": "Central",
-        "full_name": "Milwaukee Bucks",
-        "image": "https://cdn.nba.com/logos/nba/1610612749/primary/L/logo.svg",
-        "name": "Bucks"
+        "full_name": "Indiana Pacers",
+        "image": "https://cdn.nba.com/logos/nba/1610612754/primary/D/logo.svg",
+        "name": "Pacers"
       },
       "weight_pounds": 225
     },
     {
-      "id": 158,
+      "id": 149,
       "first_name": "Wesley",
       "height_feet": 6,
       "height_inches": 4,
@@ -3654,6 +3862,9 @@
       "position": "G-F",
       "full_name": "Wesley Matthews",
       "number": 23,
+      "age": 36,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/202083.png",
       "team": {
         "id": 17,
         "abbreviation": "MIL",
@@ -3667,7 +3878,7 @@
       "weight_pounds": 220
     },
     {
-      "id": 159,
+      "id": 150,
       "first_name": "MarJon",
       "height_feet": 6,
       "height_inches": 6,
@@ -3676,6 +3887,9 @@
       "position": "F",
       "full_name": "MarJon Beauchamp",
       "number": 0,
+      "age": 22,
+      "positions": ["Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630699.png",
       "team": {
         "id": 17,
         "abbreviation": "MIL",
@@ -3689,7 +3903,7 @@
       "weight_pounds": 199
     },
     {
-      "id": 160,
+      "id": 151,
       "first_name": "Pat",
       "height_feet": 6,
       "height_inches": 4,
@@ -3698,6 +3912,9 @@
       "position": "G",
       "full_name": "Pat Connaughton",
       "number": 24,
+      "age": 30,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1626192.png",
       "team": {
         "id": 17,
         "abbreviation": "MIL",
@@ -3711,15 +3928,18 @@
       "weight_pounds": 209
     },
     {
-      "id": 161,
+      "id": 152,
       "first_name": "Thanasis",
       "height_feet": 6,
-      "height_inches": 6,
-      "height_only_inches": 78,
+      "height_inches": 7,
+      "height_only_inches": 79,
       "last_name": "Antetokounmpo",
-      "position": "",
+      "position": "F",
       "full_name": "Thanasis Antetokounmpo",
       "number": 43,
+      "age": 30,
+      "positions": ["Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/203648.png",
       "team": {
         "id": 17,
         "abbreviation": "MIL",
@@ -3733,51 +3953,32 @@
       "weight_pounds": 219
     },
     {
-      "id": 162,
-      "first_name": "Serge",
-      "height_feet": 6,
-      "height_inches": 10,
-      "height_only_inches": 82,
-      "last_name": "Ibaka",
-      "position": "F-C",
-      "full_name": "Serge Ibaka",
-      "number": 25,
-      "team": {
-        "id": 17,
-        "abbreviation": "MIL",
-        "city": "Milwaukee",
-        "conference": "East",
-        "division": "Central",
-        "full_name": "Milwaukee Bucks",
-        "image": "https://cdn.nba.com/logos/nba/1610612749/primary/L/logo.svg",
-        "name": "Bucks"
-      },
-      "weight_pounds": 235
-    },
-    {
-      "id": 163,
+      "id": 153,
       "first_name": "Sandro",
       "height_feet": 6,
       "height_inches": 11,
       "height_only_inches": 83,
       "last_name": "Mamukelashvili",
-      "position": "F",
+      "position": "F-C",
       "full_name": "Sandro Mamukelashvili",
       "number": 54,
+      "age": 24,
+      "positions": ["Forward", "Center"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630572.png",
       "team": {
         "id": 17,
-        "abbreviation": "MIL",
-        "city": "Milwaukee",
-        "conference": "East",
-        "division": "Central",
-        "full_name": "Milwaukee Bucks",
-        "image": "https://cdn.nba.com/logos/nba/1610612749/primary/L/logo.svg",
-        "name": "Bucks"
+        "abbreviation": "SAS",
+        "city": "San Antonio",
+        "conference": "West",
+        "division": "Southwest",
+        "full_name": "San Antonio Spurs",
+        "image": "https://cdn.nba.com/logos/nba/1610612759/primary/D/logo.svg",
+        "name": "Spurs"
       },
       "weight_pounds": 240
     },
     {
-      "id": 164,
+      "id": 154,
       "first_name": "A.J.",
       "height_feet": 6,
       "height_inches": 4,
@@ -3786,6 +3987,9 @@
       "position": "G",
       "full_name": "A.J. Green",
       "number": 20,
+      "age": 23,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1631260.png",
       "team": {
         "id": 17,
         "abbreviation": "MIL",
@@ -3799,7 +4003,7 @@
       "weight_pounds": 200
     },
     {
-      "id": 165,
+      "id": 155,
       "first_name": "Khris",
       "height_feet": 6,
       "height_inches": 8,
@@ -3808,6 +4012,9 @@
       "position": "F",
       "full_name": "Khris Middleton",
       "number": 22,
+      "age": 31,
+      "positions": ["Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/203114.png",
       "team": {
         "id": 17,
         "abbreviation": "MIL",
@@ -3821,15 +4028,18 @@
       "weight_pounds": 222
     },
     {
-      "id": 166,
+      "id": 156,
       "first_name": "Joe",
       "height_feet": 6,
       "height_inches": 8,
       "height_only_inches": 80,
       "last_name": "Ingles",
-      "position": "F",
+      "position": "F-G",
       "full_name": "Joe Ingles",
       "number": 7,
+      "age": 35,
+      "positions": ["Forward", "Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/204060.png",
       "team": {
         "id": 17,
         "abbreviation": "MIL",
@@ -3843,7 +4053,7 @@
       "weight_pounds": 226
     },
     {
-      "id": 167,
+      "id": 157,
       "first_name": "Max",
       "height_feet": 6,
       "height_inches": 5,
@@ -3852,6 +4062,9 @@
       "position": "G",
       "full_name": "Max Strus",
       "number": 31,
+      "age": 27,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629622.png",
       "team": {
         "id": 16,
         "abbreviation": "MIA",
@@ -3865,7 +4078,7 @@
       "weight_pounds": 215
     },
     {
-      "id": 168,
+      "id": 158,
       "first_name": "Bam",
       "height_feet": 6,
       "height_inches": 10,
@@ -3874,6 +4087,9 @@
       "position": "C-F",
       "full_name": "Bam Adebayo",
       "number": 13,
+      "age": 25,
+      "positions": ["Center", "Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628389.png",
       "team": {
         "id": 16,
         "abbreviation": "MIA",
@@ -3887,7 +4103,7 @@
       "weight_pounds": 255
     },
     {
-      "id": 169,
+      "id": 159,
       "first_name": "Kyle",
       "height_feet": 6,
       "height_inches": 1,
@@ -3896,6 +4112,9 @@
       "position": "G",
       "full_name": "Kyle Lowry",
       "number": 7,
+      "age": 37,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/200768.png",
       "team": {
         "id": 16,
         "abbreviation": "MIA",
@@ -3909,7 +4128,7 @@
       "weight_pounds": 196
     },
     {
-      "id": 170,
+      "id": 160,
       "first_name": "Caleb",
       "height_feet": 6,
       "height_inches": 5,
@@ -3918,6 +4137,9 @@
       "position": "F",
       "full_name": "Caleb Martin",
       "number": 16,
+      "age": 27,
+      "positions": ["Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628997.png",
       "team": {
         "id": 16,
         "abbreviation": "MIA",
@@ -3931,7 +4153,7 @@
       "weight_pounds": 205
     },
     {
-      "id": 171,
+      "id": 161,
       "first_name": "Tyler",
       "height_feet": 6,
       "height_inches": 5,
@@ -3940,6 +4162,9 @@
       "position": "G",
       "full_name": "Tyler Herro",
       "number": 14,
+      "age": 23,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629639.png",
       "team": {
         "id": 16,
         "abbreviation": "MIA",
@@ -3953,7 +4178,7 @@
       "weight_pounds": 195
     },
     {
-      "id": 172,
+      "id": 162,
       "first_name": "Duncan",
       "height_feet": 6,
       "height_inches": 8,
@@ -3962,6 +4187,9 @@
       "position": "F",
       "full_name": "Duncan Robinson",
       "number": 55,
+      "age": 29,
+      "positions": ["Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629130.png",
       "team": {
         "id": 16,
         "abbreviation": "MIA",
@@ -3975,7 +4203,7 @@
       "weight_pounds": 210
     },
     {
-      "id": 173,
+      "id": 163,
       "first_name": "Dewayne",
       "height_feet": 7,
       "height_inches": 0,
@@ -3984,28 +4212,34 @@
       "position": "C",
       "full_name": "Dewayne Dedmon",
       "number": 21,
+      "age": 33,
+      "positions": ["Center"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/203473.png",
       "team": {
         "id": 16,
-        "abbreviation": "MIA",
-        "city": "Miami",
+        "abbreviation": "PHI",
+        "city": "Philadelphia",
         "conference": "East",
-        "division": "Southeast",
-        "full_name": "Miami Heat",
-        "image": "https://cdn.nba.com/logos/nba/1610612748/primary/L/logo.svg",
-        "name": "Heat"
+        "division": "Atlantic",
+        "full_name": "Philadelphia 76ers",
+        "image": "https://cdn.nba.com/logos/nba/1610612755/primary/L/logo.svg",
+        "name": "76ers"
       },
       "weight_pounds": 245
     },
     {
-      "id": 174,
+      "id": 164,
       "first_name": "Haywood",
       "height_feet": 6,
       "height_inches": 7,
       "height_only_inches": 79,
       "last_name": "Highsmith",
-      "position": "",
+      "position": "F",
       "full_name": "Haywood Highsmith",
       "number": 24,
+      "age": 26,
+      "positions": ["Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629312.png",
       "team": {
         "id": 16,
         "abbreviation": "MIA",
@@ -4019,15 +4253,18 @@
       "weight_pounds": 220
     },
     {
-      "id": 175,
+      "id": 165,
       "first_name": "Jimmy",
       "height_feet": 6,
       "height_inches": 8,
       "height_only_inches": 80,
       "last_name": "Butler",
-      "position": "G-F",
+      "position": "F",
       "full_name": "Jimmy Butler",
       "number": 22,
+      "age": 33,
+      "positions": ["Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/202710.png",
       "team": {
         "id": 16,
         "abbreviation": "MIA",
@@ -4041,7 +4278,7 @@
       "weight_pounds": 232
     },
     {
-      "id": 176,
+      "id": 166,
       "first_name": "Gabe",
       "height_feet": 6,
       "height_inches": 3,
@@ -4050,6 +4287,9 @@
       "position": "G",
       "full_name": "Gabe Vincent",
       "number": 2,
+      "age": 26,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629216.png",
       "team": {
         "id": 16,
         "abbreviation": "MIA",
@@ -4063,7 +4303,7 @@
       "weight_pounds": 200
     },
     {
-      "id": 177,
+      "id": 167,
       "first_name": "Nikola",
       "height_feet": 6,
       "height_inches": 10,
@@ -4072,6 +4312,9 @@
       "position": "F",
       "full_name": "Nikola Jovic",
       "number": 5,
+      "age": 19,
+      "positions": ["Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1631107.png",
       "team": {
         "id": 16,
         "abbreviation": "MIA",
@@ -4085,7 +4328,7 @@
       "weight_pounds": 209
     },
     {
-      "id": 178,
+      "id": 168,
       "first_name": "Victor",
       "height_feet": 6,
       "height_inches": 4,
@@ -4094,6 +4337,9 @@
       "position": "G",
       "full_name": "Victor Oladipo",
       "number": 4,
+      "age": 31,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/203506.png",
       "team": {
         "id": 16,
         "abbreviation": "MIA",
@@ -4107,7 +4353,7 @@
       "weight_pounds": 210
     },
     {
-      "id": 179,
+      "id": 169,
       "first_name": "Orlando",
       "height_feet": 7,
       "height_inches": 0,
@@ -4116,6 +4362,9 @@
       "position": "C",
       "full_name": "Orlando Robinson",
       "number": 25,
+      "age": 22, 
+      "positions": ["Center"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1631115.png",
       "team": {
         "id": 16,
         "abbreviation": "MIA",
@@ -4129,7 +4378,7 @@
       "weight_pounds": 235
     },
     {
-      "id": 180,
+      "id": 170,
       "first_name": "Jamal",
       "height_feet": 6,
       "height_inches": 7,
@@ -4138,6 +4387,9 @@
       "position": "F",
       "full_name": "Jamal Cain",
       "number": 8,
+      "age": 24,
+      "positions": ["Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1631288.png",
       "team": {
         "id": 16,
         "abbreviation": "MIA",
@@ -4151,7 +4403,7 @@
       "weight_pounds": 191
     },
     {
-      "id": 181,
+      "id": 171,
       "first_name": "Udonis",
       "height_feet": 6,
       "height_inches": 8,
@@ -4160,6 +4412,9 @@
       "position": "F",
       "full_name": "Udonis Haslem",
       "number": 40,
+      "age": 42,
+      "positions": ["Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/2617.png",
       "team": {
         "id": 16,
         "abbreviation": "MIA",
@@ -4173,7 +4428,7 @@
       "weight_pounds": 235
     },
     {
-      "id": 182,
+      "id": 172,
       "first_name": "Omer",
       "height_feet": 7,
       "height_inches": 0,
@@ -4182,6 +4437,9 @@
       "position": "C",
       "full_name": "Omer Yurtseven",
       "number": 77,
+      "age": 24,
+      "positions": ["Center"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630209.png",
       "team": {
         "id": 16,
         "abbreviation": "MIA",
@@ -4195,7 +4453,7 @@
       "weight_pounds": 264
     },
     {
-      "id": 183,
+      "id": 173,
       "first_name": "Onyeka",
       "height_feet": 6,
       "height_inches": 8,
@@ -4204,6 +4462,9 @@
       "position": "F-C",
       "full_name": "Onyeka Okongwu",
       "number": 17,
+      "age": 22,
+      "positions": ["Forward", "Center"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630168.png",
       "team": {
         "id": 1,
         "abbreviation": "ATL",
@@ -4217,7 +4478,7 @@
       "weight_pounds": 235
     },
     {
-      "id": 184,
+      "id": 174,
       "first_name": "Jalen",
       "height_feet": 6,
       "height_inches": 9,
@@ -4226,6 +4487,9 @@
       "position": "F",
       "full_name": "Jalen Johnson",
       "number": 1,
+      "age": 21,
+      "positions": ["Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630552.png",
       "team": {
         "id": 1,
         "abbreviation": "ATL",
@@ -4239,7 +4503,7 @@
       "weight_pounds": 220
     },
     {
-      "id": 185,
+      "id": 175,
       "first_name": "AJ",
       "height_feet": 6,
       "height_inches": 6,
@@ -4248,6 +4512,9 @@
       "position": "F",
       "full_name": "AJ Griffin",
       "number": 14,
+      "age": 14,
+      "positions": ["Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1631100.png",
       "team": {
         "id": 1,
         "abbreviation": "ATL",
@@ -4261,7 +4528,7 @@
       "weight_pounds": 222
     },
     {
-      "id": 186,
+      "id": 176,
       "first_name": "Aaron",
       "height_feet": 6,
       "height_inches": 1,
@@ -4270,6 +4537,9 @@
       "position": "G",
       "full_name": "Aaron Holiday",
       "number": 3,
+      "age": 26,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628988.png",
       "team": {
         "id": 1,
         "abbreviation": "ATL",
@@ -4283,7 +4553,7 @@
       "weight_pounds": 185
     },
     {
-      "id": 187,
+      "id": 177,
       "first_name": "Dejounte",
       "height_feet": 6,
       "height_inches": 5,
@@ -4292,6 +4562,9 @@
       "position": "G",
       "full_name": "Dejounte Murray",
       "number": 5,
+      "age": 26,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1627749.png",
       "team": {
         "id": 1,
         "abbreviation": "ATL",
@@ -4305,15 +4578,18 @@
       "weight_pounds": 170
     },
     {
-      "id": 188,
+      "id": 178,
       "first_name": "De'Andre",
       "height_feet": 6,
       "height_inches": 8,
       "height_only_inches": 80,
       "last_name": "Hunter",
-      "position": "F",
+      "position": "F-G",
       "full_name": "De'Andre Hunter",
       "number": 12,
+      "age": 25,
+      "positions": ["Forward", "Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629631.png",
       "team": {
         "id": 1,
         "abbreviation": "ATL",
@@ -4327,7 +4603,7 @@
       "weight_pounds": 225
     },
     {
-      "id": 189,
+      "id": 179,
       "first_name": "John",
       "height_feet": 6,
       "height_inches": 10,
@@ -4336,6 +4612,9 @@
       "position": "F-C",
       "full_name": "John Collins",
       "number": 20,
+      "age": 25,
+      "positions": ["Forward", "Center"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628381.png",
       "team": {
         "id": 1,
         "abbreviation": "ATL",
@@ -4349,7 +4628,7 @@
       "weight_pounds": 235
     },
     {
-      "id": 190,
+      "id": 180,
       "first_name": "Clint",
       "height_feet": 6,
       "height_inches": 10,
@@ -4358,6 +4637,9 @@
       "position": "C",
       "full_name": "Clint Capela",
       "number": 15,
+      "age": 29,
+      "positions": ["Center"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/203991.png",
       "team": {
         "id": 1,
         "abbreviation": "ATL",
@@ -4371,7 +4653,7 @@
       "weight_pounds": 240
     },
     {
-      "id": 191,
+      "id": 181,
       "first_name": "Justin",
       "height_feet": 6,
       "height_inches": 6,
@@ -4380,20 +4662,23 @@
       "position": "F-G",
       "full_name": "Justin Holiday",
       "number": 8,
+      "age": 34,
+      "positions": ["Forward", "Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/203200.png",
       "team": {
         "id": 1,
-        "abbreviation": "ATL",
-        "city": "Atlanta",
-        "conference": "East",
-        "division": "Southeast",
-        "full_name": "Atlanta Hawks",
-        "image": "https://cdn.nba.com/logos/nba/1610612737/primary/L/logo.svg",
-        "name": "Hawks"
+        "abbreviation": "DAL",
+        "city": "Dallas",
+        "conference": "West",
+        "division": "Southwest",
+        "full_name": "Dallas Mavericks",
+        "image": "https://cdn.nba.com/logos/nba/1610612742/primary/D/logo.svg",
+        "name": "Mavericks"
       },
       "weight_pounds": 181
     },
     {
-      "id": 192,
+      "id": 182,
       "first_name": "Frank",
       "height_feet": 7,
       "height_inches": 0,
@@ -4402,20 +4687,23 @@
       "position": "F-C",
       "full_name": "Frank Kaminsky",
       "number": 0,
+      "age": 30,
+      "positions": ["Forward", "Center"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1626163.png",
       "team": {
         "id": 1,
-        "abbreviation": "ATL",
-        "city": "Atlanta",
-        "conference": "East",
-        "division": "Southeast",
-        "full_name": "Atlanta Hawks",
-        "image": "https://cdn.nba.com/logos/nba/1610612737/primary/L/logo.svg",
-        "name": "Hawks"
+        "abbreviation": "HOU",
+        "city": "Houston",
+        "conference": "West",
+        "division": "Southwest",
+        "full_name": "Houston Rockets",
+        "image": "https://cdn.nba.com/logos/nba/1610612745/primary/L/logo.svg",
+        "name": "Rockets"
       },
       "weight_pounds": 242
     },
     {
-      "id": 193,
+      "id": 183,
       "first_name": "Vit",
       "height_feet": 6,
       "height_inches": 8,
@@ -4424,6 +4712,9 @@
       "position": "G",
       "full_name": "Vit Krejci",
       "number": 27,
+      "age": 22,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630249.png",
       "team": {
         "id": 1,
         "abbreviation": "ATL",
@@ -4437,7 +4728,7 @@
       "weight_pounds": 195
     },
     {
-      "id": 194,
+      "id": 184,
       "first_name": "Trent",
       "height_feet": 6,
       "height_inches": 4,
@@ -4446,6 +4737,9 @@
       "position": "G",
       "full_name": "Trent Forrest",
       "number": 2,
+      "age": 24,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630235.png",
       "team": {
         "id": 1,
         "abbreviation": "ATL",
@@ -4459,7 +4753,7 @@
       "weight_pounds": 210
     },
     {
-      "id": 195,
+      "id": 185,
       "first_name": "Bogdan",
       "height_feet": 6,
       "height_inches": 6,
@@ -4468,6 +4762,9 @@
       "position": "G",
       "full_name": "Bogdan Bogdanovic",
       "number": 13,
+      "age": 30,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/203992.png",
       "team": {
         "id": 1,
         "abbreviation": "ATL",
@@ -4481,7 +4778,7 @@
       "weight_pounds": 205
     },
     {
-      "id": 196,
+      "id": 186,
       "first_name": "Tyrese",
       "height_feet": 6,
       "height_inches": 6,
@@ -4490,6 +4787,9 @@
       "position": "G",
       "full_name": "Tyrese Martin",
       "number": 22,
+      "age": 24,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1631213.png",
       "team": {
         "id": 1,
         "abbreviation": "ATL",
@@ -4503,51 +4803,32 @@
       "weight_pounds": 195
     },
     {
-      "id": 197,
-      "first_name": "Jarrett",
-      "height_feet": 6,
-      "height_inches": 6,
-      "height_only_inches": 78,
-      "last_name": "Culver",
-      "position": "G",
-      "full_name": "Jarrett Culver",
-      "number": 7,
-      "team": {
-        "id": 1,
-        "abbreviation": "ATL",
-        "city": "Atlanta",
-        "conference": "East",
-        "division": "Southeast",
-        "full_name": "Atlanta Hawks",
-        "image": "https://cdn.nba.com/logos/nba/1610612737/primary/L/logo.svg",
-        "name": "Hawks"
-      },
-      "weight_pounds": 195
-    },
-    {
-      "id": 198,
+      "id": 187,
       "first_name": "Jalen",
       "height_feet": 6,
       "height_inches": 9,
       "height_only_inches": 81,
       "last_name": "McDaniels",
-      "position": "F",
+      "position": "F-C",
       "full_name": "Jalen McDaniels",
       "number": 6,
+      "age": 25,
+      "positions": ["Forward", "Center"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629667.png",
       "team": {
         "id": 4,
-        "abbreviation": "CHA",
-        "city": "Charlotte",
+        "abbreviation": "PHI",
+        "city": "Philadelphia",
         "conference": "East",
-        "division": "Southeast",
-        "full_name": "Charlotte Hornets",
-        "image": "https://cdn.nba.com/logos/nba/1610612766/primary/L/logo.svg",
-        "name": "Hornets"
+        "division": "Atlantic",
+        "full_name": "Philadelphia 76ers",
+        "image": "https://cdn.nba.com/logos/nba/1610612755/primary/L/logo.svg",
+        "name": "76ers"
       },
       "weight_pounds": 205
     },
     {
-      "id": 199,
+      "id": 188,
       "first_name": "Mason",
       "height_feet": 6,
       "height_inches": 11,
@@ -4556,20 +4837,23 @@
       "position": "F-C",
       "full_name": "Mason Plumlee",
       "number": 24,
+      "age": 33,
+      "positions": ["Forward", "Center"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/203486.png",
       "team": {
         "id": 4,
-        "abbreviation": "CHA",
-        "city": "Charlotte",
-        "conference": "East",
-        "division": "Southeast",
-        "full_name": "Charlotte Hornets",
-        "image": "https://cdn.nba.com/logos/nba/1610612766/primary/L/logo.svg",
-        "name": "Hornets"
+        "abbreviation": "LAC",
+        "city": "Los Angeles",
+        "conference": "West",
+        "division": "Pacific",
+        "full_name": "Los Angeles Clippers",
+        "image": "https://cdn.nba.com/logos/nba/1610612746/primary/D/logo.svg",
+        "name": "Clippers"
       },
       "weight_pounds": 235
     },
     {
-      "id": 200,
+      "id": 189,
       "first_name": "P.J.",
       "height_feet": 6,
       "height_inches": 7,
@@ -4578,6 +4862,9 @@
       "position": "F",
       "full_name": "P.J. Washington",
       "number": 25,
+      "age": 24,
+      "positions": ["Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629023.png",
       "team": {
         "id": 4,
         "abbreviation": "CHA",
@@ -4591,7 +4878,7 @@
       "weight_pounds": 230
     },
     {
-      "id": 201,
+      "id": 190,
       "first_name": "Kelly",
       "height_feet": 6,
       "height_inches": 7,
@@ -4600,6 +4887,9 @@
       "position": "F",
       "full_name": "Kelly Oubre Jr.",
       "number": 12,
+      "age": 27,
+      "positions": ["Forward"],
+      "headshot": ",https://cdn.nba.com/headshots/nba/latest/1040x760/1626162.png",
       "team": {
         "id": 4,
         "abbreviation": "CHA",
@@ -4613,7 +4903,7 @@
       "weight_pounds": 205
     },
     {
-      "id": 202,
+      "id": 191,
       "first_name": "Theo",
       "height_feet": 6,
       "height_inches": 4,
@@ -4622,6 +4912,9 @@
       "position": "G",
       "full_name": "Theo Maledon",
       "number": 9,
+      "age": 21,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630177.png",
       "team": {
         "id": 4,
         "abbreviation": "CHA",
@@ -4635,7 +4928,7 @@
       "weight_pounds": 175
     },
     {
-      "id": 203,
+      "id": 192,
       "first_name": "Nick",
       "height_feet": 7,
       "height_inches": 0,
@@ -4644,6 +4937,9 @@
       "position": "C",
       "full_name": "Nick Richards",
       "number": 4,
+      "age": 25,
+      "positions": ["Center"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630208.png",
       "team": {
         "id": 4,
         "abbreviation": "CHA",
@@ -4657,7 +4953,7 @@
       "weight_pounds": 245
     },
     {
-      "id": 204,
+      "id": 193,
       "first_name": "Terry",
       "height_feet": 6,
       "height_inches": 1,
@@ -4666,6 +4962,9 @@
       "position": "G",
       "full_name": "Terry Rozier",
       "number": 3,
+      "age": 29,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1626179.png",
       "team": {
         "id": 4,
         "abbreviation": "CHA",
@@ -4679,7 +4978,7 @@
       "weight_pounds": 190
     },
     {
-      "id": 205,
+      "id": 194,
       "first_name": "James",
       "height_feet": 6,
       "height_inches": 5,
@@ -4688,6 +4987,9 @@
       "position": "G",
       "full_name": "James Bouknight",
       "number": 2,
+      "age": 22,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630547.png",
       "team": {
         "id": 4,
         "abbreviation": "CHA",
@@ -4701,7 +5003,7 @@
       "weight_pounds": 190
     },
     {
-      "id": 206,
+      "id": 195,
       "first_name": "JT",
       "height_feet": 6,
       "height_inches": 10,
@@ -4710,6 +5012,9 @@
       "position": "F",
       "full_name": "JT Thor",
       "number": 21,
+      "age": 20,
+      "positions": ["Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630550.png",
       "team": {
         "id": 4,
         "abbreviation": "CHA",
@@ -4723,7 +5028,7 @@
       "weight_pounds": 205
     },
     {
-      "id": 207,
+      "id": 196,
       "first_name": "Kai",
       "height_feet": 6,
       "height_inches": 11,
@@ -4732,6 +5037,9 @@
       "position": "F-C",
       "full_name": "Kai Jones",
       "number": 23,
+      "age": 22,
+      "positions": ["Forward", "Center"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630539.png",
       "team": {
         "id": 4,
         "abbreviation": "CHA",
@@ -4745,7 +5053,7 @@
       "weight_pounds": 218
     },
     {
-      "id": 208,
+      "id": 197,
       "first_name": "Gordon",
       "height_feet": 6,
       "height_inches": 8,
@@ -4754,6 +5062,9 @@
       "position": "F",
       "full_name": "Gordon Hayward",
       "number": 20,
+      "age": 33,
+      "positions": ["Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/202330.png",
       "team": {
         "id": 4,
         "abbreviation": "CHA",
@@ -4767,7 +5078,7 @@
       "weight_pounds": 225
     },
     {
-      "id": 209,
+      "id": 198,
       "first_name": "Dennis",
       "height_feet": 6,
       "height_inches": 3,
@@ -4776,6 +5087,9 @@
       "position": "G",
       "full_name": "Dennis Smith Jr.",
       "number": 8,
+      "age": 25,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628372.png",
       "team": {
         "id": 4,
         "abbreviation": "CHA",
@@ -4789,7 +5103,7 @@
       "weight_pounds": 195
     },
     {
-      "id": 210,
+      "id": 199,
       "first_name": "LaMelo",
       "height_feet": 6,
       "height_inches": 7,
@@ -4798,6 +5112,9 @@
       "position": "G",
       "full_name": "LaMelo Ball",
       "number": 2,
+      "age": 21,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630163.png",
       "team": {
         "id": 4,
         "abbreviation": "CHA",
@@ -4811,7 +5128,7 @@
       "weight_pounds": 180
     },
     {
-      "id": 211,
+      "id": 200,
       "first_name": "Bryce",
       "height_feet": 6,
       "height_inches": 7,
@@ -4820,6 +5137,9 @@
       "position": "G",
       "full_name": "Bryce McGowens",
       "number": 7,
+      "age": 20,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1631121.png",
       "team": {
         "id": 4,
         "abbreviation": "CHA",
@@ -4833,7 +5153,7 @@
       "weight_pounds": 179
     },
     {
-      "id": 212,
+      "id": 201,
       "first_name": "Mark",
       "height_feet": 7,
       "height_inches": 1,
@@ -4842,6 +5162,9 @@
       "position": "C",
       "full_name": "Mark Williams",
       "number": 5,
+      "age": 21,
+      "positions": ["Center"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1631109.png",
       "team": {
         "id": 4,
         "abbreviation": "CHA",
@@ -4855,7 +5178,7 @@
       "weight_pounds": 241
     },
     {
-      "id": 213,
+      "id": 202,
       "first_name": "Cody",
       "height_feet": 6,
       "height_inches": 5,
@@ -4864,6 +5187,9 @@
       "position": "F",
       "full_name": "Cody Martin",
       "number": 11,
+      "age": 27,
+      "positions": ["Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628998.png",
       "team": {
         "id": 4,
         "abbreviation": "CHA",
@@ -4877,15 +5203,18 @@
       "weight_pounds": 205
     },
     {
-      "id": 214,
+      "id": 203,
       "first_name": "Daniel",
       "height_feet": 6,
       "height_inches": 10,
       "height_only_inches": 82,
       "last_name": "Gafford",
-      "position": "F",
+      "position": "F-C",
       "full_name": "Daniel Gafford",
       "number": 21,
+      "age": 24,
+      "positions": ["Forward", "Center"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629655.png",
       "team": {
         "id": 30,
         "abbreviation": "WAS",
@@ -4899,7 +5228,7 @@
       "weight_pounds": 234
     },
     {
-      "id": 215,
+      "id": 204,
       "first_name": "Kyle",
       "height_feet": 6,
       "height_inches": 9,
@@ -4908,6 +5237,9 @@
       "position": "F",
       "full_name": "Kyle Kuzma",
       "number": 33,
+      "age": 27,
+      "positions": ["Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628398.png",
       "team": {
         "id": 30,
         "abbreviation": "WAS",
@@ -4921,7 +5253,7 @@
       "weight_pounds": 220
     },
     {
-      "id": 216,
+      "id": 205,
       "first_name": "Deni",
       "height_feet": 6,
       "height_inches": 9,
@@ -4930,6 +5262,9 @@
       "position": "F",
       "full_name": "Deni Avdija",
       "number": 9,
+      "age": 22,
+      "positions": ["Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630166.png",
       "team": {
         "id": 30,
         "abbreviation": "WAS",
@@ -4943,7 +5278,7 @@
       "weight_pounds": 210
     },
     {
-      "id": 217,
+      "id": 206,
       "first_name": "Kristaps",
       "height_feet": 7,
       "height_inches": 3,
@@ -4952,6 +5287,9 @@
       "position": "F-C",
       "full_name": "Kristaps Porzingis",
       "number": 6,
+      "age": 27,
+      "positions": ["Forward", "Center"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/204001.png",
       "team": {
         "id": 30,
         "abbreviation": "WAS",
@@ -4965,7 +5303,7 @@
       "weight_pounds": 240
     },
     {
-      "id": 218,
+      "id": 207,
       "first_name": "Monte",
       "height_feet": 6,
       "height_inches": 3,
@@ -4974,6 +5312,9 @@
       "position": "G",
       "full_name": "Monte Morris",
       "number": 22,
+      "age": 27,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628420.png",
       "team": {
         "id": 30,
         "abbreviation": "WAS",
@@ -4987,7 +5328,7 @@
       "weight_pounds": 175
     },
     {
-      "id": 219,
+      "id": 208,
       "first_name": "Will",
       "height_feet": 6,
       "height_inches": 6,
@@ -4995,21 +5336,24 @@
       "last_name": "Barton",
       "position": "G",
       "full_name": "Will Barton",
-      "number": 5,
+      "number": 1,
+      "age": 32,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/203115.png",
       "team": {
         "id": 30,
-        "abbreviation": "WAS",
-        "city": "Washington",
+        "abbreviation": "TOR",
+        "city": "Toronto",
         "conference": "East",
-        "division": "Southeast",
-        "full_name": "Washington Wizards",
-        "image": "https://cdn.nba.com/logos/nba/1610612764/primary/L/logo.svg",
-        "name": "Wizards"
+        "division": "Atlantic",
+        "full_name": "Toronto Raptors",
+        "image": "https://cdn.nba.com/logos/nba/1610612761/primary/L/logo.svg",
+        "name": "Raptors"
       },
       "weight_pounds": 190
     },
     {
-      "id": 220,
+      "id": 209,
       "first_name": "Corey",
       "height_feet": 6,
       "height_inches": 7,
@@ -5018,6 +5362,9 @@
       "position": "F",
       "full_name": "Corey Kispert",
       "number": 24,
+      "age": 24,
+      "positions": ["Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630557.png",
       "team": {
         "id": 30,
         "abbreviation": "WAS",
@@ -5031,7 +5378,7 @@
       "weight_pounds": 220
     },
     {
-      "id": 221,
+      "id": 210,
       "first_name": "Anthony",
       "height_feet": 6,
       "height_inches": 7,
@@ -5040,6 +5387,9 @@
       "position": "F",
       "full_name": "Anthony Gill",
       "number": 16,
+      "age": 30,
+      "positions": ["Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630264.png",
       "team": {
         "id": 30,
         "abbreviation": "WAS",
@@ -5053,7 +5403,7 @@
       "weight_pounds": 230
     },
     {
-      "id": 222,
+      "id": 211,
       "first_name": "Jordan",
       "height_feet": 6,
       "height_inches": 3,
@@ -5062,6 +5412,9 @@
       "position": "G",
       "full_name": "Jordan Goodwin",
       "number": 7,
+      "age": 24,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630692.png",
       "team": {
         "id": 30,
         "abbreviation": "WAS",
@@ -5075,7 +5428,7 @@
       "weight_pounds": 200
     },
     {
-      "id": 223,
+      "id": 212,
       "first_name": "Bradley",
       "height_feet": 6,
       "height_inches": 5,
@@ -5084,6 +5437,9 @@
       "position": "G",
       "full_name": "Bradley Beal",
       "number": 3,
+      "age": 29,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/203078.png",
       "team": {
         "id": 30,
         "abbreviation": "WAS",
@@ -5097,7 +5453,7 @@
       "weight_pounds": 207
     },
     {
-      "id": 224,
+      "id": 213,
       "first_name": "Taj",
       "height_feet": 6,
       "height_inches": 9,
@@ -5106,6 +5462,9 @@
       "position": "F",
       "full_name": "Taj Gibson",
       "number": 67,
+      "age": 37,
+      "positions": ["Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/201959.png",
       "team": {
         "id": 30,
         "abbreviation": "WAS",
@@ -5119,7 +5478,7 @@
       "weight_pounds": 232
     },
     {
-      "id": 225,
+      "id": 214,
       "first_name": "Rui",
       "height_feet": 6,
       "height_inches": 8,
@@ -5128,28 +5487,34 @@
       "position": "F",
       "full_name": "Rui Hachimura",
       "number": 8,
+      "age": 25,
+      "positions": ["Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629060.png",
       "team": {
         "id": 30,
-        "abbreviation": "WAS",
-        "city": "Washington",
-        "conference": "East",
-        "division": "Southeast",
-        "full_name": "Washington Wizards",
-        "image": "https://cdn.nba.com/logos/nba/1610612764/primary/L/logo.svg",
-        "name": "Wizards"
+        "abbreviation": "LAL",
+        "city": "Los Angeles",
+        "conference": "West",
+        "division": "Pacific",
+        "full_name": "Los Angeles Lakers",
+        "image": "https://cdn.nba.com/logos/nba/1610612747/primary/L/logo.svg",
+        "name": "Lakers"
       },
       "weight_pounds": 230
     },
     {
-      "id": 226,
+      "id": 215,
       "first_name": "Johnny",
       "height_feet": 6,
       "height_inches": 5,
       "height_only_inches": 77,
       "last_name": "Davis",
-      "position": "",
+      "position": "G",
       "full_name": "Johnny Davis",
       "number": 1,
+      "age": 21,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1631098.png",
       "team": {
         "id": 12,
         "abbreviation": "WAS",
@@ -5163,7 +5528,7 @@
       "weight_pounds": 196
     },
     {
-      "id": 227,
+      "id": 216,
       "first_name": "Delon",
       "height_feet": 6,
       "height_inches": 5,
@@ -5172,6 +5537,9 @@
       "position": "G",
       "full_name": "Delon Wright",
       "number": 55,
+      "age": 31,
+      "positions": ["Guard"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1626153.png",
       "team": {
         "id": 30,
         "abbreviation": "WAS",
@@ -5185,29 +5553,7 @@
       "weight_pounds": 183
     },
     {
-      "id": 228,
-      "first_name": "Devon",
-      "height_feet": 6,
-      "height_inches": 2,
-      "height_only_inches": 74,
-      "last_name": "Dotson",
-      "position": "G",
-      "full_name": "Devon Dotson",
-      "number": 15,
-      "team": {
-        "id": 30,
-        "abbreviation": "WAS",
-        "city": "Washington",
-        "conference": "East",
-        "division": "Southeast",
-        "full_name": "Washington Wizards",
-        "image": "https://cdn.nba.com/logos/nba/1610612764/primary/L/logo.svg",
-        "name": "Wizards"
-      },
-      "weight_pounds": 185
-    },
-    {
-      "id": 229,
+      "id": 217,
       "first_name": "Isaiah",
       "height_feet": 6,
       "height_inches": 10,
@@ -5216,6 +5562,9 @@
       "position": "F",
       "full_name": "Isaiah Todd",
       "number": 14,
+      "age": 21,
+      "positions": ["Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630225.png",
       "team": {
         "id": 30,
         "abbreviation": "WAS",
@@ -5229,24 +5578,27 @@
       "weight_pounds": 220
     },
     {
-      "id": 230,
+      "id": 218,
       "first_name": "Vernon",
       "height_feet": 6,
-      "height_inches": 9,
-      "height_only_inches": 81,
+      "height_inches": 10,
+      "height_only_inches": 82,
       "last_name": "Carey Jr.",
-      "position": "F-C",
+      "position": "C",
       "full_name": "Vernon Carey Jr.",
       "number": 13,
+      "age": 22,
+      "positions": ["Center"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630176.png",
       "team": {
         "id": 30,
-        "abbreviation": "WAS",
-        "city": "Washington",
-        "conference": "East",
-        "division": "Southeast",
-        "full_name": "Washington Wizards",
-        "image": "https://cdn.nba.com/logos/nba/1610612764/primary/L/logo.svg",
-        "name": "Wizards"
+        "abbreviation": "UTA",
+        "city": "Utah",
+        "conference": "West",
+        "division": "Northwest",
+        "full_name": "Utah Jazz",
+        "image": "https://cdn.nba.com/logos/nba/1610612762/primary/L/logo.svg",
+        "name": "Jazz"
       },
       "weight_pounds": 270
     },

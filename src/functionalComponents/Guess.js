@@ -167,9 +167,91 @@ const Guess = (props) => {
             >
               {props.player.position}
             </td>
+        )}
+        {props.player.age === props.playerToGuess.age && (
+          <td
+            className="listing-category"
+              style={{
+                background: "#37be75",
+                color: "white",
+              }}
+            >
+              {props.player.age}
+            </td>
+          )}
+          {props.player.age + 1 === props.playerToGuess.age && (
+          <td
+            className="listing-category"
+              style={{
+                background: "#f4e878",
+                boxShadow: "inset 0px 6px 6px #a1a1a1",
+                color: "#313131",
+              }}
+            >
+              {props.player.age}
+              <br />
+              <AiOutlineArrowUp />
+            </td>
+          )}
+          {props.player.age + 2 === props.playerToGuess.age && (
+          <td
+            className="listing-category"
+              style={{
+                background: "#f4e878",
+                boxShadow: "inset 0px 6px 6px #a1a1a1",
+                color: "#313131",
+              }}
+            >
+              {props.player.age}
+              <br />
+              <AiOutlineArrowUp />
+            </td>
+          )}
+          {props.player.age - 1 === props.playerToGuess.age && (
+          <td
+            className="listing-category"
+              style={{
+                background: "#f4e878",
+                boxShadow: "inset 0px 6px 6px #a1a1a1",
+                color: "#313131",
+              }}
+            >
+              {props.player.age}
+              <br />
+              <AiOutlineArrowDown />
+            </td>
+          )}
+          {props.player.age - 2 === props.playerToGuess.age && (
+          <td
+            className="listing-category"
+              style={{
+                background: "#f4e878",
+                boxShadow: "inset 0px 6px 6px #a1a1a1",
+                color: "#313131",
+              }}
+            >
+              {props.player.age}
+              <br />
+              <AiOutlineArrowDown />
+            </td>
+          )}
+          {props.playerToGuess.age > props.player.age + 2 && (
+            <td className="listing-category">
+              {props.player.age}
+              <br />
+              <AiOutlineArrowUp />
+            </td>
+          )}
+          {props.playerToGuess.age < props.player.age - 2 && (
+            <td className="listing-category">
+              {props.player.age}
+              <br />
+              <AiOutlineArrowDown />
+            </td>
           )}
           {props.player.number === props.playerToGuess.number && (
-            <td
+          <td
+          className="listing-category"
               style={{
                 background: "#37be75",
                 color: "white",
@@ -179,7 +261,8 @@ const Guess = (props) => {
             </td>
           )}
           {props.player.number + 1 === props.playerToGuess.number && (
-            <td
+          <td
+          className="listing-category"
               style={{
                 background: "#f4e878",
                 boxShadow: "inset 0px 6px 6px #a1a1a1",
@@ -192,7 +275,8 @@ const Guess = (props) => {
             </td>
           )}
           {props.player.number + 2 === props.playerToGuess.number && (
-            <td
+          <td
+          className="listing-category"
               style={{
                 background: "#f4e878",
                 boxShadow: "inset 0px 6px 6px #a1a1a1",
@@ -205,7 +289,8 @@ const Guess = (props) => {
             </td>
           )}
           {props.player.number - 1 === props.playerToGuess.number && (
-            <td
+          <td
+          className="listing-category"
               style={{
                 background: "#f4e878",
                 boxShadow: "inset 0px 6px 6px #a1a1a1",
@@ -218,7 +303,8 @@ const Guess = (props) => {
             </td>
           )}
           {props.player.number - 2 === props.playerToGuess.number && (
-            <td
+          <td
+          className="listing-category"
               style={{
                 background: "#f4e878",
                 boxShadow: "inset 0px 6px 6px #a1a1a1",
@@ -231,14 +317,14 @@ const Guess = (props) => {
             </td>
           )}
           {props.playerToGuess.number > props.player.number + 2 && (
-            <td>
+            <td className="listing-category">
               {props.player.number}
               <br />
               <AiOutlineArrowUp />
             </td>
           )}
           {props.playerToGuess.number < props.player.number - 2 && (
-            <td>
+            <td className="listing-category">
               {props.player.number}
               <br />
               <AiOutlineArrowDown />

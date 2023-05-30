@@ -56,6 +56,8 @@ export const newPlayer = createAction('NEW_PLAYER', (player) => {
                 abbreviation: player.team.abbreviation,
                 number: player.number,
                 inches: player.height_only_inches,
+                headshot: player.headshot,
+                age: player.age,
             },
             guesses: [],
             success: false,

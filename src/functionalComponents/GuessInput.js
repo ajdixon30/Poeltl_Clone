@@ -7,7 +7,7 @@
  */
 import { useState } from "react";
 import players from '../players-current.json';
-import { Button, Container, Form, Modal, Col, Row } from "react-bootstrap";
+import { Button, Container, Form, Modal, Col, Row, Image } from "react-bootstrap";
 import { useSelector } from "react-redux";
 import "../styles/GuessInput.css";
 import { useDispatch } from "react-redux";
@@ -29,7 +29,7 @@ const GuessInput = () => {
 
     const handleClose = () => setVisible(false);
     
-    const items = players.players.map((player) => {
+    const items = players.players.slice(0, 220).map((player) => {
         return {
           id: player.id,
           name: player.full_name,
@@ -41,7 +41,10 @@ const GuessInput = () => {
           abbreviation: player.team.abbreviation,
           number: player.number,
           image: player.team.image,
-          inches: player.height_only_inches,
+        inches: player.height_only_inches,
+        headshot: player.headshot,
+            age: player.age,
+          positions: player.positions,
         };
     });
 
@@ -83,7 +86,9 @@ const GuessInput = () => {
             abbreviation: playerGuess.abbreviation,
             number: playerGuess.number,
             image: playerGuess.image,
-            inches: playerGuess.inches
+            inches: playerGuess.inches,
+            headshot: playerGuess.headshot,
+            age: playerGuess.age,
         }
         const newGuessArr = guesses.concat(guess);
         const updatedId = id + 1;
@@ -109,7 +114,10 @@ const GuessInput = () => {
                 <Modal.Header closeButton>
                     <Modal.Title>{ modalMessage }</Modal.Title>
                 </Modal.Header>
-                <Modal.Body>{ mysteryPlayer.name }</Modal.Body>
+                <Modal.Body>
+                    <Image fluid src={mysteryPlayer.headshot} alt="Mystery Player Headshot" />
+                    {mysteryPlayer.name}
+                </Modal.Body>
                 <Modal.Footer>
                     <Button variant="secondary" onClick={handleClose}>Close</Button>
                 </Modal.Footer>

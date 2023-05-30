@@ -7,7 +7,7 @@
  */
 
 import { Col, Container, Table } from "react-bootstrap";
-import Guess from "../components/Guess";
+import Guess from "../functionalComponents/Guess";
 import "../styles/GuessesTable.css";
 import { useSelector } from "react-redux";
 
@@ -28,6 +28,7 @@ const GuessTable = () => {
                                 <th>DIV</th>
                                 <th>HEIGHT</th>
                                 <th>POS</th>
+                                <th>AGE</th>
                                 <th>#</th>
                             </tr>
                         </thead>
