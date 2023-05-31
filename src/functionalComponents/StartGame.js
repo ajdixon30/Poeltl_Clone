@@ -15,7 +15,7 @@ import { callPlayersAPI } from "../actions/appActions";
 const StartGame = () => {
     let dispatch = useDispatch();
     const startGame = () => {
-        let id = Math.floor(Math.random() * 219);
+        let id = Math.floor(Math.random() * 473);
         dispatch(callPlayersAPI(id));
     };
     useEffect(() => {

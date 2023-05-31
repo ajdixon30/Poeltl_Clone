@@ -115,8 +115,8 @@ const GuessInput = () => {
                     <Modal.Title>{ modalMessage }</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                    <Image fluid src={mysteryPlayer.headshot} alt="Mystery Player Headshot" />
-                    {mysteryPlayer.name}
+                    <Image className="mb-3" fluid src={mysteryPlayer.headshot} alt="Mystery Player Headshot" />
+                    <h4 className="fw-bold text-center">{mysteryPlayer.name}</h4>
                 </Modal.Body>
                 <Modal.Footer>
                     <Button variant="secondary" onClick={handleClose}>Close</Button>
