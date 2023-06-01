@@ -1342,13 +1342,13 @@
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/201142.png",
       "team": {
         "id": 3,
-        "abbreviation": "BKN",
-        "city": "Brooklyn",
-        "conference": "East",
-        "division": "Atlantic",
-        "full_name": "Brooklyn Nets",
-        "image": "https://cdn.nba.com/logos/nba/1610612751/primary/L/logo.svg",
-        "name": "Nets"
+        "abbreviation": "PHX",
+        "city": "Phoenix",
+        "conference": "West",
+        "division": "Pacific",
+        "full_name": "Phoenix Suns",
+        "image": "https://cdn.nba.com/logos/nba/1610612756/primary/L/logo.svg",
+        "name": "Suns"
       },
       "weight_pounds": 240
     },
@@ -1698,7 +1698,7 @@
         "division": "Pacific",
         "full_name": "Phoenix Suns",
         "image": "https://cdn.nba.com/logos/nba/1610612756/primary/L/logo.svg",
-        "name": "SUns"
+        "name": "Suns"
       },
       "weight_pounds": 215
     },
@@ -4889,7 +4889,7 @@
       "number": 12,
       "age": 27,
       "positions": ["Forward"],
-      "headshot": ",https://cdn.nba.com/headshots/nba/latest/1040x760/1626162.png",
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1626162.png",
       "team": {
         "id": 4,
         "abbreviation": "CHA",
@@ -5111,7 +5111,7 @@
       "last_name": "Ball",
       "position": "G",
       "full_name": "LaMelo Ball",
-      "number": 2,
+      "number": 1,
       "age": 21,
       "positions": ["Guard"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630163.png",
@@ -5131,8 +5131,8 @@
       "id": 200,
       "first_name": "Bryce",
       "height_feet": 6,
-      "height_inches": 7,
-      "height_only_inches": 79,
+      "height_inches": 6,
+      "height_only_inches": 78,
       "last_name": "McGowens",
       "position": "G",
       "full_name": "Bryce McGowens",
@@ -8813,7 +8813,7 @@
       "full_name": "Kevin Huerter",
       "number": 9,
       "age": 24,
-      "postions": ["Guard", "Forward"],
+      "positions": ["Guard", "Forward"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628989.png",
       "team": {
         "id": 26,

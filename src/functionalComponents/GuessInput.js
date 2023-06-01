@@ -29,7 +29,7 @@ const GuessInput = () => {
 
     const handleClose = () => setVisible(false);
     
-    const items = players.players.slice(0, 220).map((player) => {
+    const items = players.players.map((player) => {
         return {
           id: player.id,
           name: player.full_name,
@@ -89,6 +89,7 @@ const GuessInput = () => {
             inches: playerGuess.inches,
             headshot: playerGuess.headshot,
             age: playerGuess.age,
+            positions: playerGuess.positions,
         }
         const newGuessArr = guesses.concat(guess);
         const updatedId = id + 1;
@@ -111,7 +112,7 @@ const GuessInput = () => {
     return (
         <Container>
             <Modal animation={true} centered={true} show={visible} onHide={handleClose}>
-                <Modal.Header closeButton>
+                <Modal.Header variant="secondary" closeButton>
                     <Modal.Title>{ modalMessage }</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>

@@ -141,8 +141,34 @@ const Guess = (props) => {
               <br />
               <AiOutlineArrowDown />
             </td>
-          )}
-          {(props.player.position !== props.playerToGuess.position) ? (props.player.position.includes(props.playerToGuess.position) || props.playerToGuess.position.includes(props.player.position) ? (
+        )}
+        {(props.player.positions.some((position) => props.playerToGuess.positions.includes(position))) ? (props.player.positions.every((position) => props.playerToGuess.positions.includes(position)) ? (
+          <td
+          className="listing-category"
+            style={{
+              background: "#37be75",
+              color: "white",
+            }}
+          >
+            {props.player.position}
+          </td>
+        ) : (
+          <td
+            className="listing-category"
+            style={{
+              background: "#f4e878",
+              boxShadow: "inset 0px 6px 6px #a1a1a1",
+              color: "#313131",
+            }}
+          >
+            {props.player.position}
+          </td> 
+        )) : (
+          <td className="listing-category">
+            {props.player.position}
+          </td> 
+        )}
+          {/* {(props.player.position !== props.playerToGuess.position) ? (props.player.position.includes(props.playerToGuess.position) || props.playerToGuess.position.includes(props.player.position) ? (
             <td
             className="listing-category"
             style={{
@@ -167,7 +193,7 @@ const Guess = (props) => {
             >
               {props.player.position}
             </td>
-        )}
+        )} */}
         {props.player.age === props.playerToGuess.age && (
           <td
             className="listing-category"

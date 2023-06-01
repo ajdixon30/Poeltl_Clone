@@ -58,6 +58,7 @@ export const newPlayer = createAction('NEW_PLAYER', (player) => {
                 inches: player.height_only_inches,
                 headshot: player.headshot,
                 age: player.age,
+                positions: player.positions,
             },
             guesses: [],
             success: false,
