@@ -9112,6 +9112,9 @@
       "position": "F",
       "full_name": "Mikal Bridges",
       "number": 25,
+      "age": 27,
+      "positions": ["Forward"],
+      "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628969.png",
       "team": {
         "id": 24,
         "abbreviation": "BKN",

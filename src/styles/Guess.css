@@ -7,6 +7,7 @@
 }
 .listing-category {
   border-right: 1px solid white;
+  font-weight: bold;
 }
 .correct-guess {
   background: #37be75;

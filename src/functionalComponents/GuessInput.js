@@ -41,9 +41,9 @@ const GuessInput = () => {
           abbreviation: player.team.abbreviation,
           number: player.number,
           image: player.team.image,
-        inches: player.height_only_inches,
-        headshot: player.headshot,
-            age: player.age,
+          inches: player.height_only_inches,
+          headshot: player.headshot,
+          age: player.age,
           positions: player.positions,
         };
     });
