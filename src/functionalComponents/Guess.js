@@ -10,7 +10,6 @@ import { AiOutlineArrowDown, AiOutlineArrowUp } from "react-icons/ai";
 import "../styles/Guess.css";
 
 const Guess = (props) => {
-  //(props.player.positions.toSorted().toString() === props.playerToGuess.positions.toSorted().toString())
   const toGuessPosition = props.playerToGuess.position;
   const playerPosition = props.player.position;
     return (
@@ -171,32 +170,6 @@ const Guess = (props) => {
             {props.player.position}
           </td> 
         )}
-          {/* {(props.player.position !== props.playerToGuess.position) ? (props.player.position.includes(props.playerToGuess.position) || props.playerToGuess.position.includes(props.player.position) ? (
-            <td
-            className="listing-category"
-            style={{
-              background: "#f4e878",
-              boxShadow: "inset 0px 6px 6px #a1a1a1",
-              color: "#313131",
-            }}
-            >
-              {props.player.position}
-            </td>
-          ) : (
-            <td className="listing-category">
-              {props.player.position}
-            </td> 
-          )) : (
-            <td
-            className="listing-category"
-              style={{
-                background: "#37be75",
-                color: "white",
-              }}
-            >
-              {props.player.position}
-            </td>
-        )} */}
         {props.player.age === props.playerToGuess.age && (
           <td
             className="listing-category"
