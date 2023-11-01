@@ -1,153 +1,303 @@
 {
   "teams": [
     {
+      "id": 2,
       "abbreviation": "BOS",
-      "name": "Boston Celtics",
+      "conference": "East",
+      "division": "Atlantic",
+      "city": "Boston",
+      "name": "Celtics",
+      "full_name": "Boston Celtics",
       "image": "https://cdn.nba.com/logos/nba/1610612738/primary/L/logo.svg"
     },
     {
+      "id": 3,
+      "conference": "East",
+      "division": "Atlantic",
       "abbreviation": "BKN",
-      "name": "Brooklyn Nets",
+      "city": "Brooklyn",
+      "name": "Nets",
+      "full_name": "Brooklyn Nets",
       "image": "https://cdn.nba.com/logos/nba/1610612751/primary/L/logo.svg"
     },
     {
+      "id": 20,
+      "conference": "East",
+      "division": "Atlantic",
       "abbreviation": "NYK",
-      "name": "New York Knicks",
+      "city": "New York",
+      "name": "Knicks",
+      "full_name": "New York Knicks",
       "image": "https://cdn.nba.com/logos/nba/1610612752/primary/L/logo.svg"
     },
     {
+      "id": 23,
+      "conference": "East",
+      "division": "Atlantic",
       "abbreviation": "PHI",
-      "name": "Philadelphia 76ers",
+      "city": "Philadelphia",
+      "name": "76ers",
+      "full_name": "Philadelphia 76ers",
       "image": "https://cdn.nba.com/logos/nba/1610612755/primary/L/logo.svg"
     },
     {
+      "id": 28,
+      "conference": "East",
+      "division": "Atlantic",
       "abbreviation": "TOR",
-      "name": "Toronto Raptors",
+      "city": "Toronto",
+      "name": "Raptors",
+      "full_name": "Toronto Raptors",
       "image": "https://cdn.nba.com/logos/nba/1610612761/primary/L/logo.svg"
     },
     {
+      "id": 6,
+      "conference": "East",
+      "division": "Central",
       "abbreviation": "CHI",
-      "name": "Chicago Bulls",
+      "city": "Chicago",
+      "name": "Bulls",
+      "full_name": "Chicago Bulls",
       "image": "https://cdn.nba.com/logos/nba/1610612741/primary/L/logo.svg"
     },
     {
+      "id": 6,
+      "conference": "East",
+      "division": "Central",
       "abbreviation": "CLE",
-      "name": "Cleveland Cavaliers",
+      "city": "Cleveland",
+      "name": "Cavaliers",
+      "full_name": "Cleveland Cavaliers",
       "image": "https://cdn.nba.com/logos/nba/1610612739/primary/L/logo.svg"
     },
     {
+      "id": 9,
+      "conference": "East",
+      "division": "Central",
       "abbreviation": "DET",
-      "name": "Detroit Pistons",
+      "city": "Detroit",
+      "name": "Pistons",
+      "full_name": "Detroit Pistons",
       "image": "https://cdn.nba.com/logos/nba/1610612765/primary/L/logo.svg"
     },
     {
+      "id": 12,
+      "conference": "East",
+      "division": "Central",
       "abbreviation": "IND",
-      "name": "Indiana Pacers",
+      "city": "Indiana",
+      "name": "Pacers",
+      "full_name": "Indiana Pacers",
       "image": "https://cdn.nba.com/logos/nba/1610612754/primary/L/logo.svg"
     },
     {
+      "id": 17,
+      "conference": "East",
+      "division": "Central",
       "abbreviation": "MIL",
-      "name": "Milwaukee Bucks",
+      "city": "Milwaukee",
+      "name": "Bucks",
+      "full_name": "Milwaukee Bucks",
       "image": "https://cdn.nba.com/logos/nba/1610612749/primary/L/logo.svg"
     },
     {
+      "id": 1,
+      "conference": "East",
+      "division": "Southeast",
       "abbreviation": "ATL",
-      "name": "Atlanta Hawks",
+      "city": "Atlanta",
+      "name": "Hawks",
+      "full_name": "Atlanta Hawks",
       "image": "https://cdn.nba.com/logos/nba/1610612737/primary/L/logo.svg"
     },
     {
+      "id": 4,
+      "conference": "East",
+      "division": "Southeast",
       "abbreviation": "CHA",
-      "name": "Charlotte Hornets",
+      "city": "Charlotte",
+      "name": "Hornets",
+      "full_name": "Charlotte Hornets",
       "image": "https://cdn.nba.com/logos/nba/1610612766/primary/L/logo.svg"
     },
     {
+      "id": 16,
+      "conference": "East",
+      "division": "Southeast",
       "abbreviation": "MIA",
-      "name": "Miami Heat",
+      "city": "Miami",
+      "name": "Heat",
+      "full_name": "Miami Heat",
       "image": "https://cdn.nba.com/logos/nba/1610612748/primary/L/logo.svg"
     },
     {
+      "id": 22,
+      "conference": "East",
+      "division": "Southeast",
       "abbreviation": "ORL",
-      "name": "Orlando Magic",
+      "city": "Orlando",
+      "name": "Magic",
+      "full_name": "Orlando Magic",
       "image": "https://cdn.nba.com/logos/nba/1610612753/primary/L/logo.svg"
     },
     {
+      "id": 30,
+      "conference": "East",
+      "division": "Southeast",
       "abbreviation": "WAS",
-      "name": "Washington Wizards",
+      "city": "Washington",
+      "name": "Wizards",
+      "full_name": "Washington Wizards",
       "image": "https://cdn.nba.com/logos/nba/1610612764/primary/L/logo.svg"
     },
     {
+      "id": 8,
+      "conference": "West",
+      "division": "Northwest",
       "abbreviation": "DEN",
-      "name": "Denver Nuggets",
+      "city": "Denver",
+      "name": "Nuggets",
+      "full_name": "Denver Nuggets",
       "image": "https://cdn.nba.com/logos/nba/1610612743/primary/L/logo.svg"
     },
     {
+      "id": 18,
+      "conference": "West",
+      "division": "Northwest",
       "abbreviation": "MIN",
-      "name": "Minnesota Timberwolves",
+      "city": "Minnesota",
+      "name": "Timberwolves",
+      "full_name": "Minnesota Timberwolves",
       "image": "https://cdn.nba.com/logos/nba/1610612750/primary/L/logo.svg"
     },
     {
+      "id": 21,
+      "conference": "West",
+      "division": "Northwest",
       "abbreviation": "OKC",
-      "name": "Oklahoma City Thunder",
+      "city": "Oklahoma City",
+      "name": "Thunder",
+      "full_name": "Oklahoma City Thunder",
       "image": "https://cdn.nba.com/logos/nba/1610612760/primary/L/logo.svg"
     },
     {
+      "id": 25,
+      "conference": "West",
+      "division": "Northwest",
       "abbreviation": "POR",
-      "name": "Portland Trail Blazers",
+      "city": "Portland",
+      "name": "Trail Blazers",
+      "full_name": "Portland Trail Blazers",
       "image": "https://cdn.nba.com/logos/nba/1610612757/primary/L/logo.svg"
     },
     {
+      "id": 29,
+      "conference": "West",
+      "division": "Northwest",
       "abbreviation": "UTA",
-      "name": "Utah Jazz",
+      "city": "Utah",
+      "name": "Jazz",
+      "full_name": "Utah Jazz",
       "image": "https://cdn.nba.com/logos/nba/1610612762/primary/L/logo.svg"
     },
     {
+      "id": 10,
+      "conference": "West",
+      "division": "Pacific",
       "abbreviation": "GSW",
-      "name": "Golden State Warriors",
+      "city": "Golden State",
+      "name": "Warriors",
+      "full_name": "Golden State Warriors",
       "image": "https://cdn.nba.com/logos/nba/1610612744/primary/L/logo.svg"
     },
     {
+      "id": 13,
+      "conference": "West",
+      "division": "Pacific",
       "abbreviation": "LAC",
-      "name": "Los Angeles Clippers",
+      "city":"Los Angeles",
+      "name": "Clippers",
+      "full_name": "Los Angeles Clippers",
       "image": "https://cdn.nba.com/logos/nba/1610612746/primary/L/logo.svg"
     },
     {
+      "id": 14,
+      "conference": "West",
+      "division": "Pacific",
       "abbreviation": "LAL",
-      "name": "Los Angeles Lakers",
+      "city": "Los Angeles",
+      "name": "Lakers",
+      "full_name": "Los Angeles Lakers",
       "image": "https://cdn.nba.com/logos/nba/1610612747/primary/L/logo.svg"
     },
     {
+      "id": 24,
+      "conference": "West",
+      "division": "Pacific",
       "abbreviation": "PHX",
-      "name": "Phoenix Suns",
+      "city": "Phoenix",
+      "name": "Suns",
+      "full_name": "Phoenix Suns",
       "image": "https://cdn.nba.com/logos/nba/1610612756/primary/L/logo.svg"
     },
     {
+      "id": 26,
+      "conference": "West",
+      "division": "Pacific",
       "abbreviation": "SAC",
-      "name": "Sacramento Kings",
+      "city": "Sacramento",
+      "name": "Kings",
+      "full_name": "Sacramento Kings",
       "image": "https://cdn.nba.com/logos/nba/1610612758/primary/L/logo.svg"
     },
     {
+      "id": 7,
+      "conference": "West",
+      "division": "Southwest",
       "abbreviation": "DAL",
-      "name": "Dallas Mavaricks",
+      "city": "Dallas",
+      "name": "Mavericks",
+      "full_name": "Dallas Mavaricks",
       "image": "https://cdn.nba.com/logos/nba/1610612742/primary/L/logo.svg"
     },
     {
+      "id": 11,
+      "conference": "West",
+      "division": "Southwest",
       "abbreviation": "HOU",
-      "name": "Houston Rockets",
+      "city": "Houston",
+      "name": "Rockets",
+      "full_name": "Houston Rockets",
       "image": "https://cdn.nba.com/logos/nba/1610612745/primary/L/logo.svg"
     },
     {
+      "id": 15,
+      "conference": "West",
+      "division": "Southwest",
       "abbreviation": "MEM",
-      "name": "Memphis Grizzlies",
+      "city": "Memphis",
+      "name": "Grizzlies",
+      "full_name": "Memphis Grizzlies",
       "image": "https://cdn.nba.com/logos/nba/1610612763/primary/L/logo.svg"
     },
     {
+      "id": 19,
+      "conference": "West",
+      "division": "Southwest",
       "abbreviation": "NOP",
-      "name": "New Orleans Pelicans",
+      "city": "New Orleans",
+      "name": "Pelicans",
+      "full_name": "New Orleans Pelicans",
       "image": "https://cdn.nba.com/logos/nba/1610612740/primary/L/logo.svg"
     },
     {
+      "id": 27,
+      "conference": "West",
+      "division": "Southwest",
       "abbreviation": "SAS",
-      "name": "San Antonio Spurs",
+      "city": "San Antonio",
+      "name": "Spurs",
+      "full_name": "San Antonio Spurs", 
       "image": "https://cdn.nba.com/logos/nba/1610612759/primary/L/logo.svg"
     }
   ],
@@ -416,7 +566,7 @@
       "positions": ["Center"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/203920.png",
       "team": {
-        "id": 28,
+        "id": 27,
         "abbreviation": "SAS",
         "city": "San Antonio",
         "conference": "West",
@@ -516,7 +666,7 @@
       "positions": ["Guard", "Forward"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630551.png",
       "team": {
-        "id": 28,
+        "id": 2,
         "abbreviation": "BOS",
         "city": "Boston",
         "conference": "East",
@@ -1216,7 +1366,7 @@
       "positions": ["Forward", "Guard"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629629.png",
       "team": {
-        "id": 20,
+        "id": 25,
         "abbreviation": "POR",
         "city": "Portland",
         "conference": "West",
@@ -1266,7 +1416,7 @@
       "positions": ["Guard", "Forward"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629004.png",
       "team": {
-        "id": 20,
+        "id": 4,
         "abbreviation": "CHA",
         "city": "Charlotte",
         "conference": "East",
@@ -1341,7 +1491,7 @@
       "positions": ["Forward"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/201142.png",
       "team": {
-        "id": 3,
+        "id": 24,
         "abbreviation": "PHX",
         "city": "Phoenix",
         "conference": "West",
@@ -1466,7 +1616,7 @@
       "positions": ["Guard"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/202681.png",
       "team": {
-        "id": 3,
+        "id": 7,
         "abbreviation": "DAL",
         "city": "Dallas",
         "conference": "West",
@@ -1591,7 +1741,7 @@
       "positions": ["Forward"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/202693.png",
       "team": {
-        "id": 3,
+        "id": 7,
         "abbreviation": "DAL",
         "city": "Dallas",
         "conference": "West",
@@ -1666,7 +1816,7 @@
       "positions": ["Forward"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630556.png",
       "team": {
-        "id": 3,
+        "id": 26,
         "abbreviation": "SAC",
         "city": "Sacramento",
         "conference": "West",
@@ -1691,7 +1841,7 @@
       "positions": ["Forward"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/203933.png",
       "team": {
-        "id": 3,
+        "id": 24,
         "abbreviation": "PHX",
         "city": "Phoenix",
         "conference": "West",
@@ -1866,7 +2016,7 @@
       "positions": ["Guard", "Forward"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629680.png",
       "team": {
-        "id": 23,
+        "id": 25,
         "abbreviation": "POR",
         "city": "Portland",
         "conference": "West",
@@ -2066,7 +2216,7 @@
       "positions": ["Forward"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630577.png",
       "team": {
-        "id": 23,
+        "id": 27,
         "abbreviation": "SAS",
         "city": "San Antonio",
         "conference": "West",
@@ -2291,7 +2441,7 @@
       "positions": ["Forward", "Center"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/201567.png",
       "team": {
-        "id": 6,
+        "id": 16,
         "abbreviation": "MIA",
         "city": "Miami",
         "conference": "East",
@@ -2766,7 +2916,7 @@
       "positions": ["Forward"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630678.png",
       "team": {
-        "id": 12,
+        "id": 5,
         "abbreviation": "CHI",
         "city": "Chicago",
         "conference": "East",
@@ -3016,7 +3166,7 @@
       "positions": ["Forward"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630180.png",
       "team": {
-        "id": 9,
+        "id": 1,
         "abbreviation": "ATL",
         "city": "Atlanta",
         "conference": "East",
@@ -3116,7 +3266,7 @@
       "positions": ["Forward"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628995.png",
       "team": {
-        "id": 9,
+        "id": 25,
         "abbreviation": "POR",
         "city": "Portland",
         "conference": "West",
@@ -3416,7 +3566,7 @@
       "positions": ["Guard"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/201609.png",
       "team": {
-        "id": 5,
+        "id": 17,
         "abbreviation": "MIL",
         "city": "Milwaukee",
         "conference": "East",
@@ -3548,7 +3698,7 @@
         "division": "Central",
         "full_name": "Chicago Bulls",
         "image": "https://cdn.nba.com/logos/nba/1610612741/primary/L/logo.svg",
-        "name": "Heat"
+        "name": "Bulls"
       },
       "weight_pounds": 205
     },
@@ -3791,7 +3941,7 @@
       "positions": ["Guard"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/201588.png",
       "team": {
-        "id": 17,
+        "id": 12,
         "abbreviation": "IND",
         "city": "Indiana",
         "conference": "East",
@@ -3841,7 +3991,7 @@
       "positions": ["Forward"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629670.png",
       "team": {
-        "id": 17,
+        "id": 12,
         "abbreviation": "IND",
         "city": "Indiana",
         "conference": "East",
@@ -3966,7 +4116,7 @@
       "positions": ["Forward", "Center"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630572.png",
       "team": {
-        "id": 17,
+        "id": 27,
         "abbreviation": "SAS",
         "city": "San Antonio",
         "conference": "West",
@@ -4216,7 +4366,7 @@
       "positions": ["Center"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/203473.png",
       "team": {
-        "id": 16,
+        "id": 23,
         "abbreviation": "PHI",
         "city": "Philadelphia",
         "conference": "East",
@@ -4666,7 +4816,7 @@
       "positions": ["Forward", "Guard"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/203200.png",
       "team": {
-        "id": 1,
+        "id": 7,
         "abbreviation": "DAL",
         "city": "Dallas",
         "conference": "West",
@@ -4691,7 +4841,7 @@
       "positions": ["Forward", "Center"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1626163.png",
       "team": {
-        "id": 1,
+        "id": 11,
         "abbreviation": "HOU",
         "city": "Houston",
         "conference": "West",
@@ -4816,7 +4966,7 @@
       "positions": ["Forward", "Center"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629667.png",
       "team": {
-        "id": 4,
+        "id": 23,
         "abbreviation": "PHI",
         "city": "Philadelphia",
         "conference": "East",
@@ -4841,7 +4991,7 @@
       "positions": ["Forward", "Center"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/203486.png",
       "team": {
-        "id": 4,
+        "id": 13,
         "abbreviation": "LAC",
         "city": "Los Angeles",
         "conference": "West",
@@ -5341,7 +5491,7 @@
       "positions": ["Guard"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/203115.png",
       "team": {
-        "id": 30,
+        "id": 28,
         "abbreviation": "TOR",
         "city": "Toronto",
         "conference": "East",
@@ -5491,7 +5641,7 @@
       "positions": ["Forward"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629060.png",
       "team": {
-        "id": 30,
+        "id": 14,
         "abbreviation": "LAL",
         "city": "Los Angeles",
         "conference": "West",
@@ -5516,7 +5666,7 @@
       "positions": ["Guard"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1631098.png",
       "team": {
-        "id": 12,
+        "id": 30,
         "abbreviation": "WAS",
         "city": "Washington",
         "conference": "East",
@@ -5591,7 +5741,7 @@
       "positions": ["Center"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630176.png",
       "team": {
-        "id": 30,
+        "id": 29,
         "abbreviation": "UTA",
         "city": "Utah",
         "conference": "West",
@@ -5666,7 +5816,7 @@
       "positions": ["Guard", "Forward"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/203082.png",
       "team": {
-        "id": 22,
+        "id": 24,
         "abbreviation": "PHX",
         "city": "Phoenix",
         "conference": "West",
@@ -5716,7 +5866,7 @@
       "positions": ["Center"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628964.png",
       "team": {
-        "id": 22,
+        "id": 14,
         "abbreviation": "LAL",
         "city": "Los Angeles",
         "conference": "West",
@@ -5791,7 +5941,7 @@
       "positions": ["Guard"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630181.png",
       "team": {
-        "id": 22,
+        "id": 9,
         "abbreviation": "DET",
         "city": "Detroit",
         "conference": "East",
@@ -6291,7 +6441,7 @@
       "positions": ["Forward", "Center"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/203488.png",
       "team": {
-        "id": 21,
+        "id": 2,
         "abbreviation": "BOS",
         "city": "Boston",
         "conference": "East",
@@ -6316,7 +6466,7 @@
       "positions": ["Forward"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629647.png",
       "team": {
-        "id": 21,
+        "id": 24,
         "abbreviation": "PHX",
         "city": "Phoenix",
         "conference": "West",
@@ -6341,7 +6491,7 @@
       "positions": ["Forward"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630647.png",
       "team": {
-        "id": 21,
+        "id": 9,
         "abbreviation": "DET",
         "city": "Detroit",
         "conference": "East",
@@ -6516,7 +6666,7 @@
       "positions": ["Guard"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628404.png",
       "team": {
-        "id": 25,
+        "id": 20,
         "abbreviation": "NYK",
         "city": "New York",
         "conference": "East",
@@ -6741,7 +6891,7 @@
       "positions": ["Guard"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1627780.png",
       "team": {
-        "id": 25,
+        "id": 10,
         "abbreviation": "GSW",
         "city": "Golden State",
         "conference": "West",
@@ -6791,7 +6941,7 @@
       "positions": ["Guard"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1627736.png",
       "team": {
-        "id": 29,
+        "id": 14,
         "abbreviation": "LAL",
         "city": "Los Angeles",
         "conference": "West",
@@ -6841,7 +6991,7 @@
       "positions": ["Forward"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629020.png",
       "team": {
-        "id": 29,
+        "id": 14,
         "abbreviation": "LAL",
         "city": "Los Angeles",
         "conference": "West",
@@ -6991,7 +7141,7 @@
       "positions": ["Guard"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/201144.png",
       "team": {
-        "id": 29,
+        "id": 18,
         "abbreviation": "MIN",
         "city": "Minnesota",
         "conference": "West",
@@ -7016,7 +7166,7 @@
       "positions": ["Guard"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629638.png",
       "team": {
-        "id": 29,
+        "id": 18,
         "abbreviation": "MIN",
         "city": "Minnesota",
         "conference": "West",
@@ -7341,7 +7491,7 @@
       "positions": ["Guard"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630538.png",
       "team": {
-        "id": 8,
+        "id": 13,
         "abbreviation": "LAC",
         "city": "Los Angeles",
         "conference": "West",
@@ -7641,7 +7791,7 @@
       "positions": ["Guard"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1626156.png",
       "team": {
-        "id": 18,
+        "id": 14,
         "abbreviation": "LAL",
         "city": "Los Angeles",
         "conference": "West",
@@ -8393,10 +8543,10 @@
       "team": {
         "id": 13,
         "abbreviation": "LAC",
-        "city": "LA",
+        "city": "Los Angeles",
         "conference": "West",
         "division": "Pacific",
-        "full_name": "LA Clippers",
+        "full_name": "Los Angeles Clippers",
         "image": "https://cdn.nba.com/logos/nba/1610612746/primary/L/logo.svg",
         "name": "Clippers"
       },
@@ -8418,10 +8568,10 @@
       "team": {
         "id": 13,
         "abbreviation": "LAC",
-        "city": "LA",
+        "city": "Los Angeles",
         "conference": "West",
         "division": "Pacific",
-        "full_name": "LA Clippers",
+        "full_name": "Los Angeles Clippers",
         "image": "https://cdn.nba.com/logos/nba/1610612746/primary/L/logo.svg",
         "name": "Clippers"
       },
@@ -8443,10 +8593,10 @@
       "team": {
         "id": 13,
         "abbreviation": "LAC",
-        "city": "LA",
+        "city": "Los Angeles",
         "conference": "West",
         "division": "Pacific",
-        "full_name": "LA Clippers",
+        "full_name": "Los Angeles Clippers",
         "image": "https://cdn.nba.com/logos/nba/1610612746/primary/L/logo.svg",
         "name": "Clippers"
       },
@@ -8468,10 +8618,10 @@
       "team": {
         "id": 13,
         "abbreviation": "LAC",
-        "city": "LA",
+        "city": "Los Angeles",
         "conference": "West",
         "division": "Pacific",
-        "full_name": "LA Clippers",
+        "full_name": "Los Angeles Clippers",
         "image": "https://cdn.nba.com/logos/nba/1610612746/primary/L/logo.svg",
         "name": "Clippers"
       },
@@ -8491,7 +8641,7 @@
       "positions": ["Guard"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/202704.png",
       "team": {
-        "id": 13,
+        "id": 8,
         "abbreviation": "DEN",
         "city": "Denver",
         "conference": "West",
@@ -8518,10 +8668,10 @@
       "team": {
         "id": 13,
         "abbreviation": "LAC",
-        "city": "LA",
+        "city": "Los Angeles",
         "conference": "West",
         "division": "Pacific",
-        "full_name": "LA Clippers",
+        "full_name": "Los Angeles Clippers",
         "image": "https://cdn.nba.com/logos/nba/1610612746/primary/L/logo.svg",
         "name": "Clippers"
       },
@@ -8543,10 +8693,10 @@
       "team": {
         "id": 13,
         "abbreviation": "LAC",
-        "city": "LA",
+        "city": "Los Angeles",
         "conference": "West",
         "division": "Pacific",
-        "full_name": "LA Clippers",
+        "full_name": "Los Angeles Clippers",
         "image": "https://cdn.nba.com/logos/nba/1610612746/primary/L/logo.svg",
         "name": "Clippers"
       },
@@ -8568,10 +8718,10 @@
       "team": {
         "id": 13,
         "abbreviation": "LAC",
-        "city": "LA",
+        "city": "Los Angeles",
         "conference": "West",
         "division": "Pacific",
-        "full_name": "LA Clippers",
+        "full_name": "Los Angeles Clippers",
         "image": "https://cdn.nba.com/logos/nba/1610612746/primary/L/logo.svg",
         "name": "Clippers"
       },
@@ -8591,7 +8741,7 @@
       "positions": ["Guard"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628379.png",
       "team": {
-        "id": 13,
+        "id": 15,
         "abbreviation": "MEM",
         "city": "Memphis",
         "conference": "West",
@@ -8618,10 +8768,10 @@
       "team": {
         "id": 13,
         "abbreviation": "LAC",
-        "city": "LA",
+        "city": "Los Angeles",
         "conference": "West",
         "division": "Pacific",
-        "full_name": "LA Clippers",
+        "full_name": "Los Angeles Clippers",
         "image": "https://cdn.nba.com/logos/nba/1610612746/primary/L/logo.svg",
         "name": "Clippers"
       },
@@ -8643,10 +8793,10 @@
       "team": {
         "id": 13,
         "abbreviation": "LAC",
-        "city": "LA",
+        "city": "Los Angeles",
         "conference": "West",
         "division": "Pacific",
-        "full_name": "LA Clippers",
+        "full_name": "Los Angeles Clippers",
         "image": "https://cdn.nba.com/logos/nba/1610612746/primary/L/logo.svg",
         "name": "Clippers"
       },
@@ -8668,10 +8818,10 @@
       "team": {
         "id": 13,
         "abbreviation": "LAC",
-        "city": "LA",
+        "city": "Los Angeles",
         "conference": "West",
         "division": "Pacific",
-        "full_name": "LA Clippers",
+        "full_name": "Los Angeles Clippers",
         "image": "https://cdn.nba.com/logos/nba/1610612746/primary/L/logo.svg",
         "name": "Clippers"
       },
@@ -8693,10 +8843,10 @@
       "team": {
         "id": 13,
         "abbreviation": "LAC",
-        "city": "LA",
+        "city": "Los Angeles",
         "conference": "West",
         "division": "Pacific",
-        "full_name": "LA Clippers",
+        "full_name": "Los Angeles Clippers",
         "image": "https://cdn.nba.com/logos/nba/1610612746/primary/L/logo.svg",
         "name": "Clippers"
       },
@@ -8718,10 +8868,10 @@
       "team": {
         "id": 13,
         "abbreviation": "LAC",
-        "city": "LA",
+        "city": "Los Angeles",
         "conference": "West",
         "division": "Pacific",
-        "full_name": "LA Clippers",
+        "full_name": "Los Angeles Clippers",
         "image": "https://cdn.nba.com/logos/nba/1610612746/primary/L/logo.svg",
         "name": "Clippers"
       },
@@ -9116,7 +9266,7 @@
       "positions": ["Forward"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628969.png",
       "team": {
-        "id": 24,
+        "id": 3,
         "abbreviation": "BKN",
         "city": "Brooklyn",
         "conference": "East",
@@ -9391,7 +9541,7 @@
       "positions": ["Guard"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630613.png",
       "team": {
-        "id": 24,
+        "id": 20,
         "abbreviation": "NYK",
         "city": "New York",
         "conference": "East",
@@ -9441,7 +9591,7 @@
       "positions": ["Forward", "Center"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/203967.png",
       "team": {
-        "id": 24,
+        "id": 21,
         "abbreviation": "OKC",
         "city": "Oklahoma City",
         "conference": "West",
@@ -9466,7 +9616,7 @@
       "positions": ["Forward"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629661.png",
       "team": {
-        "id": 24,
+        "id": 3,
         "abbreviation": "BKN",
         "city": "Brooklyn",
         "conference": "East",
@@ -9491,7 +9641,7 @@
       "positions": ["Forward"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/203109.png",
       "team": {
-        "id": 24,
+        "id": 17,
         "abbreviation": "MIL",
         "city": "Milwaukee",
         "conference": "East",
@@ -9541,7 +9691,7 @@
       "positions": ["Guard"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/201566.png",
       "team": {
-        "id": 14,
+        "id": 13,
         "abbreviation": "LAC",
         "city": "Los Angeles",
         "conference": "West",
@@ -9666,7 +9816,7 @@
       "positions": ["Guard"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629134.png",
       "team": {
-        "id": 14,
+        "id": 30,
         "abbreviation": "WAS",
         "city": "Washington",
         "conference": "East",
@@ -9741,7 +9891,7 @@
       "positions": ["Center"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628418.png",
       "team": {
-        "id": 14,
+        "id": 8,
         "abbreviation": "DEN",
         "city": "Denver",
         "conference": "West",
@@ -9816,7 +9966,7 @@
       "positions": ["Center"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1627745.png",
       "team": {
-        "id": 14,
+        "id": 29,
         "abbreviation": "UTA",
         "city": "Utah",
         "conference": "West",
@@ -9841,7 +9991,7 @@
       "positions": ["Forward"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629308.png",
       "team": {
-        "id": 14,
+        "id": 29,
         "abbreviation": "UTA",
         "city": "Utah",
         "conference": "West",
@@ -10041,7 +10191,7 @@
       "positions": ["Center"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1627751.png",
       "team": {
-        "id": 27,
+        "id": 28,
         "abbreviation": "TOR",
         "city": "Toronto",
         "conference": "East",
@@ -10091,7 +10241,7 @@
       "positions": ["Forward"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629676.png",
       "team": {
-        "id": 27,
+        "id": 20,
         "abbreviation": "NYK",
         "city": "New York",
         "conference": "East",
@@ -10116,7 +10266,7 @@
       "positions": ["Guard"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1626196.png",
       "team": {
-        "id": 27,
+        "id": 19,
         "abbreviation": "NOP",
         "city": "New Orleans",
         "conference": "West",
@@ -10316,7 +10466,7 @@
       "positions": ["Guard"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/203915.png",
       "team": {
-        "id": 7,
+        "id": 3,
         "abbreviation": "BKN",
         "city": "Brooklyn",
         "conference": "East",
@@ -10466,7 +10616,7 @@
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1627827.png",
       "positions": ["Forward"],
       "team": {
-        "id": 7,
+        "id": 3,
         "abbreviation": "BKN",
         "city": "Brooklyn",
         "conference": "East",
@@ -10641,7 +10791,7 @@
       "positions": ["Guard"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630702.png",
       "team": {
-        "id": 29,
+        "id": 7,
         "abbreviation": "DAL",
         "city": "Dallas",
         "conference": "West",
@@ -11091,7 +11241,7 @@
       "positions": ["Guard"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/201980.png",
       "team": {
-        "id": 15,
+        "id": 6,
         "abbreviation": "CLE",
         "city": "Cleveland",
         "conference": "East",
@@ -11316,7 +11466,7 @@
       "positions": ["Guard"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/201569.png",
       "team": {
-        "id": 11,
+        "id": 13,
         "abbreviation": "LAC",
         "city": "Los Angeles",
         "conference": "West",
@@ -11341,7 +11491,7 @@
       "positions": ["Guard"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629726.png",
       "team": {
-        "id": 11,
+        "id": 1,
         "abbreviation": "ATL",
         "city": "Atlanta",
         "conference": "East",
@@ -11391,7 +11541,7 @@
       "positions": ["Forward", "Center"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628981.png",
       "team": {
-        "id": 11,
+        "id": 1,
         "abbreviation": "ATL",
         "city": "Atlanta",
         "conference": "East",
@@ -11566,7 +11716,7 @@
       "positions": ["Guard"],
       "headshot": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628984.png",
       "team": {
-        "id": 19,
+        "id": 27,
         "abbreviation": "SAS",
         "city": "San Antonio",
         "conference": "West",

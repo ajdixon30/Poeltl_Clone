@@ -72,9 +72,9 @@ export const newPlayer = createAction('NEW_PLAYER', (player) => {
 
 export const callPlayersAPI = (id) => {
     return (dispatch) => {
-        axios.get(`http://localhost:3004/players?id=${id}`).then(response => {
+        axios.get(`https://poeltl-clone-backend-2da372512efa.herokuapp.com/players/${id}`).then(response => {
             let player = response.data;
-            dispatch(newPlayer(player[0]));
+            dispatch(newPlayer(player));
         });
     }
 }
