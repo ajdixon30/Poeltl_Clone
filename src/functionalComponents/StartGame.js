@@ -10,13 +10,13 @@ import { Container } from "react-bootstrap";
 import "../styles/StartGame.css";
 import { useDispatch } from "react-redux";
 import { useEffect } from "react";
-import { callPlayersAPI} from "../actions/appActions";
+import { callPlayersAPI } from "../actions/appActions";
 
 const StartGame = () => {
     let dispatch = useDispatch();
     const startGame = async () => {
         let id = Math.floor(Math.random() * 473);
-        dispatch(callPlayersAPI(id));
+        dispatch(callPlayersAPI(id)); 
     };
     useEffect(() => {
         startGame();
