@@ -1,6 +1,3 @@
-.guesses-container {
-  padding-top: 50px;
-}
 .guesses-table {
   max-height: 50vh;
   overflow-y: scroll;

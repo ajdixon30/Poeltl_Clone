@@ -16,8 +16,42 @@ const GuessTable = () => {
     let guesses = appState.guesses ? appState.guesses : [];
     let playerToGuess = appState.player ? appState.player : {};
     return (
-        <Container className="guesses-container">
-            <Col xs={{ span: 10, offset: 1 }} lg={{ span: 8, offset: 2 }}>
+        <div className="container justify-content-center pt-5">
+            <div className="row">
+                <div className="col-10 col-md-8 offset-1 offset-md-2">
+                    {guesses.length > 0 && (
+                        <table className="table guesses-table">
+                            <thead>
+                                <tr>
+                                    <th className="col-3"></th>
+                                    <th className="col-1">TEAM</th>
+                                    <th className="col-1">CONF</th>
+                                    <th className="col-3">DIV</th>
+                                    <th className="col-1">HEIGHT</th>
+                                    <th className="col-1">POS</th>
+                                    <th className="col-1">AGE</th>
+                                    <th className="col-1">#</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {guesses.map((guess, index) => {
+                                    return (
+                                        <Guess
+                                            player={guess}
+                                            playerToGuess={playerToGuess}
+                                            id={guess.id}
+                                            text={guess.text}
+                                            count={index + 1}
+                                            key={index}
+                                        />
+                                    )
+                                })}
+                            </tbody>
+                        </table>
+                    )}
+                </div>
+            </div>
+            {/* <Col xs={{ span: 10, offset: 1 }} md={{ span: 8, offset: 2 }}>
                 {guesses.length > 0 && (
                     <Table className="guesses-table">
                         <thead className="guesses-header">
@@ -48,8 +82,8 @@ const GuessTable = () => {
                         </tbody>
                     </Table>
                 )}
-            </Col>
-        </Container>
+            </Col> */}
+        </div>
     )
 }
 
